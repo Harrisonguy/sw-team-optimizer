@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sw-team-optimizer"
+version = "1.0.0"
+description = "Team-first rune, artifact, dungeon, and account optimizer for Summoners War"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6>=6.6",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+build = [
+    "Pillow>=10.0",
+    "PyInstaller>=6.0",
+]
+
+[project.gui-scripts]
+sw-team-optimizer = "run_desktop:main"
+
+[tool.setuptools]
+py-modules = ["run_desktop"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["desktop*", "optimizer*", "src*"]
+

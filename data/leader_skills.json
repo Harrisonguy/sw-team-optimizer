@@ -1,0 +1,2074 @@
+[
+  {
+    "id": 1,
+    "url": "https://swarfarm.com/api/v2/leader-skills/1/",
+    "attribute": "Accuracy",
+    "amount": 15,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 2,
+    "url": "https://swarfarm.com/api/v2/leader-skills/2/",
+    "attribute": "Attack Power",
+    "amount": 15,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 3,
+    "url": "https://swarfarm.com/api/v2/leader-skills/3/",
+    "attribute": "Critical Rate",
+    "amount": 10,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 4,
+    "url": "https://swarfarm.com/api/v2/leader-skills/4/",
+    "attribute": "Defense",
+    "amount": 25,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 5,
+    "url": "https://swarfarm.com/api/v2/leader-skills/5/",
+    "attribute": "Defense",
+    "amount": 25,
+    "area": "General",
+    "element": "Light"
+  },
+  {
+    "id": 6,
+    "url": "https://swarfarm.com/api/v2/leader-skills/6/",
+    "attribute": "HP",
+    "amount": 17,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 7,
+    "url": "https://swarfarm.com/api/v2/leader-skills/7/",
+    "attribute": "HP",
+    "amount": 15,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 8,
+    "url": "https://swarfarm.com/api/v2/leader-skills/8/",
+    "attribute": "Resistance",
+    "amount": 20,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 9,
+    "url": "https://swarfarm.com/api/v2/leader-skills/9/",
+    "attribute": "Resistance",
+    "amount": 15,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 10,
+    "url": "https://swarfarm.com/api/v2/leader-skills/10/",
+    "attribute": "Defense",
+    "amount": 25,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 11,
+    "url": "https://swarfarm.com/api/v2/leader-skills/11/",
+    "attribute": "HP",
+    "amount": 18,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 12,
+    "url": "https://swarfarm.com/api/v2/leader-skills/12/",
+    "attribute": "HP",
+    "amount": 25,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 13,
+    "url": "https://swarfarm.com/api/v2/leader-skills/13/",
+    "attribute": "Attack Speed",
+    "amount": 13,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 14,
+    "url": "https://swarfarm.com/api/v2/leader-skills/14/",
+    "attribute": "Accuracy",
+    "amount": 22,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 15,
+    "url": "https://swarfarm.com/api/v2/leader-skills/15/",
+    "attribute": "Critical Rate",
+    "amount": 13,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 16,
+    "url": "https://swarfarm.com/api/v2/leader-skills/16/",
+    "attribute": "Attack Power",
+    "amount": 18,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 17,
+    "url": "https://swarfarm.com/api/v2/leader-skills/17/",
+    "attribute": "Defense",
+    "amount": 30,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 18,
+    "url": "https://swarfarm.com/api/v2/leader-skills/18/",
+    "attribute": "Defense",
+    "amount": 30,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 19,
+    "url": "https://swarfarm.com/api/v2/leader-skills/19/",
+    "attribute": "Defense",
+    "amount": 30,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 20,
+    "url": "https://swarfarm.com/api/v2/leader-skills/20/",
+    "attribute": "Defense",
+    "amount": 30,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 21,
+    "url": "https://swarfarm.com/api/v2/leader-skills/21/",
+    "attribute": "Defense",
+    "amount": 30,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 22,
+    "url": "https://swarfarm.com/api/v2/leader-skills/22/",
+    "attribute": "Accuracy",
+    "amount": 26,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 23,
+    "url": "https://swarfarm.com/api/v2/leader-skills/23/",
+    "attribute": "HP",
+    "amount": 21,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 24,
+    "url": "https://swarfarm.com/api/v2/leader-skills/24/",
+    "attribute": "Attack Speed",
+    "amount": 16,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 25,
+    "url": "https://swarfarm.com/api/v2/leader-skills/25/",
+    "attribute": "HP",
+    "amount": 21,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 26,
+    "url": "https://swarfarm.com/api/v2/leader-skills/26/",
+    "attribute": "Critical Rate",
+    "amount": 16,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 27,
+    "url": "https://swarfarm.com/api/v2/leader-skills/27/",
+    "attribute": "Attack Speed",
+    "amount": 16,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 28,
+    "url": "https://swarfarm.com/api/v2/leader-skills/28/",
+    "attribute": "Defense",
+    "amount": 21,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 29,
+    "url": "https://swarfarm.com/api/v2/leader-skills/29/",
+    "attribute": "Accuracy",
+    "amount": 26,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 30,
+    "url": "https://swarfarm.com/api/v2/leader-skills/30/",
+    "attribute": "Resistance",
+    "amount": 26,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 31,
+    "url": "https://swarfarm.com/api/v2/leader-skills/31/",
+    "attribute": "Critical Rate",
+    "amount": 16,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 32,
+    "url": "https://swarfarm.com/api/v2/leader-skills/32/",
+    "attribute": "Attack Speed",
+    "amount": 23,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 33,
+    "url": "https://swarfarm.com/api/v2/leader-skills/33/",
+    "attribute": "Attack Power",
+    "amount": 23,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 34,
+    "url": "https://swarfarm.com/api/v2/leader-skills/34/",
+    "attribute": "Attack Speed",
+    "amount": 23,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 35,
+    "url": "https://swarfarm.com/api/v2/leader-skills/35/",
+    "attribute": "Attack Speed",
+    "amount": 23,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 36,
+    "url": "https://swarfarm.com/api/v2/leader-skills/36/",
+    "attribute": "Attack Speed",
+    "amount": 23,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 37,
+    "url": "https://swarfarm.com/api/v2/leader-skills/37/",
+    "attribute": "Attack Speed",
+    "amount": 23,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 38,
+    "url": "https://swarfarm.com/api/v2/leader-skills/38/",
+    "attribute": "Defense",
+    "amount": 27,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 39,
+    "url": "https://swarfarm.com/api/v2/leader-skills/39/",
+    "attribute": "Resistance",
+    "amount": 33,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 40,
+    "url": "https://swarfarm.com/api/v2/leader-skills/40/",
+    "attribute": "Attack Speed",
+    "amount": 10,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 41,
+    "url": "https://swarfarm.com/api/v2/leader-skills/41/",
+    "attribute": "HP",
+    "amount": 30,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 42,
+    "url": "https://swarfarm.com/api/v2/leader-skills/42/",
+    "attribute": "HP",
+    "amount": 30,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 43,
+    "url": "https://swarfarm.com/api/v2/leader-skills/43/",
+    "attribute": "Attack Power",
+    "amount": 30,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 44,
+    "url": "https://swarfarm.com/api/v2/leader-skills/44/",
+    "attribute": "Attack Power",
+    "amount": 30,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 45,
+    "url": "https://swarfarm.com/api/v2/leader-skills/45/",
+    "attribute": "Attack Power",
+    "amount": 30,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 46,
+    "url": "https://swarfarm.com/api/v2/leader-skills/46/",
+    "attribute": "Attack Power",
+    "amount": 30,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 47,
+    "url": "https://swarfarm.com/api/v2/leader-skills/47/",
+    "attribute": "Attack Power",
+    "amount": 30,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 48,
+    "url": "https://swarfarm.com/api/v2/leader-skills/48/",
+    "attribute": "Critical Rate",
+    "amount": 23,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 49,
+    "url": "https://swarfarm.com/api/v2/leader-skills/49/",
+    "attribute": "Critical Rate",
+    "amount": 23,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 50,
+    "url": "https://swarfarm.com/api/v2/leader-skills/50/",
+    "attribute": "Critical Rate",
+    "amount": 23,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 51,
+    "url": "https://swarfarm.com/api/v2/leader-skills/51/",
+    "attribute": "Critical Rate",
+    "amount": 23,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 52,
+    "url": "https://swarfarm.com/api/v2/leader-skills/52/",
+    "attribute": "Critical Rate",
+    "amount": 23,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 53,
+    "url": "https://swarfarm.com/api/v2/leader-skills/53/",
+    "attribute": "Attack Power",
+    "amount": 35,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 54,
+    "url": "https://swarfarm.com/api/v2/leader-skills/54/",
+    "attribute": "Attack Power",
+    "amount": 35,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 55,
+    "url": "https://swarfarm.com/api/v2/leader-skills/55/",
+    "attribute": "Attack Power",
+    "amount": 35,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 56,
+    "url": "https://swarfarm.com/api/v2/leader-skills/56/",
+    "attribute": "Attack Power",
+    "amount": 35,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 57,
+    "url": "https://swarfarm.com/api/v2/leader-skills/57/",
+    "attribute": "Attack Power",
+    "amount": 35,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 58,
+    "url": "https://swarfarm.com/api/v2/leader-skills/58/",
+    "attribute": "Critical DMG",
+    "amount": 25,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 59,
+    "url": "https://swarfarm.com/api/v2/leader-skills/59/",
+    "attribute": "HP",
+    "amount": 21,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 62,
+    "url": "https://swarfarm.com/api/v2/leader-skills/62/",
+    "attribute": "Attack Power",
+    "amount": 21,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 64,
+    "url": "https://swarfarm.com/api/v2/leader-skills/64/",
+    "attribute": "HP",
+    "amount": 30,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 65,
+    "url": "https://swarfarm.com/api/v2/leader-skills/65/",
+    "attribute": "HP",
+    "amount": 30,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 66,
+    "url": "https://swarfarm.com/api/v2/leader-skills/66/",
+    "attribute": "HP",
+    "amount": 30,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 67,
+    "url": "https://swarfarm.com/api/v2/leader-skills/67/",
+    "attribute": "Accuracy",
+    "amount": 26,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 68,
+    "url": "https://swarfarm.com/api/v2/leader-skills/68/",
+    "attribute": "Attack Power",
+    "amount": 21,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 69,
+    "url": "https://swarfarm.com/api/v2/leader-skills/69/",
+    "attribute": "Resistance",
+    "amount": 26,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 70,
+    "url": "https://swarfarm.com/api/v2/leader-skills/70/",
+    "attribute": "Attack Power",
+    "amount": 22,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 71,
+    "url": "https://swarfarm.com/api/v2/leader-skills/71/",
+    "attribute": "Resistance",
+    "amount": 28,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 72,
+    "url": "https://swarfarm.com/api/v2/leader-skills/72/",
+    "attribute": "Critical Rate",
+    "amount": 17,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 73,
+    "url": "https://swarfarm.com/api/v2/leader-skills/73/",
+    "attribute": "Defense",
+    "amount": 33,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 74,
+    "url": "https://swarfarm.com/api/v2/leader-skills/74/",
+    "attribute": "HP",
+    "amount": 33,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 75,
+    "url": "https://swarfarm.com/api/v2/leader-skills/75/",
+    "attribute": "Attack Power",
+    "amount": 33,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 76,
+    "url": "https://swarfarm.com/api/v2/leader-skills/76/",
+    "attribute": "Attack Speed",
+    "amount": 24,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 77,
+    "url": "https://swarfarm.com/api/v2/leader-skills/77/",
+    "attribute": "Resistance",
+    "amount": 40,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 78,
+    "url": "https://swarfarm.com/api/v2/leader-skills/78/",
+    "attribute": "HP",
+    "amount": 25,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 79,
+    "url": "https://swarfarm.com/api/v2/leader-skills/79/",
+    "attribute": "Accuracy",
+    "amount": 30,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 80,
+    "url": "https://swarfarm.com/api/v2/leader-skills/80/",
+    "attribute": "Attack Speed",
+    "amount": 19,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 81,
+    "url": "https://swarfarm.com/api/v2/leader-skills/81/",
+    "attribute": "Critical Rate",
+    "amount": 19,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 82,
+    "url": "https://swarfarm.com/api/v2/leader-skills/82/",
+    "attribute": "Defense",
+    "amount": 33,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 83,
+    "url": "https://swarfarm.com/api/v2/leader-skills/83/",
+    "attribute": "HP",
+    "amount": 33,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 84,
+    "url": "https://swarfarm.com/api/v2/leader-skills/84/",
+    "attribute": "Attack Power",
+    "amount": 33,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 85,
+    "url": "https://swarfarm.com/api/v2/leader-skills/85/",
+    "attribute": "Resistance",
+    "amount": 40,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 86,
+    "url": "https://swarfarm.com/api/v2/leader-skills/86/",
+    "attribute": "Accuracy",
+    "amount": 40,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 87,
+    "url": "https://swarfarm.com/api/v2/leader-skills/87/",
+    "attribute": "Accuracy",
+    "amount": 50,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 88,
+    "url": "https://swarfarm.com/api/v2/leader-skills/88/",
+    "attribute": "Accuracy",
+    "amount": 50,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 89,
+    "url": "https://swarfarm.com/api/v2/leader-skills/89/",
+    "attribute": "Accuracy",
+    "amount": 50,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 90,
+    "url": "https://swarfarm.com/api/v2/leader-skills/90/",
+    "attribute": "Accuracy",
+    "amount": 50,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 91,
+    "url": "https://swarfarm.com/api/v2/leader-skills/91/",
+    "attribute": "Accuracy",
+    "amount": 50,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 92,
+    "url": "https://swarfarm.com/api/v2/leader-skills/92/",
+    "attribute": "Attack Power",
+    "amount": 33,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 93,
+    "url": "https://swarfarm.com/api/v2/leader-skills/93/",
+    "attribute": "Defense",
+    "amount": 33,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 94,
+    "url": "https://swarfarm.com/api/v2/leader-skills/94/",
+    "attribute": "Accuracy",
+    "amount": 40,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 95,
+    "url": "https://swarfarm.com/api/v2/leader-skills/95/",
+    "attribute": "Critical Rate",
+    "amount": 24,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 96,
+    "url": "https://swarfarm.com/api/v2/leader-skills/96/",
+    "attribute": "Attack Speed",
+    "amount": 24,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 97,
+    "url": "https://swarfarm.com/api/v2/leader-skills/97/",
+    "attribute": "HP",
+    "amount": 33,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 98,
+    "url": "https://swarfarm.com/api/v2/leader-skills/98/",
+    "attribute": "Resistance",
+    "amount": 40,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 99,
+    "url": "https://swarfarm.com/api/v2/leader-skills/99/",
+    "attribute": "Attack Power",
+    "amount": 25,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 100,
+    "url": "https://swarfarm.com/api/v2/leader-skills/100/",
+    "attribute": "Attack Power",
+    "amount": 40,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 101,
+    "url": "https://swarfarm.com/api/v2/leader-skills/101/",
+    "attribute": "Attack Power",
+    "amount": 40,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 102,
+    "url": "https://swarfarm.com/api/v2/leader-skills/102/",
+    "attribute": "Attack Power",
+    "amount": 40,
+    "area": "General",
+    "element": "Wind"
+  },
+  {
+    "id": 103,
+    "url": "https://swarfarm.com/api/v2/leader-skills/103/",
+    "attribute": "Attack Power",
+    "amount": 40,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 104,
+    "url": "https://swarfarm.com/api/v2/leader-skills/104/",
+    "attribute": "Attack Power",
+    "amount": 40,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 105,
+    "url": "https://swarfarm.com/api/v2/leader-skills/105/",
+    "attribute": "Attack Power",
+    "amount": 40,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 106,
+    "url": "https://swarfarm.com/api/v2/leader-skills/106/",
+    "attribute": "Attack Speed",
+    "amount": 30,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 107,
+    "url": "https://swarfarm.com/api/v2/leader-skills/107/",
+    "attribute": "Attack Speed",
+    "amount": 30,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 108,
+    "url": "https://swarfarm.com/api/v2/leader-skills/108/",
+    "attribute": "Attack Speed",
+    "amount": 30,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 109,
+    "url": "https://swarfarm.com/api/v2/leader-skills/109/",
+    "attribute": "Attack Speed",
+    "amount": 30,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 110,
+    "url": "https://swarfarm.com/api/v2/leader-skills/110/",
+    "attribute": "Attack Speed",
+    "amount": 30,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 111,
+    "url": "https://swarfarm.com/api/v2/leader-skills/111/",
+    "attribute": "Resistance",
+    "amount": 30,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 112,
+    "url": "https://swarfarm.com/api/v2/leader-skills/112/",
+    "attribute": "Critical Rate",
+    "amount": 24,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 113,
+    "url": "https://swarfarm.com/api/v2/leader-skills/113/",
+    "attribute": "Accuracy",
+    "amount": 40,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 114,
+    "url": "https://swarfarm.com/api/v2/leader-skills/114/",
+    "attribute": "Resistance",
+    "amount": 48,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 115,
+    "url": "https://swarfarm.com/api/v2/leader-skills/115/",
+    "attribute": "Attack Speed",
+    "amount": 28,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 116,
+    "url": "https://swarfarm.com/api/v2/leader-skills/116/",
+    "attribute": "Attack Speed",
+    "amount": 24,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 118,
+    "url": "https://swarfarm.com/api/v2/leader-skills/118/",
+    "attribute": "Resistance",
+    "amount": 50,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 119,
+    "url": "https://swarfarm.com/api/v2/leader-skills/119/",
+    "attribute": "Resistance",
+    "amount": 50,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 120,
+    "url": "https://swarfarm.com/api/v2/leader-skills/120/",
+    "attribute": "Resistance",
+    "amount": 50,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 121,
+    "url": "https://swarfarm.com/api/v2/leader-skills/121/",
+    "attribute": "Resistance",
+    "amount": 50,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 122,
+    "url": "https://swarfarm.com/api/v2/leader-skills/122/",
+    "attribute": "Resistance",
+    "amount": 50,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 123,
+    "url": "https://swarfarm.com/api/v2/leader-skills/123/",
+    "attribute": "Defense",
+    "amount": 40,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 124,
+    "url": "https://swarfarm.com/api/v2/leader-skills/124/",
+    "attribute": "Defense",
+    "amount": 40,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 125,
+    "url": "https://swarfarm.com/api/v2/leader-skills/125/",
+    "attribute": "Defense",
+    "amount": 40,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 126,
+    "url": "https://swarfarm.com/api/v2/leader-skills/126/",
+    "attribute": "Defense",
+    "amount": 40,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 127,
+    "url": "https://swarfarm.com/api/v2/leader-skills/127/",
+    "attribute": "Defense",
+    "amount": 40,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 128,
+    "url": "https://swarfarm.com/api/v2/leader-skills/128/",
+    "attribute": "Attack Speed",
+    "amount": 28,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 129,
+    "url": "https://swarfarm.com/api/v2/leader-skills/129/",
+    "attribute": "HP",
+    "amount": 38,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 130,
+    "url": "https://swarfarm.com/api/v2/leader-skills/130/",
+    "attribute": "Resistance",
+    "amount": 48,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 131,
+    "url": "https://swarfarm.com/api/v2/leader-skills/131/",
+    "attribute": "Attack Power",
+    "amount": 38,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 132,
+    "url": "https://swarfarm.com/api/v2/leader-skills/132/",
+    "attribute": "Critical Rate",
+    "amount": 28,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 133,
+    "url": "https://swarfarm.com/api/v2/leader-skills/133/",
+    "attribute": "HP",
+    "amount": 50,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 134,
+    "url": "https://swarfarm.com/api/v2/leader-skills/134/",
+    "attribute": "HP",
+    "amount": 50,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 135,
+    "url": "https://swarfarm.com/api/v2/leader-skills/135/",
+    "attribute": "HP",
+    "amount": 50,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 136,
+    "url": "https://swarfarm.com/api/v2/leader-skills/136/",
+    "attribute": "HP",
+    "amount": 50,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 137,
+    "url": "https://swarfarm.com/api/v2/leader-skills/137/",
+    "attribute": "HP",
+    "amount": 50,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 138,
+    "url": "https://swarfarm.com/api/v2/leader-skills/138/",
+    "attribute": "Critical Rate",
+    "amount": 33,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 139,
+    "url": "https://swarfarm.com/api/v2/leader-skills/139/",
+    "attribute": "Defense",
+    "amount": 44,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 140,
+    "url": "https://swarfarm.com/api/v2/leader-skills/140/",
+    "attribute": "Accuracy",
+    "amount": 55,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 141,
+    "url": "https://swarfarm.com/api/v2/leader-skills/141/",
+    "attribute": "Attack Power",
+    "amount": 44,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 142,
+    "url": "https://swarfarm.com/api/v2/leader-skills/142/",
+    "attribute": "Attack Power",
+    "amount": 33,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 143,
+    "url": "https://swarfarm.com/api/v2/leader-skills/143/",
+    "attribute": "HP",
+    "amount": 33,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 144,
+    "url": "https://swarfarm.com/api/v2/leader-skills/144/",
+    "attribute": "Attack Speed",
+    "amount": 24,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 145,
+    "url": "https://swarfarm.com/api/v2/leader-skills/145/",
+    "attribute": "Critical Rate",
+    "amount": 24,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 146,
+    "url": "https://swarfarm.com/api/v2/leader-skills/146/",
+    "attribute": "Resistance",
+    "amount": 41,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 147,
+    "url": "https://swarfarm.com/api/v2/leader-skills/147/",
+    "attribute": "Defense",
+    "amount": 50,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 148,
+    "url": "https://swarfarm.com/api/v2/leader-skills/148/",
+    "attribute": "Defense",
+    "amount": 50,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 149,
+    "url": "https://swarfarm.com/api/v2/leader-skills/149/",
+    "attribute": "Defense",
+    "amount": 50,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 150,
+    "url": "https://swarfarm.com/api/v2/leader-skills/150/",
+    "attribute": "Defense",
+    "amount": 50,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 151,
+    "url": "https://swarfarm.com/api/v2/leader-skills/151/",
+    "attribute": "Defense",
+    "amount": 50,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 152,
+    "url": "https://swarfarm.com/api/v2/leader-skills/152/",
+    "attribute": "Attack Power",
+    "amount": 44,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 153,
+    "url": "https://swarfarm.com/api/v2/leader-skills/153/",
+    "attribute": "HP",
+    "amount": 44,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 154,
+    "url": "https://swarfarm.com/api/v2/leader-skills/154/",
+    "attribute": "Critical Rate",
+    "amount": 33,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 155,
+    "url": "https://swarfarm.com/api/v2/leader-skills/155/",
+    "attribute": "Accuracy",
+    "amount": 55,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 156,
+    "url": "https://swarfarm.com/api/v2/leader-skills/156/",
+    "attribute": "Defense",
+    "amount": 44,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 157,
+    "url": "https://swarfarm.com/api/v2/leader-skills/157/",
+    "attribute": "Accuracy",
+    "amount": 41,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 158,
+    "url": "https://swarfarm.com/api/v2/leader-skills/158/",
+    "attribute": "Defense",
+    "amount": 33,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 159,
+    "url": "https://swarfarm.com/api/v2/leader-skills/159/",
+    "attribute": "Critical Rate",
+    "amount": 38,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 160,
+    "url": "https://swarfarm.com/api/v2/leader-skills/160/",
+    "attribute": "Critical Rate",
+    "amount": 38,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 161,
+    "url": "https://swarfarm.com/api/v2/leader-skills/161/",
+    "attribute": "Critical Rate",
+    "amount": 38,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 162,
+    "url": "https://swarfarm.com/api/v2/leader-skills/162/",
+    "attribute": "Critical Rate",
+    "amount": 38,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 163,
+    "url": "https://swarfarm.com/api/v2/leader-skills/163/",
+    "attribute": "Critical Rate",
+    "amount": 38,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 164,
+    "url": "https://swarfarm.com/api/v2/leader-skills/164/",
+    "attribute": "HP",
+    "amount": 44,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 165,
+    "url": "https://swarfarm.com/api/v2/leader-skills/165/",
+    "attribute": "Resistance",
+    "amount": 55,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 166,
+    "url": "https://swarfarm.com/api/v2/leader-skills/166/",
+    "attribute": "Resistance",
+    "amount": 55,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 167,
+    "url": "https://swarfarm.com/api/v2/leader-skills/167/",
+    "attribute": "Attack Speed",
+    "amount": 33,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 168,
+    "url": "https://swarfarm.com/api/v2/leader-skills/168/",
+    "attribute": "HP",
+    "amount": 24,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 169,
+    "url": "https://swarfarm.com/api/v2/leader-skills/169/",
+    "attribute": "Attack Speed",
+    "amount": 33,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 170,
+    "url": "https://swarfarm.com/api/v2/leader-skills/170/",
+    "attribute": "Resistance",
+    "amount": 38,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 171,
+    "url": "https://swarfarm.com/api/v2/leader-skills/171/",
+    "attribute": "Resistance",
+    "amount": 38,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 172,
+    "url": "https://swarfarm.com/api/v2/leader-skills/172/",
+    "attribute": "Resistance",
+    "amount": 38,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 173,
+    "url": "https://swarfarm.com/api/v2/leader-skills/173/",
+    "attribute": "Resistance",
+    "amount": 38,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 174,
+    "url": "https://swarfarm.com/api/v2/leader-skills/174/",
+    "attribute": "Resistance",
+    "amount": 38,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 175,
+    "url": "https://swarfarm.com/api/v2/leader-skills/175/",
+    "attribute": "Critical Rate",
+    "amount": 15,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 176,
+    "url": "https://swarfarm.com/api/v2/leader-skills/176/",
+    "attribute": "Attack Power",
+    "amount": 20,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 177,
+    "url": "https://swarfarm.com/api/v2/leader-skills/177/",
+    "attribute": "Attack Speed",
+    "amount": 15,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 178,
+    "url": "https://swarfarm.com/api/v2/leader-skills/178/",
+    "attribute": "Attack Power",
+    "amount": 21,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 179,
+    "url": "https://swarfarm.com/api/v2/leader-skills/179/",
+    "attribute": "Resistance",
+    "amount": 25,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 180,
+    "url": "https://swarfarm.com/api/v2/leader-skills/180/",
+    "attribute": "Defense",
+    "amount": 20,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 181,
+    "url": "https://swarfarm.com/api/v2/leader-skills/181/",
+    "attribute": "Defense",
+    "amount": 44,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 182,
+    "url": "https://swarfarm.com/api/v2/leader-skills/182/",
+    "attribute": "HP",
+    "amount": 44,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 183,
+    "url": "https://swarfarm.com/api/v2/leader-skills/183/",
+    "attribute": "Attack Power",
+    "amount": 44,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 184,
+    "url": "https://swarfarm.com/api/v2/leader-skills/184/",
+    "attribute": "Accuracy",
+    "amount": 48,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 185,
+    "url": "https://swarfarm.com/api/v2/leader-skills/185/",
+    "attribute": "HP",
+    "amount": 38,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 186,
+    "url": "https://swarfarm.com/api/v2/leader-skills/186/",
+    "attribute": "Critical Rate",
+    "amount": 24,
+    "area": "Dungeon",
+    "element": null
+  },
+  {
+    "id": 187,
+    "url": "https://swarfarm.com/api/v2/leader-skills/187/",
+    "attribute": "Defense",
+    "amount": 25,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 188,
+    "url": "https://swarfarm.com/api/v2/leader-skills/188/",
+    "attribute": "Attack Power",
+    "amount": 31,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 189,
+    "url": "https://swarfarm.com/api/v2/leader-skills/189/",
+    "attribute": "Accuracy",
+    "amount": 55,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 190,
+    "url": "https://swarfarm.com/api/v2/leader-skills/190/",
+    "attribute": "Resistance",
+    "amount": 55,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 191,
+    "url": "https://swarfarm.com/api/v2/leader-skills/191/",
+    "attribute": "Critical Rate",
+    "amount": 33,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 192,
+    "url": "https://swarfarm.com/api/v2/leader-skills/192/",
+    "attribute": "Defense",
+    "amount": 22,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 193,
+    "url": "https://swarfarm.com/api/v2/leader-skills/193/",
+    "attribute": "Attack Speed",
+    "amount": 17,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 194,
+    "url": "https://swarfarm.com/api/v2/leader-skills/194/",
+    "attribute": "HP",
+    "amount": 22,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 195,
+    "url": "https://swarfarm.com/api/v2/leader-skills/195/",
+    "attribute": "Attack Power",
+    "amount": 38,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 196,
+    "url": "https://swarfarm.com/api/v2/leader-skills/196/",
+    "attribute": "Attack Power",
+    "amount": 28,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 197,
+    "url": "https://swarfarm.com/api/v2/leader-skills/197/",
+    "attribute": "HP",
+    "amount": 40,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 198,
+    "url": "https://swarfarm.com/api/v2/leader-skills/198/",
+    "attribute": "HP",
+    "amount": 40,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 199,
+    "url": "https://swarfarm.com/api/v2/leader-skills/199/",
+    "attribute": "HP",
+    "amount": 40,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 200,
+    "url": "https://swarfarm.com/api/v2/leader-skills/200/",
+    "attribute": "HP",
+    "amount": 40,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 201,
+    "url": "https://swarfarm.com/api/v2/leader-skills/201/",
+    "attribute": "HP",
+    "amount": 40,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 202,
+    "url": "https://swarfarm.com/api/v2/leader-skills/202/",
+    "attribute": "Attack Power",
+    "amount": 50,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 203,
+    "url": "https://swarfarm.com/api/v2/leader-skills/203/",
+    "attribute": "Attack Power",
+    "amount": 50,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 204,
+    "url": "https://swarfarm.com/api/v2/leader-skills/204/",
+    "attribute": "Attack Power",
+    "amount": 50,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 205,
+    "url": "https://swarfarm.com/api/v2/leader-skills/205/",
+    "attribute": "Attack Power",
+    "amount": 50,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 206,
+    "url": "https://swarfarm.com/api/v2/leader-skills/206/",
+    "attribute": "Attack Power",
+    "amount": 50,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 207,
+    "url": "https://swarfarm.com/api/v2/leader-skills/207/",
+    "attribute": "Attack Speed",
+    "amount": 20,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 208,
+    "url": "https://swarfarm.com/api/v2/leader-skills/208/",
+    "attribute": "Attack Speed",
+    "amount": 28,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 209,
+    "url": "https://swarfarm.com/api/v2/leader-skills/209/",
+    "attribute": "Attack Power",
+    "amount": 38,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 210,
+    "url": "https://swarfarm.com/api/v2/leader-skills/210/",
+    "attribute": "Critical Rate",
+    "amount": 28,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 211,
+    "url": "https://swarfarm.com/api/v2/leader-skills/211/",
+    "attribute": "Defense",
+    "amount": 38,
+    "area": "Arena",
+    "element": null
+  },
+  {
+    "id": 212,
+    "url": "https://swarfarm.com/api/v2/leader-skills/212/",
+    "attribute": "HP",
+    "amount": 38,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 213,
+    "url": "https://swarfarm.com/api/v2/leader-skills/213/",
+    "attribute": "Accuracy",
+    "amount": 48,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 214,
+    "url": "https://swarfarm.com/api/v2/leader-skills/214/",
+    "attribute": "Defense",
+    "amount": 38,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 215,
+    "url": "https://swarfarm.com/api/v2/leader-skills/215/",
+    "attribute": "Critical Rate",
+    "amount": 28,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 216,
+    "url": "https://swarfarm.com/api/v2/leader-skills/216/",
+    "attribute": "Critical Rate",
+    "amount": 21,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 217,
+    "url": "https://swarfarm.com/api/v2/leader-skills/217/",
+    "attribute": "Attack Speed",
+    "amount": 21,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 218,
+    "url": "https://swarfarm.com/api/v2/leader-skills/218/",
+    "attribute": "Accuracy",
+    "amount": 21,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 219,
+    "url": "https://swarfarm.com/api/v2/leader-skills/219/",
+    "attribute": "HP",
+    "amount": 28,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 220,
+    "url": "https://swarfarm.com/api/v2/leader-skills/220/",
+    "attribute": "Accuracy",
+    "amount": 55,
+    "area": "Element",
+    "element": "Water"
+  },
+  {
+    "id": 221,
+    "url": "https://swarfarm.com/api/v2/leader-skills/221/",
+    "attribute": "Accuracy",
+    "amount": 55,
+    "area": "Element",
+    "element": "Light"
+  },
+  {
+    "id": 222,
+    "url": "https://swarfarm.com/api/v2/leader-skills/222/",
+    "attribute": "Accuracy",
+    "amount": 55,
+    "area": "Element",
+    "element": "Fire"
+  },
+  {
+    "id": 223,
+    "url": "https://swarfarm.com/api/v2/leader-skills/223/",
+    "attribute": "Accuracy",
+    "amount": 55,
+    "area": "Element",
+    "element": "Wind"
+  },
+  {
+    "id": 224,
+    "url": "https://swarfarm.com/api/v2/leader-skills/224/",
+    "attribute": "Accuracy",
+    "amount": 55,
+    "area": "Element",
+    "element": "Dark"
+  },
+  {
+    "id": 225,
+    "url": "https://swarfarm.com/api/v2/leader-skills/225/",
+    "attribute": "HP",
+    "amount": 50,
+    "area": "General",
+    "element": "Water"
+  },
+  {
+    "id": 226,
+    "url": "https://swarfarm.com/api/v2/leader-skills/226/",
+    "attribute": "HP",
+    "amount": 50,
+    "area": "General",
+    "element": "Fire"
+  },
+  {
+    "id": 227,
+    "url": "https://swarfarm.com/api/v2/leader-skills/227/",
+    "attribute": "HP",
+    "amount": 50,
+    "area": "General",
+    "element": "Wind"
+  },
+  {
+    "id": 228,
+    "url": "https://swarfarm.com/api/v2/leader-skills/228/",
+    "attribute": "HP",
+    "amount": 50,
+    "area": "General",
+    "element": "Light"
+  },
+  {
+    "id": 229,
+    "url": "https://swarfarm.com/api/v2/leader-skills/229/",
+    "attribute": "HP",
+    "amount": 50,
+    "area": "General",
+    "element": "Dark"
+  },
+  {
+    "id": 230,
+    "url": "https://swarfarm.com/api/v2/leader-skills/230/",
+    "attribute": "Attack Power",
+    "amount": 50,
+    "area": "General",
+    "element": "Water"
+  },
+  {
+    "id": 231,
+    "url": "https://swarfarm.com/api/v2/leader-skills/231/",
+    "attribute": "Attack Power",
+    "amount": 50,
+    "area": "General",
+    "element": "Fire"
+  },
+  {
+    "id": 232,
+    "url": "https://swarfarm.com/api/v2/leader-skills/232/",
+    "attribute": "Attack Power",
+    "amount": 50,
+    "area": "General",
+    "element": "Wind"
+  },
+  {
+    "id": 233,
+    "url": "https://swarfarm.com/api/v2/leader-skills/233/",
+    "attribute": "Attack Power",
+    "amount": 50,
+    "area": "General",
+    "element": "Light"
+  },
+  {
+    "id": 234,
+    "url": "https://swarfarm.com/api/v2/leader-skills/234/",
+    "attribute": "Attack Power",
+    "amount": 50,
+    "area": "General",
+    "element": "Dark"
+  },
+  {
+    "id": 235,
+    "url": "https://swarfarm.com/api/v2/leader-skills/235/",
+    "attribute": "Accuracy",
+    "amount": 35,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 236,
+    "url": "https://swarfarm.com/api/v2/leader-skills/236/",
+    "attribute": "Critical Rate",
+    "amount": 38,
+    "area": "General",
+    "element": "Dark"
+  },
+  {
+    "id": 237,
+    "url": "https://swarfarm.com/api/v2/leader-skills/237/",
+    "attribute": "Resistance",
+    "amount": 48,
+    "area": "Guild",
+    "element": null
+  },
+  {
+    "id": 238,
+    "url": "https://swarfarm.com/api/v2/leader-skills/238/",
+    "attribute": "HP",
+    "amount": 45,
+    "area": "General",
+    "element": "Water"
+  },
+  {
+    "id": 239,
+    "url": "https://swarfarm.com/api/v2/leader-skills/239/",
+    "attribute": "HP",
+    "amount": 45,
+    "area": "General",
+    "element": "Wind"
+  },
+  {
+    "id": 240,
+    "url": "https://swarfarm.com/api/v2/leader-skills/240/",
+    "attribute": "HP",
+    "amount": 45,
+    "area": "General",
+    "element": "Light"
+  },
+  {
+    "id": 241,
+    "url": "https://swarfarm.com/api/v2/leader-skills/241/",
+    "attribute": "HP",
+    "amount": 45,
+    "area": "General",
+    "element": "Fire"
+  },
+  {
+    "id": 242,
+    "url": "https://swarfarm.com/api/v2/leader-skills/242/",
+    "attribute": "HP",
+    "amount": 45,
+    "area": "General",
+    "element": "Dark"
+  },
+  {
+    "id": 243,
+    "url": "https://swarfarm.com/api/v2/leader-skills/243/",
+    "attribute": "Resistance",
+    "amount": 35,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 244,
+    "url": "https://swarfarm.com/api/v2/leader-skills/244/",
+    "attribute": "Defense",
+    "amount": 28,
+    "area": "General",
+    "element": null
+  },
+  {
+    "id": 245,
+    "url": "https://swarfarm.com/api/v2/leader-skills/245/",
+    "attribute": "Defense",
+    "amount": 50,
+    "area": "General",
+    "element": "Water"
+  },
+  {
+    "id": 246,
+    "url": "https://swarfarm.com/api/v2/leader-skills/246/",
+    "attribute": "Defense",
+    "amount": 50,
+    "area": "General",
+    "element": "Fire"
+  },
+  {
+    "id": 247,
+    "url": "https://swarfarm.com/api/v2/leader-skills/247/",
+    "attribute": "Defense",
+    "amount": 50,
+    "area": "General",
+    "element": "Wind"
+  },
+  {
+    "id": 248,
+    "url": "https://swarfarm.com/api/v2/leader-skills/248/",
+    "attribute": "Defense",
+    "amount": 50,
+    "area": "General",
+    "element": "Light"
+  },
+  {
+    "id": 249,
+    "url": "https://swarfarm.com/api/v2/leader-skills/249/",
+    "attribute": "Defense",
+    "amount": 50,
+    "area": "General",
+    "element": "Dark"
+  },
+  {
+    "id": 250,
+    "url": "https://swarfarm.com/api/v2/leader-skills/250/",
+    "attribute": "Attack Power",
+    "amount": 45,
+    "area": "General",
+    "element": "Water"
+  },
+  {
+    "id": 251,
+    "url": "https://swarfarm.com/api/v2/leader-skills/251/",
+    "attribute": "Attack Power",
+    "amount": 45,
+    "area": "General",
+    "element": "Wind"
+  },
+  {
+    "id": 252,
+    "url": "https://swarfarm.com/api/v2/leader-skills/252/",
+    "attribute": "Attack Power",
+    "amount": 45,
+    "area": "General",
+    "element": "Light"
+  },
+  {
+    "id": 253,
+    "url": "https://swarfarm.com/api/v2/leader-skills/253/",
+    "attribute": "Attack Power",
+    "amount": 45,
+    "area": "General",
+    "element": "Fire"
+  },
+  {
+    "id": 254,
+    "url": "https://swarfarm.com/api/v2/leader-skills/254/",
+    "attribute": "Attack Power",
+    "amount": 45,
+    "area": "General",
+    "element": "Dark"
+  },
+  {
+    "id": 255,
+    "url": "https://swarfarm.com/api/v2/leader-skills/255/",
+    "attribute": "Critical Rate",
+    "amount": 30,
+    "area": "General",
+    "element": "Water"
+  },
+  {
+    "id": 256,
+    "url": "https://swarfarm.com/api/v2/leader-skills/256/",
+    "attribute": "Critical Rate",
+    "amount": 30,
+    "area": "General",
+    "element": "Fire"
+  },
+  {
+    "id": 257,
+    "url": "https://swarfarm.com/api/v2/leader-skills/257/",
+    "attribute": "Critical Rate",
+    "amount": 30,
+    "area": "General",
+    "element": "Wind"
+  },
+  {
+    "id": 258,
+    "url": "https://swarfarm.com/api/v2/leader-skills/258/",
+    "attribute": "Critical Rate",
+    "amount": 30,
+    "area": "General",
+    "element": "Light"
+  },
+  {
+    "id": 259,
+    "url": "https://swarfarm.com/api/v2/leader-skills/259/",
+    "attribute": "Critical Rate",
+    "amount": 30,
+    "area": "General",
+    "element": "Dark"
+  },
+  {
+    "id": 260,
+    "url": "https://swarfarm.com/api/v2/leader-skills/260/",
+    "attribute": "Critical Rate",
+    "amount": 38,
+    "area": "General",
+    "element": "Water"
+  },
+  {
+    "id": 261,
+    "url": "https://swarfarm.com/api/v2/leader-skills/261/",
+    "attribute": "Critical Rate",
+    "amount": 38,
+    "area": "General",
+    "element": "Fire"
+  },
+  {
+    "id": 262,
+    "url": "https://swarfarm.com/api/v2/leader-skills/262/",
+    "attribute": "Critical Rate",
+    "amount": 38,
+    "area": "General",
+    "element": "Wind"
+  },
+  {
+    "id": 263,
+    "url": "https://swarfarm.com/api/v2/leader-skills/263/",
+    "attribute": "Critical Rate",
+    "amount": 38,
+    "area": "General",
+    "element": "Light"
+  }
+]

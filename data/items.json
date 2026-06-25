@@ -1,0 +1,1262 @@
+[
+  {
+    "id": 2,
+    "com2us_id": 1,
+    "url": "https://swarfarm.com/api/v2/items/2/",
+    "name": "Crystal",
+    "category": "Currency",
+    "icon": "crystal.png",
+    "description": "Premium in-game currency",
+    "sell_value": null
+  },
+  {
+    "id": 1,
+    "com2us_id": 2,
+    "url": "https://swarfarm.com/api/v2/items/1/",
+    "name": "Social Point",
+    "category": "Currency",
+    "icon": "social.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 3,
+    "com2us_id": 3,
+    "url": "https://swarfarm.com/api/v2/items/3/",
+    "name": "Real Money",
+    "category": "Currency",
+    "icon": null,
+    "description": "Currently not seen in game",
+    "sell_value": null
+  },
+  {
+    "id": 4,
+    "com2us_id": 4,
+    "url": "https://swarfarm.com/api/v2/items/4/",
+    "name": "Glory Point",
+    "category": "Currency",
+    "icon": "glory_points.png",
+    "description": "Currency gained from PVP",
+    "sell_value": null
+  },
+  {
+    "id": 5,
+    "com2us_id": 5,
+    "url": "https://swarfarm.com/api/v2/items/5/",
+    "name": "Guild Point",
+    "category": "Currency",
+    "icon": "guild_points.png",
+    "description": "Currency rewarded from guild content",
+    "sell_value": null
+  },
+  {
+    "id": 63,
+    "com2us_id": 6,
+    "url": "https://swarfarm.com/api/v2/items/63/",
+    "name": "Shapeshifting Stone",
+    "category": "Currency",
+    "icon": "costume_stone.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 115,
+    "com2us_id": 14,
+    "url": "https://swarfarm.com/api/v2/items/115/",
+    "name": "Rune Essence",
+    "category": "Currency",
+    "icon": "icon_currency_rune_essence.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 6,
+    "com2us_id": 102,
+    "url": "https://swarfarm.com/api/v2/items/6/",
+    "name": "Mana",
+    "category": "Currency",
+    "icon": "mana.png",
+    "description": "Common in-game currency",
+    "sell_value": null
+  },
+  {
+    "id": 7,
+    "com2us_id": 103,
+    "url": "https://swarfarm.com/api/v2/items/7/",
+    "name": "Energy",
+    "category": "Currency",
+    "icon": "energy.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 8,
+    "com2us_id": 104,
+    "url": "https://swarfarm.com/api/v2/items/8/",
+    "name": "Arena Wing",
+    "category": "Currency",
+    "icon": "arena_wings.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 46,
+    "com2us_id": 1,
+    "url": "https://swarfarm.com/api/v2/items/46/",
+    "name": "Unknown Scroll",
+    "category": "Summoning Scroll",
+    "icon": "scroll_unknown.png",
+    "description": "Used to summon a 1-3 star monster of Fire, Water or Wind element",
+    "sell_value": null
+  },
+  {
+    "id": 47,
+    "com2us_id": 2,
+    "url": "https://swarfarm.com/api/v2/items/47/",
+    "name": "Mystical Scroll",
+    "category": "Summoning Scroll",
+    "icon": "scroll_mystical.png",
+    "description": "Used to summon a 3-5 star monster of Fire, Water, or Wind element",
+    "sell_value": null
+  },
+  {
+    "id": 48,
+    "com2us_id": 3,
+    "url": "https://swarfarm.com/api/v2/items/48/",
+    "name": "Scroll of Light and Dark",
+    "category": "Summoning Scroll",
+    "icon": "scroll_light_and_dark.png",
+    "description": "Used to summon a 3-5 star monster of Light or Dark element",
+    "sell_value": null
+  },
+  {
+    "id": 49,
+    "com2us_id": 4,
+    "url": "https://swarfarm.com/api/v2/items/49/",
+    "name": "Water Scroll",
+    "category": "Summoning Scroll",
+    "icon": "scroll_water.png",
+    "description": "Used to summon a 3-5 star monster of Water element.",
+    "sell_value": null
+  },
+  {
+    "id": 50,
+    "com2us_id": 5,
+    "url": "https://swarfarm.com/api/v2/items/50/",
+    "name": "Fire Scroll",
+    "category": "Summoning Scroll",
+    "icon": "scroll_fire.png",
+    "description": "Used to summon a 3-5 star monster of Fire element.",
+    "sell_value": null
+  },
+  {
+    "id": 51,
+    "com2us_id": 6,
+    "url": "https://swarfarm.com/api/v2/items/51/",
+    "name": "Wind Scroll",
+    "category": "Summoning Scroll",
+    "icon": "scroll_wind.png",
+    "description": "Used to summon a 3-5 star monster of Wind element.",
+    "sell_value": null
+  },
+  {
+    "id": 52,
+    "com2us_id": 7,
+    "url": "https://swarfarm.com/api/v2/items/52/",
+    "name": "Legendary Scroll",
+    "category": "Summoning Scroll",
+    "icon": "scroll_legendary.png",
+    "description": "Used to summon a 4-5 star monster of Fire, Water, or Wind element.",
+    "sell_value": null
+  },
+  {
+    "id": 53,
+    "com2us_id": 8,
+    "url": "https://swarfarm.com/api/v2/items/53/",
+    "name": "Summoning Stone",
+    "category": "Summoning Scroll",
+    "icon": "summon_exclusive.png",
+    "description": "Summon from a limited list of monsters",
+    "sell_value": null
+  },
+  {
+    "id": 54,
+    "com2us_id": 9,
+    "url": "https://swarfarm.com/api/v2/items/54/",
+    "name": "Legendary Summoning Piece",
+    "category": "Summoning Scroll",
+    "icon": "pieces_legendary.png",
+    "description": "Fragments of a Legendary Scroll, used to summon a 3-5 star monster of Fire, Water or Wind element.",
+    "sell_value": null
+  },
+  {
+    "id": 55,
+    "com2us_id": 10,
+    "url": "https://swarfarm.com/api/v2/items/55/",
+    "name": "Light & Dark Summoning Piece",
+    "category": "Summoning Scroll",
+    "icon": "pieces_light_and_dark.png",
+    "description": "Fragments of a Light and Dark Scroll,  used to summon a 3-5 star monster or Light or Dark element",
+    "sell_value": null
+  },
+  {
+    "id": 56,
+    "com2us_id": 11,
+    "url": "https://swarfarm.com/api/v2/items/56/",
+    "name": "Transcendence Scroll",
+    "category": "Summoning Scroll",
+    "icon": "scroll_transcendance.png",
+    "description": "Used to summon a guaranteed 5-star monster of Fire, Water, or Wind element.",
+    "sell_value": null
+  },
+  {
+    "id": 57,
+    "com2us_id": 12,
+    "url": "https://swarfarm.com/api/v2/items/57/",
+    "name": "Legendary Water Scroll",
+    "category": "Summoning Scroll",
+    "icon": "summon_legendary_water.png",
+    "description": "Used to summon a 4-5 star monster of Water element.",
+    "sell_value": null
+  },
+  {
+    "id": 58,
+    "com2us_id": 13,
+    "url": "https://swarfarm.com/api/v2/items/58/",
+    "name": "Legendary Fire Scroll",
+    "category": "Summoning Scroll",
+    "icon": "summon_legendary_fire.png",
+    "description": "Used to summon a 4-5 star monster of Fire element.",
+    "sell_value": null
+  },
+  {
+    "id": 59,
+    "com2us_id": 14,
+    "url": "https://swarfarm.com/api/v2/items/59/",
+    "name": "Legendary Wind Scroll",
+    "category": "Summoning Scroll",
+    "icon": "summon_legendary_wind.png",
+    "description": "Used to summon a 4-5 star monster of Wind element.",
+    "sell_value": null
+  },
+  {
+    "id": 60,
+    "com2us_id": 18,
+    "url": "https://swarfarm.com/api/v2/items/60/",
+    "name": "SWC 2018 (Asia-Pacific)",
+    "category": "Summoning Scroll",
+    "icon": "summon_swc_2018.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 61,
+    "com2us_id": 19,
+    "url": "https://swarfarm.com/api/v2/items/61/",
+    "name": "SWC 2018 (America)",
+    "category": "Summoning Scroll",
+    "icon": "summon_swc_2018.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 62,
+    "com2us_id": 20,
+    "url": "https://swarfarm.com/api/v2/items/62/",
+    "name": "SWC 2018 (Europe)",
+    "category": "Summoning Scroll",
+    "icon": "summon_swc_2018.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 92,
+    "com2us_id": 22,
+    "url": "https://swarfarm.com/api/v2/items/92/",
+    "name": "SWC 2019 Scroll (Asia-Pacific)",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 94,
+    "com2us_id": 23,
+    "url": "https://swarfarm.com/api/v2/items/94/",
+    "name": "SWC 2019 Scroll (America)",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 89,
+    "com2us_id": 24,
+    "url": "https://swarfarm.com/api/v2/items/89/",
+    "name": "SWC 2019 Scroll (EU)",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 88,
+    "com2us_id": 25,
+    "url": "https://swarfarm.com/api/v2/items/88/",
+    "name": "Street Fighter V Scroll",
+    "category": "Summoning Scroll",
+    "icon": "summon_sfv.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 90,
+    "com2us_id": 26,
+    "url": "https://swarfarm.com/api/v2/items/90/",
+    "name": "Legendary Mercenary Scroll",
+    "category": "Summoning Scroll",
+    "icon": "summon_sfv.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 95,
+    "com2us_id": 27,
+    "url": "https://swarfarm.com/api/v2/items/95/",
+    "name": "SWC Special Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 96,
+    "com2us_id": 28,
+    "url": "https://swarfarm.com/api/v2/items/96/",
+    "name": "Ancient Transcendence Scroll",
+    "category": "Summoning Scroll",
+    "icon": "scroll_transcendance.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 98,
+    "com2us_id": 29,
+    "url": "https://swarfarm.com/api/v2/items/98/",
+    "name": "7th Anniversary Scroll",
+    "category": "Summoning Scroll",
+    "icon": "summon_7th_anniversary_scroll.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 99,
+    "com2us_id": 30,
+    "url": "https://swarfarm.com/api/v2/items/99/",
+    "name": "Legendary All-Attribute Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 102,
+    "com2us_id": 31,
+    "url": "https://swarfarm.com/api/v2/items/102/",
+    "name": "Transcendence Summoning Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 101,
+    "com2us_id": 32,
+    "url": "https://swarfarm.com/api/v2/items/101/",
+    "name": "SWC 2021 Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 104,
+    "com2us_id": 33,
+    "url": "https://swarfarm.com/api/v2/items/104/",
+    "name": "8th Anniversary Transcendence Summoning Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 107,
+    "com2us_id": 34,
+    "url": "https://swarfarm.com/api/v2/items/107/",
+    "name": "Engraved Summoning Pieces",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 105,
+    "com2us_id": 35,
+    "url": "https://swarfarm.com/api/v2/items/105/",
+    "name": "Cookie Run Kingdom Summon Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 106,
+    "com2us_id": 36,
+    "url": "https://swarfarm.com/api/v2/items/106/",
+    "name": "Dessert Kingdom Summon Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 108,
+    "com2us_id": 37,
+    "url": "https://swarfarm.com/api/v2/items/108/",
+    "name": "SWC 2022 Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 109,
+    "com2us_id": 38,
+    "url": "https://swarfarm.com/api/v2/items/109/",
+    "name": "Assassin's Creed Summon Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 110,
+    "com2us_id": 39,
+    "url": "https://swarfarm.com/api/v2/items/110/",
+    "name": "Engraved Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 112,
+    "com2us_id": 40,
+    "url": "https://swarfarm.com/api/v2/items/112/",
+    "name": "9th Anniversary Transcendence Summoning Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 113,
+    "com2us_id": 41,
+    "url": "https://swarfarm.com/api/v2/items/113/",
+    "name": "9th Anniversary Legend Summoning Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 111,
+    "com2us_id": 42,
+    "url": "https://swarfarm.com/api/v2/items/111/",
+    "name": "9th Anniversary Summoning Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 119,
+    "com2us_id": 43,
+    "url": "https://swarfarm.com/api/v2/items/119/",
+    "name": "UNKNOWN ITEM",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 118,
+    "com2us_id": 44,
+    "url": "https://swarfarm.com/api/v2/items/118/",
+    "name": "UNKNOWN ITEM",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 120,
+    "com2us_id": 45,
+    "url": "https://swarfarm.com/api/v2/items/120/",
+    "name": "UNKNOWN ITEM",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 121,
+    "com2us_id": 46,
+    "url": "https://swarfarm.com/api/v2/items/121/",
+    "name": "UNKNOWN ITEM",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 122,
+    "com2us_id": 48,
+    "url": "https://swarfarm.com/api/v2/items/122/",
+    "name": "UNKNOWN ITEM",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 124,
+    "com2us_id": 49,
+    "url": "https://swarfarm.com/api/v2/items/124/",
+    "name": "UNKNOWN ITEM",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 123,
+    "com2us_id": 50,
+    "url": "https://swarfarm.com/api/v2/items/123/",
+    "name": "10th Anniversary Scroll",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 125,
+    "com2us_id": 51,
+    "url": "https://swarfarm.com/api/v2/items/125/",
+    "name": "UNKNOWN ITEM",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 126,
+    "com2us_id": 52,
+    "url": "https://swarfarm.com/api/v2/items/126/",
+    "name": "UNKNOWN ITEM",
+    "category": "Summoning Scroll",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 12,
+    "com2us_id": 11001,
+    "url": "https://swarfarm.com/api/v2/items/12/",
+    "name": "Water Low Essence",
+    "category": "Essence",
+    "icon": "essence_water_low.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 16,
+    "com2us_id": 11002,
+    "url": "https://swarfarm.com/api/v2/items/16/",
+    "name": "Fire Low Essence",
+    "category": "Essence",
+    "icon": "essence_fire_low.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 19,
+    "com2us_id": 11003,
+    "url": "https://swarfarm.com/api/v2/items/19/",
+    "name": "Wind Low Essence",
+    "category": "Essence",
+    "icon": "essence_wind_low.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 22,
+    "com2us_id": 11004,
+    "url": "https://swarfarm.com/api/v2/items/22/",
+    "name": "Light Low Essence",
+    "category": "Essence",
+    "icon": "essence_light_low.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 25,
+    "com2us_id": 11005,
+    "url": "https://swarfarm.com/api/v2/items/25/",
+    "name": "Dark Low Essence",
+    "category": "Essence",
+    "icon": "essence_dark_low.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 9,
+    "com2us_id": 11006,
+    "url": "https://swarfarm.com/api/v2/items/9/",
+    "name": "Magic Low Essence",
+    "category": "Essence",
+    "icon": "essence_magic_low.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 13,
+    "com2us_id": 12001,
+    "url": "https://swarfarm.com/api/v2/items/13/",
+    "name": "Water Mid Essence",
+    "category": "Essence",
+    "icon": "essence_water_mid.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 17,
+    "com2us_id": 12002,
+    "url": "https://swarfarm.com/api/v2/items/17/",
+    "name": "Fire Mid Essence",
+    "category": "Essence",
+    "icon": "essence_fire_mid.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 20,
+    "com2us_id": 12003,
+    "url": "https://swarfarm.com/api/v2/items/20/",
+    "name": "Wind Mid Essence",
+    "category": "Essence",
+    "icon": "essence_wind_mid.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 23,
+    "com2us_id": 12004,
+    "url": "https://swarfarm.com/api/v2/items/23/",
+    "name": "Light Mid Essence",
+    "category": "Essence",
+    "icon": "essence_light_mid.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 26,
+    "com2us_id": 12005,
+    "url": "https://swarfarm.com/api/v2/items/26/",
+    "name": "Dark Mid Essence",
+    "category": "Essence",
+    "icon": "essence_dark_mid.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 10,
+    "com2us_id": 12006,
+    "url": "https://swarfarm.com/api/v2/items/10/",
+    "name": "Magic Mid Essence",
+    "category": "Essence",
+    "icon": "essence_magic_mid.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 15,
+    "com2us_id": 13001,
+    "url": "https://swarfarm.com/api/v2/items/15/",
+    "name": "Water High Essence",
+    "category": "Essence",
+    "icon": "essence_water_high.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 18,
+    "com2us_id": 13002,
+    "url": "https://swarfarm.com/api/v2/items/18/",
+    "name": "Fire High Essence",
+    "category": "Essence",
+    "icon": "essence_fire_high.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 21,
+    "com2us_id": 13003,
+    "url": "https://swarfarm.com/api/v2/items/21/",
+    "name": "Wind High Essence",
+    "category": "Essence",
+    "icon": "essence_wind_high.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 24,
+    "com2us_id": 13004,
+    "url": "https://swarfarm.com/api/v2/items/24/",
+    "name": "Light High Essence",
+    "category": "Essence",
+    "icon": "essence_light_high.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 27,
+    "com2us_id": 13005,
+    "url": "https://swarfarm.com/api/v2/items/27/",
+    "name": "Dark High Essence",
+    "category": "Essence",
+    "icon": "essence_dark_high.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 11,
+    "com2us_id": 13006,
+    "url": "https://swarfarm.com/api/v2/items/11/",
+    "name": "Magic High Essence",
+    "category": "Essence",
+    "icon": "essence_magic_high.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 28,
+    "com2us_id": 1001,
+    "url": "https://swarfarm.com/api/v2/items/28/",
+    "name": "Hard Wood",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_01_01.png",
+    "description": "It's an old wood that's hardened over time. Used as Craft material.",
+    "sell_value": 1
+  },
+  {
+    "id": 29,
+    "com2us_id": 1002,
+    "url": "https://swarfarm.com/api/v2/items/29/",
+    "name": "Tough Leather",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_01_02.png",
+    "description": "It's a high-quality leather. Used as Craft material.",
+    "sell_value": 1
+  },
+  {
+    "id": 30,
+    "com2us_id": 1003,
+    "url": "https://swarfarm.com/api/v2/items/30/",
+    "name": "Solid Rock",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_01_03.png",
+    "description": "It's a solid rock that's refined over time. Used as Craft material.",
+    "sell_value": 1
+  },
+  {
+    "id": 31,
+    "com2us_id": 1004,
+    "url": "https://swarfarm.com/api/v2/items/31/",
+    "name": "Solid Iron Ore",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_01_04.png",
+    "description": "It's an iron ore from which you can acquire high-quality iron. Used as Craft material.",
+    "sell_value": 1
+  },
+  {
+    "id": 32,
+    "com2us_id": 1005,
+    "url": "https://swarfarm.com/api/v2/items/32/",
+    "name": "Shining Mythril",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_01_05.png",
+    "description": "It's a mysterious metal that's been blessed by Ameria, the Goddess of Serenity. Used as Craft material.",
+    "sell_value": 1
+  },
+  {
+    "id": 33,
+    "com2us_id": 1006,
+    "url": "https://swarfarm.com/api/v2/items/33/",
+    "name": "Thick Cloth",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_01_06.png",
+    "description": "It's a carefully woven cloth with high endurance. Used as Craft material.",
+    "sell_value": 1
+  },
+  {
+    "id": 34,
+    "com2us_id": 2001,
+    "url": "https://swarfarm.com/api/v2/items/34/",
+    "name": "Rune Piece",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_02_01.png",
+    "description": "They're small pieces of stones with magic power that are mainly used to craft Runes. Used as Craft material.",
+    "sell_value": 1
+  },
+  {
+    "id": 35,
+    "com2us_id": 3001,
+    "url": "https://swarfarm.com/api/v2/items/35/",
+    "name": "Magic Dust",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_03_01.png",
+    "description": "It's a mysterious magic dust that can be used anywhere. Used as Craft material.",
+    "sell_value": 1
+  },
+  {
+    "id": 36,
+    "com2us_id": 4001,
+    "url": "https://swarfarm.com/api/v2/items/36/",
+    "name": "Symbol of Giant",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_04_01.png",
+    "description": "It's a magic symbol with the will of the Ancient Giant. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 37,
+    "com2us_id": 4002,
+    "url": "https://swarfarm.com/api/v2/items/37/",
+    "name": "Symbol of Dragon",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_04_02.png",
+    "description": "It's a magic symbol with the will of the Legendary Dragon. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 38,
+    "com2us_id": 4003,
+    "url": "https://swarfarm.com/api/v2/items/38/",
+    "name": "Symbol of Death",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_04_03.png",
+    "description": "It's a magic symbol with the will of the Ancient Lich King. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 114,
+    "com2us_id": 4004,
+    "url": "https://swarfarm.com/api/v2/items/114/",
+    "name": "Symbol of Spirit",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_04_04.png",
+    "description": "It's a magic symbol with the will of the Ancient Spirit. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 39,
+    "com2us_id": 5001,
+    "url": "https://swarfarm.com/api/v2/items/39/",
+    "name": "Frozen Water Crystal",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_05_01.png",
+    "description": "It's a crystal with the power of Water. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 40,
+    "com2us_id": 5002,
+    "url": "https://swarfarm.com/api/v2/items/40/",
+    "name": "Flaming Fire Crystal",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_05_02.png",
+    "description": "It's a crystal with the power of Fire. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 41,
+    "com2us_id": 5003,
+    "url": "https://swarfarm.com/api/v2/items/41/",
+    "name": "Whirling Wind Crystal",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_05_03.png",
+    "description": "It's a crystal with the power of Wind. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 42,
+    "com2us_id": 5004,
+    "url": "https://swarfarm.com/api/v2/items/42/",
+    "name": "Shiny Light Crystal",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_05_04.png",
+    "description": "It's a crystal with the power of Light. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 43,
+    "com2us_id": 5005,
+    "url": "https://swarfarm.com/api/v2/items/43/",
+    "name": "Pitch-black Dark Crystal",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_05_05.png",
+    "description": "It's a crystal with the power of Darkness. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 44,
+    "com2us_id": 6001,
+    "url": "https://swarfarm.com/api/v2/items/44/",
+    "name": "Condensed Magic Crystal",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_06_01.png",
+    "description": "It's a crystal with the power of condensed magic. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 45,
+    "com2us_id": 7001,
+    "url": "https://swarfarm.com/api/v2/items/45/",
+    "name": "Pure Magic Crystal",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_07_01.png",
+    "description": "It's a mysterious crystal with the power of pure magic. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 82,
+    "com2us_id": 8001,
+    "url": "https://swarfarm.com/api/v2/items/82/",
+    "name": "Ancient Magic Stone",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_08_01.png",
+    "description": "It's a special magic stone containing the ancient magic power. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 83,
+    "com2us_id": 8002,
+    "url": "https://swarfarm.com/api/v2/items/83/",
+    "name": "Ancient Magic Origin",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_08_02.png",
+    "description": "It's an energy origin containing the ancient magic power. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 84,
+    "com2us_id": 9001,
+    "url": "https://swarfarm.com/api/v2/items/84/",
+    "name": "Karzhan's Rune Ore",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_09_02.png",
+    "description": "It's a rune ore containing the energy of Dimension Karzhan. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 85,
+    "com2us_id": 9002,
+    "url": "https://swarfarm.com/api/v2/items/85/",
+    "name": "Ellunia's Rune Ore",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_09_01.png",
+    "description": "It's a rune ore containing the energy of Dimension Ellunia. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 86,
+    "com2us_id": 9003,
+    "url": "https://swarfarm.com/api/v2/items/86/",
+    "name": "Lumel's Rune Ore",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_09_03.png",
+    "description": "It's a rune ore containing the energy of Dimension Lumel. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 97,
+    "com2us_id": 9004,
+    "url": "https://swarfarm.com/api/v2/items/97/",
+    "name": "Khalderun's Rune Ore",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_09_04.png",
+    "description": "It's a rune ore containing the energy of Dimension Khalderun. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 103,
+    "com2us_id": 9005,
+    "url": "https://swarfarm.com/api/v2/items/103/",
+    "name": "Sacreon's Rune Ore",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_09_05.png",
+    "description": "It's a rune ore containing the energy of Dimension Sacreon. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 127,
+    "com2us_id": 9006,
+    "url": "https://swarfarm.com/api/v2/items/127/",
+    "name": "Inferath's Rune Ore",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_09_06.png",
+    "description": "It's a rune ore containing the energy of Dimension Inferath. Used as Craft material.",
+    "sell_value": 0
+  },
+  {
+    "id": 116,
+    "com2us_id": 10001,
+    "url": "https://swarfarm.com/api/v2/items/116/",
+    "name": "Beast Horn",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_10_01.png",
+    "description": "A Beast Horn with devastating powers. Used to craft Legend Grindstones.",
+    "sell_value": 0
+  },
+  {
+    "id": 117,
+    "com2us_id": 10002,
+    "url": "https://swarfarm.com/api/v2/items/117/",
+    "name": "Beast Claw",
+    "category": "Craft Material",
+    "icon": "craftstuff_icon_0000_10_02.png",
+    "description": "A Beast Claw with devastating powers. Used to craft Grindstones.",
+    "sell_value": 0
+  },
+  {
+    "id": 93,
+    "com2us_id": 1001,
+    "url": "https://swarfarm.com/api/v2/items/93/",
+    "name": "UNKNOWN ITEM",
+    "category": 57,
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 91,
+    "com2us_id": 1002,
+    "url": "https://swarfarm.com/api/v2/items/91/",
+    "name": "UNKNOWN ITEM",
+    "category": 57,
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 64,
+    "com2us_id": 142110115,
+    "url": "https://swarfarm.com/api/v2/items/64/",
+    "name": "Blue Angelmon",
+    "category": "Enhancing Monster",
+    "icon": "monster_water_angelmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 65,
+    "com2us_id": 142120115,
+    "url": "https://swarfarm.com/api/v2/items/65/",
+    "name": "Red Angelmon",
+    "category": "Enhancing Monster",
+    "icon": "monster_fire_angelmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 66,
+    "com2us_id": 142130115,
+    "url": "https://swarfarm.com/api/v2/items/66/",
+    "name": "Gold Angelmon",
+    "category": "Enhancing Monster",
+    "icon": "monster_wind_angelmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 67,
+    "com2us_id": 142140115,
+    "url": "https://swarfarm.com/api/v2/items/67/",
+    "name": "White Angelmon",
+    "category": "Enhancing Monster",
+    "icon": "monster_light_angelmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 68,
+    "com2us_id": 142150115,
+    "url": "https://swarfarm.com/api/v2/items/68/",
+    "name": "Dark Angelmon",
+    "category": "Enhancing Monster",
+    "icon": "monster_dark_angelmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 74,
+    "com2us_id": 143140220,
+    "url": "https://swarfarm.com/api/v2/items/74/",
+    "name": "Rainbowmon 2⭐ lv.20",
+    "category": "Enhancing Monster",
+    "icon": "monster_rainbowmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 75,
+    "com2us_id": 143140301,
+    "url": "https://swarfarm.com/api/v2/items/75/",
+    "name": "Rainbowmon 3⭐ lv.1",
+    "category": "Enhancing Monster",
+    "icon": "monster_rainbowmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 76,
+    "com2us_id": 143140325,
+    "url": "https://swarfarm.com/api/v2/items/76/",
+    "name": "Rainbowmon 3⭐ lv.25",
+    "category": "Enhancing Monster",
+    "icon": "monster_rainbowmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 77,
+    "com2us_id": 143140401,
+    "url": "https://swarfarm.com/api/v2/items/77/",
+    "name": "Rainbowmon 4⭐ lv.1",
+    "category": "Enhancing Monster",
+    "icon": "monster_rainbowmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 78,
+    "com2us_id": 143140430,
+    "url": "https://swarfarm.com/api/v2/items/78/",
+    "name": "Rainbowmon 4⭐ lv.30",
+    "category": "Enhancing Monster",
+    "icon": "monster_rainbowmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 79,
+    "com2us_id": 143140501,
+    "url": "https://swarfarm.com/api/v2/items/79/",
+    "name": "Rainbowmon 5⭐ lv.1",
+    "category": "Enhancing Monster",
+    "icon": "monster_rainbowmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 80,
+    "com2us_id": 151050101,
+    "url": "https://swarfarm.com/api/v2/items/80/",
+    "name": "Devilmon",
+    "category": "Enhancing Monster",
+    "icon": "monster_devilmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 69,
+    "com2us_id": 182110115,
+    "url": "https://swarfarm.com/api/v2/items/69/",
+    "name": "Blue King Angelmon",
+    "category": "Enhancing Monster",
+    "icon": "monster_water_king_angelmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 70,
+    "com2us_id": 182120115,
+    "url": "https://swarfarm.com/api/v2/items/70/",
+    "name": "Red King Angelmon",
+    "category": "Enhancing Monster",
+    "icon": "monster_fire_king_angelmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 71,
+    "com2us_id": 182130115,
+    "url": "https://swarfarm.com/api/v2/items/71/",
+    "name": "Gold King Angelmon",
+    "category": "Enhancing Monster",
+    "icon": "monster_wind_king_angelmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 72,
+    "com2us_id": 182140115,
+    "url": "https://swarfarm.com/api/v2/items/72/",
+    "name": "White King Angelmon",
+    "category": "Enhancing Monster",
+    "icon": "monster_light_king_angelmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 73,
+    "com2us_id": 182150115,
+    "url": "https://swarfarm.com/api/v2/items/73/",
+    "name": "Dark King Angelmon",
+    "category": "Enhancing Monster",
+    "icon": "monster_dark_king_angelmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 81,
+    "com2us_id": 217140115,
+    "url": "https://swarfarm.com/api/v2/items/81/",
+    "name": "Super Angelmon",
+    "category": "Enhancing Monster",
+    "icon": "monster_super_angelmon.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 87,
+    "com2us_id": 1,
+    "url": "https://swarfarm.com/api/v2/items/87/",
+    "name": "Conversion Stone",
+    "category": "Artifact Craft Material",
+    "icon": "craft_material_conversion_stone.png",
+    "description": "",
+    "sell_value": null
+  },
+  {
+    "id": 100,
+    "com2us_id": 1,
+    "url": "https://swarfarm.com/api/v2/items/100/",
+    "name": "Unknown Item",
+    "category": "Unknown Category",
+    "icon": null,
+    "description": "",
+    "sell_value": null
+  }
+]

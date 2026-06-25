@@ -1,0 +1,8 @@
+{
+  "_note": "building_master_id encodes both building type AND upgrade level — each upgrade produces a different ID. The IDs below are for this account's current building states. Re-import the account JSON after upgrading buildings to refresh bonuses. stat keys: hp_pct / atk_pct / def_pct / spd_pct apply as % of base; cd_add / cr_add apply as flat additions. element: 0=all, 1=water, 2=fire, 3=wind, 4=light, 5=dark.",
+  "73":  {"name": "Guardstone",              "stat": "def_pct",  "element": 0, "bonus_pct": 20.0},
+  "83":  {"name": "Fallen Ancient Guardian", "stat": "cd_add",   "element": 0, "bonus_pct": 25.0},
+  "125": {"name": "Ancient Sword",           "stat": "atk_pct",  "element": 0, "bonus_pct": 20.0},
+  "129": {"name": "Crystal Altar",           "stat": "hp_pct",   "element": 0, "bonus_pct": 20.0},
+  "158": {"name": "Sky Tribe Totem",         "stat": "spd_pct",  "element": 0, "bonus_pct": 15.0}
+}

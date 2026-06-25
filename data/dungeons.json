@@ -1,0 +1,4872 @@
+[
+  {
+    "id": 1,
+    "url": "https://swarfarm.com/api/v2/dungeons/1/",
+    "enabled": true,
+    "name": "Garen Forest",
+    "slug": "garen-forest",
+    "category": "Scenario",
+    "icon": "scenario_garen_forest.png",
+    "levels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://swarfarm.com/api/v2/dungeons/2/",
+    "enabled": true,
+    "name": "Mt. Siz",
+    "slug": "mt-siz",
+    "category": "Scenario",
+    "icon": "scenario_mt_siz.png",
+    "levels": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "id": 3,
+    "url": "https://swarfarm.com/api/v2/dungeons/3/",
+    "enabled": true,
+    "name": "Kabir Ruins",
+    "slug": "kabir-ruins",
+    "category": "Scenario",
+    "icon": "scenario_kabir_ruins.png",
+    "levels": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "id": 4,
+    "url": "https://swarfarm.com/api/v2/dungeons/4/",
+    "enabled": true,
+    "name": "Mt. White Ragon",
+    "slug": "mt-white-ragon",
+    "category": "Scenario",
+    "icon": "scenario_mt_white_ragon.png",
+    "levels": [
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "id": 5,
+    "url": "https://swarfarm.com/api/v2/dungeons/5/",
+    "enabled": true,
+    "name": "Telain Forest",
+    "slug": "telain-forest",
+    "category": "Scenario",
+    "icon": "scenario_telain_forest.png",
+    "levels": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105
+    ]
+  },
+  {
+    "id": 6,
+    "url": "https://swarfarm.com/api/v2/dungeons/6/",
+    "enabled": true,
+    "name": "Hydeni Ruins",
+    "slug": "hydeni-ruins",
+    "category": "Scenario",
+    "icon": "scenario_hydeni_ruins.png",
+    "levels": [
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126
+    ]
+  },
+  {
+    "id": 7,
+    "url": "https://swarfarm.com/api/v2/dungeons/7/",
+    "enabled": true,
+    "name": "Tamor Desert",
+    "slug": "tamor-desert",
+    "category": "Scenario",
+    "icon": "scenario_tamor_desert.png",
+    "levels": [
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147
+    ]
+  },
+  {
+    "id": 8,
+    "url": "https://swarfarm.com/api/v2/dungeons/8/",
+    "enabled": true,
+    "name": "Vrofagus Ruins",
+    "slug": "vrofagus-ruins",
+    "category": "Scenario",
+    "icon": "scenario_vrofagus_ruins.png",
+    "levels": [
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168
+    ]
+  },
+  {
+    "id": 9,
+    "url": "https://swarfarm.com/api/v2/dungeons/9/",
+    "enabled": true,
+    "name": "Faimon Volcano",
+    "slug": "faimon-volcano",
+    "category": "Scenario",
+    "icon": "scenario_faimon_volcano.png",
+    "levels": [
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189
+    ]
+  },
+  {
+    "id": 10,
+    "url": "https://swarfarm.com/api/v2/dungeons/10/",
+    "enabled": true,
+    "name": "Aiden Forest",
+    "slug": "aiden-forest",
+    "category": "Scenario",
+    "icon": "scenario_aiden_forest.png",
+    "levels": [
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210
+    ]
+  },
+  {
+    "id": 11,
+    "url": "https://swarfarm.com/api/v2/dungeons/11/",
+    "enabled": true,
+    "name": "Ferun Castle",
+    "slug": "ferun-castle",
+    "category": "Scenario",
+    "icon": "scenario_ferun_castle.png",
+    "levels": [
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231
+    ]
+  },
+  {
+    "id": 12,
+    "url": "https://swarfarm.com/api/v2/dungeons/12/",
+    "enabled": true,
+    "name": "Mt. Runar",
+    "slug": "mt-runar",
+    "category": "Scenario",
+    "icon": "scenario_mt_runar.png",
+    "levels": [
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252
+    ]
+  },
+  {
+    "id": 13,
+    "url": "https://swarfarm.com/api/v2/dungeons/13/",
+    "enabled": true,
+    "name": "Charuka Remains",
+    "slug": "charuka-remains",
+    "category": "Scenario",
+    "icon": "scenario_chiruka_remains.png",
+    "levels": [
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273
+    ]
+  },
+  {
+    "id": 14,
+    "url": "https://swarfarm.com/api/v2/dungeons/14/",
+    "enabled": false,
+    "name": "UNKNOWN",
+    "slug": "unknown",
+    "category": "Scenario",
+    "icon": "",
+    "levels": [
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294
+    ]
+  },
+  {
+    "id": 1001,
+    "url": "https://swarfarm.com/api/v2/dungeons/1001/",
+    "enabled": true,
+    "name": "Hall of Dark",
+    "slug": "hall-of-dark",
+    "category": "Cairos Dungeon",
+    "icon": "cairos_dark.png",
+    "levels": [
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304
+    ]
+  },
+  {
+    "id": 1011,
+    "url": "https://swarfarm.com/api/v2/dungeons/1011/",
+    "enabled": true,
+    "name": "Wind Fairy Secret Dungeon",
+    "slug": "wind-fairy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      385
+    ]
+  },
+  {
+    "id": 1012,
+    "url": "https://swarfarm.com/api/v2/dungeons/1012/",
+    "enabled": true,
+    "name": "Dark Fairy Secret Dungeon",
+    "slug": "dark-fairy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      386
+    ]
+  },
+  {
+    "id": 1013,
+    "url": "https://swarfarm.com/api/v2/dungeons/1013/",
+    "enabled": true,
+    "name": "Water Imp Secret Dungeon",
+    "slug": "water-imp-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      387
+    ]
+  },
+  {
+    "id": 1014,
+    "url": "https://swarfarm.com/api/v2/dungeons/1014/",
+    "enabled": true,
+    "name": "Fire Imp Secret Dungeon",
+    "slug": "fire-imp-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      388
+    ]
+  },
+  {
+    "id": 1015,
+    "url": "https://swarfarm.com/api/v2/dungeons/1015/",
+    "enabled": true,
+    "name": "Wind Imp Secret Dungeon",
+    "slug": "wind-imp-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      389
+    ]
+  },
+  {
+    "id": 1016,
+    "url": "https://swarfarm.com/api/v2/dungeons/1016/",
+    "enabled": true,
+    "name": "Light Imp Secret Dungeon",
+    "slug": "light-imp-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      390
+    ]
+  },
+  {
+    "id": 1017,
+    "url": "https://swarfarm.com/api/v2/dungeons/1017/",
+    "enabled": true,
+    "name": "Dark Imp Secret Dungeon",
+    "slug": "dark-imp-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      391
+    ]
+  },
+  {
+    "id": 1018,
+    "url": "https://swarfarm.com/api/v2/dungeons/1018/",
+    "enabled": true,
+    "name": "Water Pixie Secret Dungeon",
+    "slug": "water-pixie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      392
+    ]
+  },
+  {
+    "id": 1019,
+    "url": "https://swarfarm.com/api/v2/dungeons/1019/",
+    "enabled": true,
+    "name": "Fire Pixie Secret Dungeon",
+    "slug": "fire-pixie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      393
+    ]
+  },
+  {
+    "id": 1020,
+    "url": "https://swarfarm.com/api/v2/dungeons/1020/",
+    "enabled": true,
+    "name": "Wind Pixie Secret Dungeon",
+    "slug": "wind-pixie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      394
+    ]
+  },
+  {
+    "id": 1021,
+    "url": "https://swarfarm.com/api/v2/dungeons/1021/",
+    "enabled": true,
+    "name": "Light Pixie Secret Dungeon",
+    "slug": "light-pixie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      395
+    ]
+  },
+  {
+    "id": 1022,
+    "url": "https://swarfarm.com/api/v2/dungeons/1022/",
+    "enabled": true,
+    "name": "Dark Pixie Secret Dungeon",
+    "slug": "dark-pixie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      396
+    ]
+  },
+  {
+    "id": 1023,
+    "url": "https://swarfarm.com/api/v2/dungeons/1023/",
+    "enabled": true,
+    "name": "Water Yeti Secret Dungeon",
+    "slug": "water-yeti-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      397
+    ]
+  },
+  {
+    "id": 1024,
+    "url": "https://swarfarm.com/api/v2/dungeons/1024/",
+    "enabled": true,
+    "name": "Fire Yeti Secret Dungeon",
+    "slug": "fire-yeti-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      398
+    ]
+  },
+  {
+    "id": 1025,
+    "url": "https://swarfarm.com/api/v2/dungeons/1025/",
+    "enabled": true,
+    "name": "Wind Yeti Secret Dungeon",
+    "slug": "wind-yeti-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      399
+    ]
+  },
+  {
+    "id": 1026,
+    "url": "https://swarfarm.com/api/v2/dungeons/1026/",
+    "enabled": true,
+    "name": "Light Yeti Secret Dungeon",
+    "slug": "light-yeti-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      400
+    ]
+  },
+  {
+    "id": 1027,
+    "url": "https://swarfarm.com/api/v2/dungeons/1027/",
+    "enabled": true,
+    "name": "Water Hellhound Secret Dungeon",
+    "slug": "water-hellhound-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      401
+    ]
+  },
+  {
+    "id": 1028,
+    "url": "https://swarfarm.com/api/v2/dungeons/1028/",
+    "enabled": true,
+    "name": "Fire Hellhound Secret Dungeon",
+    "slug": "fire-hellhound-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      402
+    ]
+  },
+  {
+    "id": 1029,
+    "url": "https://swarfarm.com/api/v2/dungeons/1029/",
+    "enabled": true,
+    "name": "Wind Hellhound Secret Dungeon",
+    "slug": "wind-hellhound-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      403
+    ]
+  },
+  {
+    "id": 1030,
+    "url": "https://swarfarm.com/api/v2/dungeons/1030/",
+    "enabled": true,
+    "name": "Light Hellhound Secret Dungeon",
+    "slug": "light-hellhound-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      404
+    ]
+  },
+  {
+    "id": 1031,
+    "url": "https://swarfarm.com/api/v2/dungeons/1031/",
+    "enabled": true,
+    "name": "Fire Warbear Secret Dungeon",
+    "slug": "fire-warbear-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      405
+    ]
+  },
+  {
+    "id": 1032,
+    "url": "https://swarfarm.com/api/v2/dungeons/1032/",
+    "enabled": true,
+    "name": "Wind Warbear Secret Dungeon",
+    "slug": "wind-warbear-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      406
+    ]
+  },
+  {
+    "id": 1033,
+    "url": "https://swarfarm.com/api/v2/dungeons/1033/",
+    "enabled": true,
+    "name": "Dark Warbear Secret Dungeon",
+    "slug": "dark-warbear-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      407
+    ]
+  },
+  {
+    "id": 1034,
+    "url": "https://swarfarm.com/api/v2/dungeons/1034/",
+    "enabled": true,
+    "name": "Water Elemental Secret Dungeon",
+    "slug": "water-elemental-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      408
+    ]
+  },
+  {
+    "id": 1035,
+    "url": "https://swarfarm.com/api/v2/dungeons/1035/",
+    "enabled": true,
+    "name": "Fire Elemental Secret Dungeon",
+    "slug": "fire-elemental-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      409
+    ]
+  },
+  {
+    "id": 1036,
+    "url": "https://swarfarm.com/api/v2/dungeons/1036/",
+    "enabled": true,
+    "name": "Wind Elemental Secret Dungeon",
+    "slug": "wind-elemental-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      410
+    ]
+  },
+  {
+    "id": 1037,
+    "url": "https://swarfarm.com/api/v2/dungeons/1037/",
+    "enabled": true,
+    "name": "Water Garuda Secret Dungeon",
+    "slug": "water-garuda-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      411
+    ]
+  },
+  {
+    "id": 1038,
+    "url": "https://swarfarm.com/api/v2/dungeons/1038/",
+    "enabled": true,
+    "name": "Fire Garuda Secret Dungeon",
+    "slug": "fire-garuda-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      412
+    ]
+  },
+  {
+    "id": 1039,
+    "url": "https://swarfarm.com/api/v2/dungeons/1039/",
+    "enabled": true,
+    "name": "Wind Garuda Secret Dungeon",
+    "slug": "wind-garuda-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      413
+    ]
+  },
+  {
+    "id": 1040,
+    "url": "https://swarfarm.com/api/v2/dungeons/1040/",
+    "enabled": true,
+    "name": "Dark Garuda Secret Dungeon",
+    "slug": "dark-garuda-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      414
+    ]
+  },
+  {
+    "id": 1041,
+    "url": "https://swarfarm.com/api/v2/dungeons/1041/",
+    "enabled": true,
+    "name": "Water Salamander Secret Dungeon",
+    "slug": "water-salamander-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      415
+    ]
+  },
+  {
+    "id": 1042,
+    "url": "https://swarfarm.com/api/v2/dungeons/1042/",
+    "enabled": true,
+    "name": "Wind Salamander Secret Dungeon",
+    "slug": "wind-salamander-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      416
+    ]
+  },
+  {
+    "id": 1043,
+    "url": "https://swarfarm.com/api/v2/dungeons/1043/",
+    "enabled": true,
+    "name": "Light Salamander Secret Dungeon",
+    "slug": "light-salamander-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      417
+    ]
+  },
+  {
+    "id": 1044,
+    "url": "https://swarfarm.com/api/v2/dungeons/1044/",
+    "enabled": true,
+    "name": "Dark Salamander Secret Dungeon",
+    "slug": "dark-salamander-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      418
+    ]
+  },
+  {
+    "id": 1045,
+    "url": "https://swarfarm.com/api/v2/dungeons/1045/",
+    "enabled": true,
+    "name": "Water Harpu Secret Dungeon",
+    "slug": "water-harpu-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      419
+    ]
+  },
+  {
+    "id": 1046,
+    "url": "https://swarfarm.com/api/v2/dungeons/1046/",
+    "enabled": true,
+    "name": "Fire Harpu Secret Dungeon",
+    "slug": "fire-harpu-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      420
+    ]
+  },
+  {
+    "id": 1047,
+    "url": "https://swarfarm.com/api/v2/dungeons/1047/",
+    "enabled": true,
+    "name": "Wind Harpu Secret Dungeon",
+    "slug": "wind-harpu-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      421
+    ]
+  },
+  {
+    "id": 1048,
+    "url": "https://swarfarm.com/api/v2/dungeons/1048/",
+    "enabled": true,
+    "name": "Water Howl Secret Dungeon",
+    "slug": "water-howl-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      422
+    ]
+  },
+  {
+    "id": 1049,
+    "url": "https://swarfarm.com/api/v2/dungeons/1049/",
+    "enabled": true,
+    "name": "Fire Howl Secret Dungeon",
+    "slug": "fire-howl-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      423
+    ]
+  },
+  {
+    "id": 1050,
+    "url": "https://swarfarm.com/api/v2/dungeons/1050/",
+    "enabled": true,
+    "name": "Wind Howl Secret Dungeon",
+    "slug": "wind-howl-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      424
+    ]
+  },
+  {
+    "id": 1051,
+    "url": "https://swarfarm.com/api/v2/dungeons/1051/",
+    "enabled": true,
+    "name": "Light Howl Secret Dungeon",
+    "slug": "light-howl-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      425
+    ]
+  },
+  {
+    "id": 1052,
+    "url": "https://swarfarm.com/api/v2/dungeons/1052/",
+    "enabled": true,
+    "name": "Dark Howl Secret Dungeon",
+    "slug": "dark-howl-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      426
+    ]
+  },
+  {
+    "id": 1053,
+    "url": "https://swarfarm.com/api/v2/dungeons/1053/",
+    "enabled": true,
+    "name": "Water Viking Secret Dungeon",
+    "slug": "water-viking-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      427
+    ]
+  },
+  {
+    "id": 1054,
+    "url": "https://swarfarm.com/api/v2/dungeons/1054/",
+    "enabled": true,
+    "name": "Fire Viking Secret Dungeon",
+    "slug": "fire-viking-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      428
+    ]
+  },
+  {
+    "id": 1055,
+    "url": "https://swarfarm.com/api/v2/dungeons/1055/",
+    "enabled": true,
+    "name": "Wind Viking Secret Dungeon",
+    "slug": "wind-viking-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      429
+    ]
+  },
+  {
+    "id": 1056,
+    "url": "https://swarfarm.com/api/v2/dungeons/1056/",
+    "enabled": true,
+    "name": "Light Viking Secret Dungeon",
+    "slug": "light-viking-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      430
+    ]
+  },
+  {
+    "id": 1057,
+    "url": "https://swarfarm.com/api/v2/dungeons/1057/",
+    "enabled": true,
+    "name": "Water Vagabond Secret Dungeon",
+    "slug": "water-vagabond-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      431
+    ]
+  },
+  {
+    "id": 1058,
+    "url": "https://swarfarm.com/api/v2/dungeons/1058/",
+    "enabled": true,
+    "name": "Wind Vagabond Secret Dungeon",
+    "slug": "wind-vagabond-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      432
+    ]
+  },
+  {
+    "id": 1059,
+    "url": "https://swarfarm.com/api/v2/dungeons/1059/",
+    "enabled": true,
+    "name": "Light Surprise Box Secret Dungeon",
+    "slug": "light-surprise-box-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      433
+    ]
+  },
+  {
+    "id": 1060,
+    "url": "https://swarfarm.com/api/v2/dungeons/1060/",
+    "enabled": true,
+    "name": "Dark Surprise Box Secret Dungeon",
+    "slug": "dark-surprise-box-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      434
+    ]
+  },
+  {
+    "id": 1061,
+    "url": "https://swarfarm.com/api/v2/dungeons/1061/",
+    "enabled": true,
+    "name": "Dark Monster Flower Secret Dungeon",
+    "slug": "dark-monster-flower-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      435
+    ]
+  },
+  {
+    "id": 1062,
+    "url": "https://swarfarm.com/api/v2/dungeons/1062/",
+    "enabled": true,
+    "name": "Light Varis Secret Dungeon",
+    "slug": "light-varis-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      436
+    ]
+  },
+  {
+    "id": 2001,
+    "url": "https://swarfarm.com/api/v2/dungeons/2001/",
+    "enabled": true,
+    "name": "Hall of Fire",
+    "slug": "hall-of-fire",
+    "category": "Cairos Dungeon",
+    "icon": "cairos_fire.png",
+    "levels": [
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314
+    ]
+  },
+  {
+    "id": 2011,
+    "url": "https://swarfarm.com/api/v2/dungeons/2011/",
+    "enabled": true,
+    "name": "Water Fairy Secret Dungeon",
+    "slug": "water-fairy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      437
+    ]
+  },
+  {
+    "id": 2012,
+    "url": "https://swarfarm.com/api/v2/dungeons/2012/",
+    "enabled": true,
+    "name": "Fire Fairy Secret Dungeon",
+    "slug": "fire-fairy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      438
+    ]
+  },
+  {
+    "id": 2013,
+    "url": "https://swarfarm.com/api/v2/dungeons/2013/",
+    "enabled": true,
+    "name": "Light Fairy Secret Dungeon",
+    "slug": "light-fairy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      439
+    ]
+  },
+  {
+    "id": 2014,
+    "url": "https://swarfarm.com/api/v2/dungeons/2014/",
+    "enabled": true,
+    "name": "Dark Yeti Secret Dungeon",
+    "slug": "dark-yeti-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      440
+    ]
+  },
+  {
+    "id": 2015,
+    "url": "https://swarfarm.com/api/v2/dungeons/2015/",
+    "enabled": true,
+    "name": "Water Harpy Secret Dungeon",
+    "slug": "water-harpy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      441
+    ]
+  },
+  {
+    "id": 2016,
+    "url": "https://swarfarm.com/api/v2/dungeons/2016/",
+    "enabled": true,
+    "name": "Fire Harpy Secret Dungeon",
+    "slug": "fire-harpy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      442
+    ]
+  },
+  {
+    "id": 2017,
+    "url": "https://swarfarm.com/api/v2/dungeons/2017/",
+    "enabled": true,
+    "name": "Wind Harpy Secret Dungeon",
+    "slug": "wind-harpy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      443
+    ]
+  },
+  {
+    "id": 2018,
+    "url": "https://swarfarm.com/api/v2/dungeons/2018/",
+    "enabled": true,
+    "name": "Light Harpy Secret Dungeon",
+    "slug": "light-harpy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      444
+    ]
+  },
+  {
+    "id": 2019,
+    "url": "https://swarfarm.com/api/v2/dungeons/2019/",
+    "enabled": true,
+    "name": "Dark Harpy Secret Dungeon",
+    "slug": "dark-harpy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      445
+    ]
+  },
+  {
+    "id": 2020,
+    "url": "https://swarfarm.com/api/v2/dungeons/2020/",
+    "enabled": true,
+    "name": "Dark Hellhound Secret Dungeon",
+    "slug": "dark-hellhound-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      446
+    ]
+  },
+  {
+    "id": 2021,
+    "url": "https://swarfarm.com/api/v2/dungeons/2021/",
+    "enabled": true,
+    "name": "Water Warbear Secret Dungeon",
+    "slug": "water-warbear-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      447
+    ]
+  },
+  {
+    "id": 2022,
+    "url": "https://swarfarm.com/api/v2/dungeons/2022/",
+    "enabled": true,
+    "name": "Light Warbear Secret Dungeon",
+    "slug": "light-warbear-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      448
+    ]
+  },
+  {
+    "id": 2023,
+    "url": "https://swarfarm.com/api/v2/dungeons/2023/",
+    "enabled": true,
+    "name": "Light Elemental Secret Dungeon",
+    "slug": "light-elemental-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      449
+    ]
+  },
+  {
+    "id": 2024,
+    "url": "https://swarfarm.com/api/v2/dungeons/2024/",
+    "enabled": true,
+    "name": "Dark Elemental Secret Dungeon",
+    "slug": "dark-elemental-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      450
+    ]
+  },
+  {
+    "id": 2025,
+    "url": "https://swarfarm.com/api/v2/dungeons/2025/",
+    "enabled": true,
+    "name": "Light Garuda Secret Dungeon",
+    "slug": "light-garuda-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      451
+    ]
+  },
+  {
+    "id": 2026,
+    "url": "https://swarfarm.com/api/v2/dungeons/2026/",
+    "enabled": true,
+    "name": "Water Inugami Secret Dungeon",
+    "slug": "water-inugami-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      452
+    ]
+  },
+  {
+    "id": 2027,
+    "url": "https://swarfarm.com/api/v2/dungeons/2027/",
+    "enabled": true,
+    "name": "Fire Inugami Secret Dungeon",
+    "slug": "fire-inugami-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      453
+    ]
+  },
+  {
+    "id": 2028,
+    "url": "https://swarfarm.com/api/v2/dungeons/2028/",
+    "enabled": true,
+    "name": "Wind Inugami Secret Dungeon",
+    "slug": "wind-inugami-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      454
+    ]
+  },
+  {
+    "id": 2029,
+    "url": "https://swarfarm.com/api/v2/dungeons/2029/",
+    "enabled": true,
+    "name": "Light Inugami Secret Dungeon",
+    "slug": "light-inugami-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      455
+    ]
+  },
+  {
+    "id": 2030,
+    "url": "https://swarfarm.com/api/v2/dungeons/2030/",
+    "enabled": true,
+    "name": "Dark Inugami Secret Dungeon",
+    "slug": "dark-inugami-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      456
+    ]
+  },
+  {
+    "id": 2031,
+    "url": "https://swarfarm.com/api/v2/dungeons/2031/",
+    "enabled": true,
+    "name": "Fire Salamander Secret Dungeon",
+    "slug": "fire-salamander-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      457
+    ]
+  },
+  {
+    "id": 2032,
+    "url": "https://swarfarm.com/api/v2/dungeons/2032/",
+    "enabled": true,
+    "name": "Water Serpent Secret Dungeon",
+    "slug": "water-serpent-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      458
+    ]
+  },
+  {
+    "id": 2033,
+    "url": "https://swarfarm.com/api/v2/dungeons/2033/",
+    "enabled": true,
+    "name": "Fire Serpent Secret Dungeon",
+    "slug": "fire-serpent-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      459
+    ]
+  },
+  {
+    "id": 2034,
+    "url": "https://swarfarm.com/api/v2/dungeons/2034/",
+    "enabled": true,
+    "name": "Wind Serpent Secret Dungeon",
+    "slug": "wind-serpent-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      460
+    ]
+  },
+  {
+    "id": 2035,
+    "url": "https://swarfarm.com/api/v2/dungeons/2035/",
+    "enabled": true,
+    "name": "Light Serpent Secret Dungeon",
+    "slug": "light-serpent-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      461
+    ]
+  },
+  {
+    "id": 2036,
+    "url": "https://swarfarm.com/api/v2/dungeons/2036/",
+    "enabled": true,
+    "name": "Dark Serpent Secret Dungeon",
+    "slug": "dark-serpent-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      462
+    ]
+  },
+  {
+    "id": 2037,
+    "url": "https://swarfarm.com/api/v2/dungeons/2037/",
+    "enabled": true,
+    "name": "Water Golem Secret Dungeon",
+    "slug": "water-golem-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      463
+    ]
+  },
+  {
+    "id": 2038,
+    "url": "https://swarfarm.com/api/v2/dungeons/2038/",
+    "enabled": true,
+    "name": "Fire Golem Secret Dungeon",
+    "slug": "fire-golem-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      464
+    ]
+  },
+  {
+    "id": 2039,
+    "url": "https://swarfarm.com/api/v2/dungeons/2039/",
+    "enabled": true,
+    "name": "Wind Golem Secret Dungeon",
+    "slug": "wind-golem-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      465
+    ]
+  },
+  {
+    "id": 2040,
+    "url": "https://swarfarm.com/api/v2/dungeons/2040/",
+    "enabled": true,
+    "name": "Light Golem Secret Dungeon",
+    "slug": "light-golem-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      466
+    ]
+  },
+  {
+    "id": 2041,
+    "url": "https://swarfarm.com/api/v2/dungeons/2041/",
+    "enabled": true,
+    "name": "Dark Golem Secret Dungeon",
+    "slug": "dark-golem-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      467
+    ]
+  },
+  {
+    "id": 2042,
+    "url": "https://swarfarm.com/api/v2/dungeons/2042/",
+    "enabled": true,
+    "name": "Water Griffon Secret Dungeon",
+    "slug": "water-griffon-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      468
+    ]
+  },
+  {
+    "id": 2043,
+    "url": "https://swarfarm.com/api/v2/dungeons/2043/",
+    "enabled": true,
+    "name": "Fire Griffon Secret Dungeon",
+    "slug": "fire-griffon-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      469
+    ]
+  },
+  {
+    "id": 2044,
+    "url": "https://swarfarm.com/api/v2/dungeons/2044/",
+    "enabled": true,
+    "name": "Wind Griffon Secret Dungeon",
+    "slug": "wind-griffon-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      470
+    ]
+  },
+  {
+    "id": 2045,
+    "url": "https://swarfarm.com/api/v2/dungeons/2045/",
+    "enabled": true,
+    "name": "Light Griffon Secret Dungeon",
+    "slug": "light-griffon-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      471
+    ]
+  },
+  {
+    "id": 2046,
+    "url": "https://swarfarm.com/api/v2/dungeons/2046/",
+    "enabled": true,
+    "name": "Dark Griffon Secret Dungeon",
+    "slug": "dark-griffon-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      472
+    ]
+  },
+  {
+    "id": 2047,
+    "url": "https://swarfarm.com/api/v2/dungeons/2047/",
+    "enabled": true,
+    "name": "Water Inferno Secret Dungeon",
+    "slug": "water-inferno-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      473
+    ]
+  },
+  {
+    "id": 2048,
+    "url": "https://swarfarm.com/api/v2/dungeons/2048/",
+    "enabled": true,
+    "name": "Fire Inferno Secret Dungeon",
+    "slug": "fire-inferno-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      474
+    ]
+  },
+  {
+    "id": 2049,
+    "url": "https://swarfarm.com/api/v2/dungeons/2049/",
+    "enabled": true,
+    "name": "Wind Inferno Secret Dungeon",
+    "slug": "wind-inferno-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      475
+    ]
+  },
+  {
+    "id": 2050,
+    "url": "https://swarfarm.com/api/v2/dungeons/2050/",
+    "enabled": true,
+    "name": "Light Inferno Secret Dungeon",
+    "slug": "light-inferno-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      476
+    ]
+  },
+  {
+    "id": 2051,
+    "url": "https://swarfarm.com/api/v2/dungeons/2051/",
+    "enabled": true,
+    "name": "Dark Inferno Secret Dungeon",
+    "slug": "dark-inferno-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      477
+    ]
+  },
+  {
+    "id": 2052,
+    "url": "https://swarfarm.com/api/v2/dungeons/2052/",
+    "enabled": true,
+    "name": "Water High Elemental Secret Dungeon",
+    "slug": "water-high-elemental-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      478
+    ]
+  },
+  {
+    "id": 2053,
+    "url": "https://swarfarm.com/api/v2/dungeons/2053/",
+    "enabled": true,
+    "name": "Fire High Elemental Secret Dungeon",
+    "slug": "fire-high-elemental-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      479
+    ]
+  },
+  {
+    "id": 2054,
+    "url": "https://swarfarm.com/api/v2/dungeons/2054/",
+    "enabled": true,
+    "name": "Wind High Elemental Secret Dungeon",
+    "slug": "wind-high-elemental-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      480
+    ]
+  },
+  {
+    "id": 2055,
+    "url": "https://swarfarm.com/api/v2/dungeons/2055/",
+    "enabled": true,
+    "name": "Light High Elemental Secret Dungeon",
+    "slug": "light-high-elemental-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      481
+    ]
+  },
+  {
+    "id": 2056,
+    "url": "https://swarfarm.com/api/v2/dungeons/2056/",
+    "enabled": true,
+    "name": "Dark High Elemental Secret Dungeon",
+    "slug": "dark-high-elemental-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      482
+    ]
+  },
+  {
+    "id": 2057,
+    "url": "https://swarfarm.com/api/v2/dungeons/2057/",
+    "enabled": true,
+    "name": "Light Harpu Secret Dungeon",
+    "slug": "light-harpu-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      483
+    ]
+  },
+  {
+    "id": 2058,
+    "url": "https://swarfarm.com/api/v2/dungeons/2058/",
+    "enabled": true,
+    "name": "Dark Harpu Secret Dungeon",
+    "slug": "dark-harpu-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      484
+    ]
+  },
+  {
+    "id": 2059,
+    "url": "https://swarfarm.com/api/v2/dungeons/2059/",
+    "enabled": true,
+    "name": "Water Bearman Secret Dungeon",
+    "slug": "water-bearman-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      485
+    ]
+  },
+  {
+    "id": 2060,
+    "url": "https://swarfarm.com/api/v2/dungeons/2060/",
+    "enabled": true,
+    "name": "Fire Bearman Secret Dungeon",
+    "slug": "fire-bearman-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      486
+    ]
+  },
+  {
+    "id": 2061,
+    "url": "https://swarfarm.com/api/v2/dungeons/2061/",
+    "enabled": true,
+    "name": "Wind Bearman Secret Dungeon",
+    "slug": "wind-bearman-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      487
+    ]
+  },
+  {
+    "id": 2062,
+    "url": "https://swarfarm.com/api/v2/dungeons/2062/",
+    "enabled": true,
+    "name": "Light Bearman Secret Dungeon",
+    "slug": "light-bearman-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      488
+    ]
+  },
+  {
+    "id": 2063,
+    "url": "https://swarfarm.com/api/v2/dungeons/2063/",
+    "enabled": true,
+    "name": "Dark Bearman Secret Dungeon",
+    "slug": "dark-bearman-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      489
+    ]
+  },
+  {
+    "id": 2064,
+    "url": "https://swarfarm.com/api/v2/dungeons/2064/",
+    "enabled": true,
+    "name": "Water Werewolf Secret Dungeon",
+    "slug": "water-werewolf-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      490
+    ]
+  },
+  {
+    "id": 2065,
+    "url": "https://swarfarm.com/api/v2/dungeons/2065/",
+    "enabled": true,
+    "name": "Fire Werewolf Secret Dungeon",
+    "slug": "fire-werewolf-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      491
+    ]
+  },
+  {
+    "id": 2066,
+    "url": "https://swarfarm.com/api/v2/dungeons/2066/",
+    "enabled": true,
+    "name": "Wind Werewolf Secret Dungeon",
+    "slug": "wind-werewolf-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      492
+    ]
+  },
+  {
+    "id": 2067,
+    "url": "https://swarfarm.com/api/v2/dungeons/2067/",
+    "enabled": true,
+    "name": "Light Werewolf Secret Dungeon",
+    "slug": "light-werewolf-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      493
+    ]
+  },
+  {
+    "id": 2068,
+    "url": "https://swarfarm.com/api/v2/dungeons/2068/",
+    "enabled": true,
+    "name": "Dark Werewolf Secret Dungeon",
+    "slug": "dark-werewolf-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      494
+    ]
+  },
+  {
+    "id": 2069,
+    "url": "https://swarfarm.com/api/v2/dungeons/2069/",
+    "enabled": true,
+    "name": "Dark Viking Secret Dungeon",
+    "slug": "dark-viking-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      495
+    ]
+  },
+  {
+    "id": 2070,
+    "url": "https://swarfarm.com/api/v2/dungeons/2070/",
+    "enabled": true,
+    "name": "Water Martial Cat Secret Dungeon",
+    "slug": "water-martial-cat-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      496
+    ]
+  },
+  {
+    "id": 2071,
+    "url": "https://swarfarm.com/api/v2/dungeons/2071/",
+    "enabled": true,
+    "name": "Fire Martial Cat Secret Dungeon",
+    "slug": "fire-martial-cat-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      497
+    ]
+  },
+  {
+    "id": 2072,
+    "url": "https://swarfarm.com/api/v2/dungeons/2072/",
+    "enabled": true,
+    "name": "Wind Martial Cat Secret Dungeon",
+    "slug": "wind-martial-cat-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      498
+    ]
+  },
+  {
+    "id": 2073,
+    "url": "https://swarfarm.com/api/v2/dungeons/2073/",
+    "enabled": true,
+    "name": "Light Martial Cat Secret Dungeon",
+    "slug": "light-martial-cat-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      499
+    ]
+  },
+  {
+    "id": 2074,
+    "url": "https://swarfarm.com/api/v2/dungeons/2074/",
+    "enabled": true,
+    "name": "Dark Martial Cat Secret Dungeon",
+    "slug": "dark-martial-cat-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      500
+    ]
+  },
+  {
+    "id": 2075,
+    "url": "https://swarfarm.com/api/v2/dungeons/2075/",
+    "enabled": true,
+    "name": "Fire Vagabond Secret Dungeon",
+    "slug": "fire-vagabond-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      501
+    ]
+  },
+  {
+    "id": 2076,
+    "url": "https://swarfarm.com/api/v2/dungeons/2076/",
+    "enabled": true,
+    "name": "Light Vagabond Secret Dungeon",
+    "slug": "light-vagabond-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      502
+    ]
+  },
+  {
+    "id": 2077,
+    "url": "https://swarfarm.com/api/v2/dungeons/2077/",
+    "enabled": true,
+    "name": "Dark Vagabond Secret Dungeon",
+    "slug": "dark-vagabond-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      503
+    ]
+  },
+  {
+    "id": 2078,
+    "url": "https://swarfarm.com/api/v2/dungeons/2078/",
+    "enabled": true,
+    "name": "Water Epikion Priest Secret Dungeon",
+    "slug": "water-epikion-priest-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      504
+    ]
+  },
+  {
+    "id": 2079,
+    "url": "https://swarfarm.com/api/v2/dungeons/2079/",
+    "enabled": true,
+    "name": "Wind Epikion Priest Secret Dungeon",
+    "slug": "wind-epikion-priest-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      505
+    ]
+  },
+  {
+    "id": 2080,
+    "url": "https://swarfarm.com/api/v2/dungeons/2080/",
+    "enabled": true,
+    "name": "Dark Epikion Priest Secret Dungeon",
+    "slug": "dark-epikion-priest-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      506
+    ]
+  },
+  {
+    "id": 2081,
+    "url": "https://swarfarm.com/api/v2/dungeons/2081/",
+    "enabled": true,
+    "name": "Water Magical Archer Secret Dungeon",
+    "slug": "water-magical-archer-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      507
+    ]
+  },
+  {
+    "id": 2082,
+    "url": "https://swarfarm.com/api/v2/dungeons/2082/",
+    "enabled": true,
+    "name": "Fire Magical Archer Secret Dungeon",
+    "slug": "fire-magical-archer-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      508
+    ]
+  },
+  {
+    "id": 2083,
+    "url": "https://swarfarm.com/api/v2/dungeons/2083/",
+    "enabled": true,
+    "name": "Wind Magical Archer Secret Dungeon",
+    "slug": "wind-magical-archer-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      509
+    ]
+  },
+  {
+    "id": 2084,
+    "url": "https://swarfarm.com/api/v2/dungeons/2084/",
+    "enabled": true,
+    "name": "Water Grim Reaper Secret Dungeon",
+    "slug": "water-grim-reaper-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      510
+    ]
+  },
+  {
+    "id": 2085,
+    "url": "https://swarfarm.com/api/v2/dungeons/2085/",
+    "enabled": true,
+    "name": "Fire Grim Reaper Secret Dungeon",
+    "slug": "fire-grim-reaper-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      511
+    ]
+  },
+  {
+    "id": 2086,
+    "url": "https://swarfarm.com/api/v2/dungeons/2086/",
+    "enabled": true,
+    "name": "Wind Grim Reaper Secret Dungeon",
+    "slug": "wind-grim-reaper-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      512
+    ]
+  },
+  {
+    "id": 2087,
+    "url": "https://swarfarm.com/api/v2/dungeons/2087/",
+    "enabled": true,
+    "name": "Light Grim Reaper Secret Dungeon",
+    "slug": "light-grim-reaper-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      513
+    ]
+  },
+  {
+    "id": 2088,
+    "url": "https://swarfarm.com/api/v2/dungeons/2088/",
+    "enabled": true,
+    "name": "Dark Grim Reaper Secret Dungeon",
+    "slug": "dark-grim-reaper-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      514
+    ]
+  },
+  {
+    "id": 2089,
+    "url": "https://swarfarm.com/api/v2/dungeons/2089/",
+    "enabled": true,
+    "name": "Water Amazon Secret Dungeon",
+    "slug": "water-amazon-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      515
+    ]
+  },
+  {
+    "id": 2090,
+    "url": "https://swarfarm.com/api/v2/dungeons/2090/",
+    "enabled": true,
+    "name": "Fire Amazon Secret Dungeon",
+    "slug": "fire-amazon-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      516
+    ]
+  },
+  {
+    "id": 2091,
+    "url": "https://swarfarm.com/api/v2/dungeons/2091/",
+    "enabled": true,
+    "name": "Wind Amazon Secret Dungeon",
+    "slug": "wind-amazon-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      517
+    ]
+  },
+  {
+    "id": 2092,
+    "url": "https://swarfarm.com/api/v2/dungeons/2092/",
+    "enabled": true,
+    "name": "Light Amazon Secret Dungeon",
+    "slug": "light-amazon-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      518
+    ]
+  },
+  {
+    "id": 2093,
+    "url": "https://swarfarm.com/api/v2/dungeons/2093/",
+    "enabled": true,
+    "name": "Dark Amazon Secret Dungeon",
+    "slug": "dark-amazon-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      519
+    ]
+  },
+  {
+    "id": 2094,
+    "url": "https://swarfarm.com/api/v2/dungeons/2094/",
+    "enabled": true,
+    "name": "Water Bounty Hunter Secret Dungeon",
+    "slug": "water-bounty-hunter-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      520
+    ]
+  },
+  {
+    "id": 2095,
+    "url": "https://swarfarm.com/api/v2/dungeons/2095/",
+    "enabled": true,
+    "name": "Fire Bounty Hunter Secret Dungeon",
+    "slug": "fire-bounty-hunter-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      521
+    ]
+  },
+  {
+    "id": 2096,
+    "url": "https://swarfarm.com/api/v2/dungeons/2096/",
+    "enabled": true,
+    "name": "Wind Bounty Hunter Secret Dungeon",
+    "slug": "wind-bounty-hunter-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      522
+    ]
+  },
+  {
+    "id": 2097,
+    "url": "https://swarfarm.com/api/v2/dungeons/2097/",
+    "enabled": true,
+    "name": "Light Bounty Hunter Secret Dungeon",
+    "slug": "light-bounty-hunter-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      523
+    ]
+  },
+  {
+    "id": 2098,
+    "url": "https://swarfarm.com/api/v2/dungeons/2098/",
+    "enabled": true,
+    "name": "Dark Bounty Hunter Secret Dungeon",
+    "slug": "dark-bounty-hunter-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      524
+    ]
+  },
+  {
+    "id": 2099,
+    "url": "https://swarfarm.com/api/v2/dungeons/2099/",
+    "enabled": true,
+    "name": "Water Living Armor Secret Dungeon",
+    "slug": "water-living-armor-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      525
+    ]
+  },
+  {
+    "id": 2100,
+    "url": "https://swarfarm.com/api/v2/dungeons/2100/",
+    "enabled": true,
+    "name": "Fire Living Armor Secret Dungeon",
+    "slug": "fire-living-armor-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      526
+    ]
+  },
+  {
+    "id": 2101,
+    "url": "https://swarfarm.com/api/v2/dungeons/2101/",
+    "enabled": true,
+    "name": "Wind Living Armor Secret Dungeon",
+    "slug": "wind-living-armor-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      527
+    ]
+  },
+  {
+    "id": 2102,
+    "url": "https://swarfarm.com/api/v2/dungeons/2102/",
+    "enabled": true,
+    "name": "Light Living Armor Secret Dungeon",
+    "slug": "light-living-armor-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      528
+    ]
+  },
+  {
+    "id": 2103,
+    "url": "https://swarfarm.com/api/v2/dungeons/2103/",
+    "enabled": true,
+    "name": "Dark Living Armor Secret Dungeon",
+    "slug": "dark-living-armor-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      529
+    ]
+  },
+  {
+    "id": 2104,
+    "url": "https://swarfarm.com/api/v2/dungeons/2104/",
+    "enabled": true,
+    "name": "Water Mystic Witch Secret Dungeon",
+    "slug": "water-mystic-witch-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      530
+    ]
+  },
+  {
+    "id": 2105,
+    "url": "https://swarfarm.com/api/v2/dungeons/2105/",
+    "enabled": true,
+    "name": "Fire Mystic Witch Secret Dungeon",
+    "slug": "fire-mystic-witch-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      531
+    ]
+  },
+  {
+    "id": 2106,
+    "url": "https://swarfarm.com/api/v2/dungeons/2106/",
+    "enabled": true,
+    "name": "Wind Mystic Witch Secret Dungeon",
+    "slug": "wind-mystic-witch-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      532
+    ]
+  },
+  {
+    "id": 2107,
+    "url": "https://swarfarm.com/api/v2/dungeons/2107/",
+    "enabled": true,
+    "name": "Light Mystic Witch Secret Dungeon",
+    "slug": "light-mystic-witch-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      533
+    ]
+  },
+  {
+    "id": 2108,
+    "url": "https://swarfarm.com/api/v2/dungeons/2108/",
+    "enabled": true,
+    "name": "Dark Mystic Witch Secret Dungeon",
+    "slug": "dark-mystic-witch-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      534
+    ]
+  },
+  {
+    "id": 2109,
+    "url": "https://swarfarm.com/api/v2/dungeons/2109/",
+    "enabled": true,
+    "name": "Water Drunken Master Secret Dungeon",
+    "slug": "water-drunken-master-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      535
+    ]
+  },
+  {
+    "id": 2110,
+    "url": "https://swarfarm.com/api/v2/dungeons/2110/",
+    "enabled": true,
+    "name": "Fire Drunken Master Secret Dungeon",
+    "slug": "fire-drunken-master-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      536
+    ]
+  },
+  {
+    "id": 2111,
+    "url": "https://swarfarm.com/api/v2/dungeons/2111/",
+    "enabled": true,
+    "name": "Wind Drunken Master Secret Dungeon",
+    "slug": "wind-drunken-master-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      537
+    ]
+  },
+  {
+    "id": 2112,
+    "url": "https://swarfarm.com/api/v2/dungeons/2112/",
+    "enabled": true,
+    "name": "Light Drunken Master Secret Dungeon",
+    "slug": "light-drunken-master-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      538
+    ]
+  },
+  {
+    "id": 2113,
+    "url": "https://swarfarm.com/api/v2/dungeons/2113/",
+    "enabled": true,
+    "name": "Dark Drunken Master Secret Dungeon",
+    "slug": "dark-drunken-master-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      539
+    ]
+  },
+  {
+    "id": 2114,
+    "url": "https://swarfarm.com/api/v2/dungeons/2114/",
+    "enabled": true,
+    "name": "Water Minotauros Secret Dungeon",
+    "slug": "water-minotauros-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      540
+    ]
+  },
+  {
+    "id": 2115,
+    "url": "https://swarfarm.com/api/v2/dungeons/2115/",
+    "enabled": true,
+    "name": "Fire Minotauros Secret Dungeon",
+    "slug": "fire-minotauros-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      541
+    ]
+  },
+  {
+    "id": 2116,
+    "url": "https://swarfarm.com/api/v2/dungeons/2116/",
+    "enabled": true,
+    "name": "Wind Minotauros Secret Dungeon",
+    "slug": "wind-minotauros-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      542
+    ]
+  },
+  {
+    "id": 2117,
+    "url": "https://swarfarm.com/api/v2/dungeons/2117/",
+    "enabled": true,
+    "name": "Light Minotauros Secret Dungeon",
+    "slug": "light-minotauros-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      543
+    ]
+  },
+  {
+    "id": 2118,
+    "url": "https://swarfarm.com/api/v2/dungeons/2118/",
+    "enabled": true,
+    "name": "Dark Minotauros Secret Dungeon",
+    "slug": "dark-minotauros-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      544
+    ]
+  },
+  {
+    "id": 2119,
+    "url": "https://swarfarm.com/api/v2/dungeons/2119/",
+    "enabled": true,
+    "name": "Water Lizardman Secret Dungeon",
+    "slug": "water-lizardman-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      545
+    ]
+  },
+  {
+    "id": 2120,
+    "url": "https://swarfarm.com/api/v2/dungeons/2120/",
+    "enabled": true,
+    "name": "Fire Lizardman Secret Dungeon",
+    "slug": "fire-lizardman-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      546
+    ]
+  },
+  {
+    "id": 2121,
+    "url": "https://swarfarm.com/api/v2/dungeons/2121/",
+    "enabled": true,
+    "name": "Wind Lizardman Secret Dungeon",
+    "slug": "wind-lizardman-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      547
+    ]
+  },
+  {
+    "id": 2122,
+    "url": "https://swarfarm.com/api/v2/dungeons/2122/",
+    "enabled": true,
+    "name": "Light Lizardman Secret Dungeon",
+    "slug": "light-lizardman-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      548
+    ]
+  },
+  {
+    "id": 2123,
+    "url": "https://swarfarm.com/api/v2/dungeons/2123/",
+    "enabled": true,
+    "name": "Dark Lizardman Secret Dungeon",
+    "slug": "dark-lizardman-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      549
+    ]
+  },
+  {
+    "id": 2124,
+    "url": "https://swarfarm.com/api/v2/dungeons/2124/",
+    "enabled": true,
+    "name": "Water Imp Champion Secret Dungeon",
+    "slug": "water-imp-champion-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      555
+    ]
+  },
+  {
+    "id": 2125,
+    "url": "https://swarfarm.com/api/v2/dungeons/2125/",
+    "enabled": true,
+    "name": "Fire Imp Champion Secret Dungeon",
+    "slug": "fire-imp-champion-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      556
+    ]
+  },
+  {
+    "id": 2126,
+    "url": "https://swarfarm.com/api/v2/dungeons/2126/",
+    "enabled": true,
+    "name": "Wind Imp Champion Secret Dungeon",
+    "slug": "wind-imp-champion-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      557
+    ]
+  },
+  {
+    "id": 2127,
+    "url": "https://swarfarm.com/api/v2/dungeons/2127/",
+    "enabled": true,
+    "name": "Light Imp Champion Secret Dungeon",
+    "slug": "light-imp-champion-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      558
+    ]
+  },
+  {
+    "id": 2128,
+    "url": "https://swarfarm.com/api/v2/dungeons/2128/",
+    "enabled": true,
+    "name": "Dark Imp Champion Secret Dungeon",
+    "slug": "dark-imp-champion-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      559
+    ]
+  },
+  {
+    "id": 2129,
+    "url": "https://swarfarm.com/api/v2/dungeons/2129/",
+    "enabled": true,
+    "name": "Water Beast Hunter Secret Dungeon",
+    "slug": "water-beast-hunter-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      560
+    ]
+  },
+  {
+    "id": 2130,
+    "url": "https://swarfarm.com/api/v2/dungeons/2130/",
+    "enabled": true,
+    "name": "Fire Beast Hunter Secret Dungeon",
+    "slug": "fire-beast-hunter-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      561
+    ]
+  },
+  {
+    "id": 2131,
+    "url": "https://swarfarm.com/api/v2/dungeons/2131/",
+    "enabled": true,
+    "name": "Wind Beast Hunter Secret Dungeon",
+    "slug": "wind-beast-hunter-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      562
+    ]
+  },
+  {
+    "id": 2132,
+    "url": "https://swarfarm.com/api/v2/dungeons/2132/",
+    "enabled": true,
+    "name": "Light Beast Hunter Secret Dungeon",
+    "slug": "light-beast-hunter-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      563
+    ]
+  },
+  {
+    "id": 2133,
+    "url": "https://swarfarm.com/api/v2/dungeons/2133/",
+    "enabled": true,
+    "name": "Dark Beast Hunter Secret Dungeon",
+    "slug": "dark-beast-hunter-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      564
+    ]
+  },
+  {
+    "id": 2134,
+    "url": "https://swarfarm.com/api/v2/dungeons/2134/",
+    "enabled": true,
+    "name": "Fire Taoist Secret Dungeon",
+    "slug": "fire-taoist-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      565
+    ]
+  },
+  {
+    "id": 2135,
+    "url": "https://swarfarm.com/api/v2/dungeons/2135/",
+    "enabled": true,
+    "name": "Dark Taoist Secret Dungeon",
+    "slug": "dark-taoist-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      566
+    ]
+  },
+  {
+    "id": 2136,
+    "url": "https://swarfarm.com/api/v2/dungeons/2136/",
+    "enabled": true,
+    "name": "Water Penguin Knight Secret Dungeon",
+    "slug": "water-penguin-knight-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      567
+    ]
+  },
+  {
+    "id": 2137,
+    "url": "https://swarfarm.com/api/v2/dungeons/2137/",
+    "enabled": true,
+    "name": "Fire Penguin Knight Secret Dungeon",
+    "slug": "fire-penguin-knight-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      568
+    ]
+  },
+  {
+    "id": 2138,
+    "url": "https://swarfarm.com/api/v2/dungeons/2138/",
+    "enabled": true,
+    "name": "Wind Penguin Knight Secret Dungeon",
+    "slug": "wind-penguin-knight-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      569
+    ]
+  },
+  {
+    "id": 2139,
+    "url": "https://swarfarm.com/api/v2/dungeons/2139/",
+    "enabled": true,
+    "name": "Light Penguin Knight Secret Dungeon",
+    "slug": "light-penguin-knight-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      570
+    ]
+  },
+  {
+    "id": 2140,
+    "url": "https://swarfarm.com/api/v2/dungeons/2140/",
+    "enabled": true,
+    "name": "Dark Penguin Knight Secret Dungeon",
+    "slug": "dark-penguin-knight-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      571
+    ]
+  },
+  {
+    "id": 2141,
+    "url": "https://swarfarm.com/api/v2/dungeons/2141/",
+    "enabled": true,
+    "name": "Water Battle Mammoth Secret Dungeon",
+    "slug": "water-battle-mammoth-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      572
+    ]
+  },
+  {
+    "id": 2142,
+    "url": "https://swarfarm.com/api/v2/dungeons/2142/",
+    "enabled": true,
+    "name": "Fire Battle Mammoth Secret Dungeon",
+    "slug": "fire-battle-mammoth-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      573
+    ]
+  },
+  {
+    "id": 2143,
+    "url": "https://swarfarm.com/api/v2/dungeons/2143/",
+    "enabled": true,
+    "name": "Wind Battle Mammoth Secret Dungeon",
+    "slug": "wind-battle-mammoth-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      574
+    ]
+  },
+  {
+    "id": 2144,
+    "url": "https://swarfarm.com/api/v2/dungeons/2144/",
+    "enabled": true,
+    "name": "Light Battle Mammoth Secret Dungeon",
+    "slug": "light-battle-mammoth-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      575
+    ]
+  },
+  {
+    "id": 2145,
+    "url": "https://swarfarm.com/api/v2/dungeons/2145/",
+    "enabled": true,
+    "name": "Dark Battle Mammoth Secret Dungeon",
+    "slug": "dark-battle-mammoth-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      576
+    ]
+  },
+  {
+    "id": 2146,
+    "url": "https://swarfarm.com/api/v2/dungeons/2146/",
+    "enabled": true,
+    "name": "Water Charger Shark Secret Dungeon",
+    "slug": "water-charger-shark-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      577
+    ]
+  },
+  {
+    "id": 2147,
+    "url": "https://swarfarm.com/api/v2/dungeons/2147/",
+    "enabled": true,
+    "name": "Fire Charger Shark Secret Dungeon",
+    "slug": "fire-charger-shark-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      578
+    ]
+  },
+  {
+    "id": 2148,
+    "url": "https://swarfarm.com/api/v2/dungeons/2148/",
+    "enabled": true,
+    "name": "Wind Charger Shark Secret Dungeon",
+    "slug": "wind-charger-shark-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      579
+    ]
+  },
+  {
+    "id": 2149,
+    "url": "https://swarfarm.com/api/v2/dungeons/2149/",
+    "enabled": true,
+    "name": "Light Charger Shark Secret Dungeon",
+    "slug": "light-charger-shark-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      580
+    ]
+  },
+  {
+    "id": 2150,
+    "url": "https://swarfarm.com/api/v2/dungeons/2150/",
+    "enabled": true,
+    "name": "Dark Charger Shark Secret Dungeon",
+    "slug": "dark-charger-shark-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      581
+    ]
+  },
+  {
+    "id": 2151,
+    "url": "https://swarfarm.com/api/v2/dungeons/2151/",
+    "enabled": true,
+    "name": "Water Martial Artist Secret Dungeon",
+    "slug": "water-martial-artist-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      582
+    ]
+  },
+  {
+    "id": 2152,
+    "url": "https://swarfarm.com/api/v2/dungeons/2152/",
+    "enabled": true,
+    "name": "Fire Martial Artist Secret Dungeon",
+    "slug": "fire-martial-artist-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      583
+    ]
+  },
+  {
+    "id": 2153,
+    "url": "https://swarfarm.com/api/v2/dungeons/2153/",
+    "enabled": true,
+    "name": "Wind Martial Artist Secret Dungeon",
+    "slug": "wind-martial-artist-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      584
+    ]
+  },
+  {
+    "id": 2154,
+    "url": "https://swarfarm.com/api/v2/dungeons/2154/",
+    "enabled": true,
+    "name": "Light Martial Artist Secret Dungeon",
+    "slug": "light-martial-artist-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      585
+    ]
+  },
+  {
+    "id": 2155,
+    "url": "https://swarfarm.com/api/v2/dungeons/2155/",
+    "enabled": true,
+    "name": "Dark Martial Artist Secret Dungeon",
+    "slug": "dark-martial-artist-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      586
+    ]
+  },
+  {
+    "id": 2156,
+    "url": "https://swarfarm.com/api/v2/dungeons/2156/",
+    "enabled": true,
+    "name": "Water Jack-o'-lantern Secret Dungeon",
+    "slug": "water-jack-o-lantern-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      587
+    ]
+  },
+  {
+    "id": 2157,
+    "url": "https://swarfarm.com/api/v2/dungeons/2157/",
+    "enabled": true,
+    "name": "Fire Jack-o'-lantern Secret Dungeon",
+    "slug": "fire-jack-o-lantern-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      588
+    ]
+  },
+  {
+    "id": 2158,
+    "url": "https://swarfarm.com/api/v2/dungeons/2158/",
+    "enabled": true,
+    "name": "Wind Jack-o'-lantern Secret Dungeon",
+    "slug": "wind-jack-o-lantern-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      589
+    ]
+  },
+  {
+    "id": 2159,
+    "url": "https://swarfarm.com/api/v2/dungeons/2159/",
+    "enabled": true,
+    "name": "Light Jack-o'-lantern Secret Dungeon",
+    "slug": "light-jack-o-lantern-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      590
+    ]
+  },
+  {
+    "id": 2160,
+    "url": "https://swarfarm.com/api/v2/dungeons/2160/",
+    "enabled": true,
+    "name": "Dark Jack-o'-lantern Secret Dungeon",
+    "slug": "dark-jack-o-lantern-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      591
+    ]
+  },
+  {
+    "id": 2161,
+    "url": "https://swarfarm.com/api/v2/dungeons/2161/",
+    "enabled": true,
+    "name": "Water Frankenstein Secret Dungeon",
+    "slug": "water-frankenstein-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      592
+    ]
+  },
+  {
+    "id": 2162,
+    "url": "https://swarfarm.com/api/v2/dungeons/2162/",
+    "enabled": true,
+    "name": "Fire Frankenstein Secret Dungeon",
+    "slug": "fire-frankenstein-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      593
+    ]
+  },
+  {
+    "id": 2163,
+    "url": "https://swarfarm.com/api/v2/dungeons/2163/",
+    "enabled": true,
+    "name": "Wind Frankenstein Secret Dungeon",
+    "slug": "wind-frankenstein-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      594
+    ]
+  },
+  {
+    "id": 2164,
+    "url": "https://swarfarm.com/api/v2/dungeons/2164/",
+    "enabled": true,
+    "name": "Light Frankenstein Secret Dungeon",
+    "slug": "light-frankenstein-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      595
+    ]
+  },
+  {
+    "id": 2165,
+    "url": "https://swarfarm.com/api/v2/dungeons/2165/",
+    "enabled": true,
+    "name": "Dark Frankenstein Secret Dungeon",
+    "slug": "dark-frankenstein-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      596
+    ]
+  },
+  {
+    "id": 2166,
+    "url": "https://swarfarm.com/api/v2/dungeons/2166/",
+    "enabled": true,
+    "name": "Water Mummy Secret Dungeon",
+    "slug": "water-mummy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      597
+    ]
+  },
+  {
+    "id": 2167,
+    "url": "https://swarfarm.com/api/v2/dungeons/2167/",
+    "enabled": true,
+    "name": "Fire Mummy Secret Dungeon",
+    "slug": "fire-mummy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      598
+    ]
+  },
+  {
+    "id": 2168,
+    "url": "https://swarfarm.com/api/v2/dungeons/2168/",
+    "enabled": true,
+    "name": "Wind Mummy Secret Dungeon",
+    "slug": "wind-mummy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      599
+    ]
+  },
+  {
+    "id": 2169,
+    "url": "https://swarfarm.com/api/v2/dungeons/2169/",
+    "enabled": true,
+    "name": "Light Mummy Secret Dungeon",
+    "slug": "light-mummy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      600
+    ]
+  },
+  {
+    "id": 2170,
+    "url": "https://swarfarm.com/api/v2/dungeons/2170/",
+    "enabled": true,
+    "name": "Dark Mummy Secret Dungeon",
+    "slug": "dark-mummy-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      601
+    ]
+  },
+  {
+    "id": 2171,
+    "url": "https://swarfarm.com/api/v2/dungeons/2171/",
+    "enabled": true,
+    "name": "Water Elven Ranger Secret Dungeon",
+    "slug": "water-elven-ranger-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      602
+    ]
+  },
+  {
+    "id": 2172,
+    "url": "https://swarfarm.com/api/v2/dungeons/2172/",
+    "enabled": true,
+    "name": "Fire Elven Ranger Secret Dungeon",
+    "slug": "fire-elven-ranger-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      603
+    ]
+  },
+  {
+    "id": 2173,
+    "url": "https://swarfarm.com/api/v2/dungeons/2173/",
+    "enabled": true,
+    "name": "Wind Elven Ranger Secret Dungeon",
+    "slug": "wind-elven-ranger-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      604
+    ]
+  },
+  {
+    "id": 2174,
+    "url": "https://swarfarm.com/api/v2/dungeons/2174/",
+    "enabled": true,
+    "name": "Light Elven Ranger Secret Dungeon",
+    "slug": "light-elven-ranger-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      605
+    ]
+  },
+  {
+    "id": 2175,
+    "url": "https://swarfarm.com/api/v2/dungeons/2175/",
+    "enabled": true,
+    "name": "Water Cow Girl Secret Dungeon",
+    "slug": "water-cow-girl-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      606
+    ]
+  },
+  {
+    "id": 2176,
+    "url": "https://swarfarm.com/api/v2/dungeons/2176/",
+    "enabled": true,
+    "name": "Fire Cow Girl Secret Dungeon",
+    "slug": "fire-cow-girl-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      607
+    ]
+  },
+  {
+    "id": 2177,
+    "url": "https://swarfarm.com/api/v2/dungeons/2177/",
+    "enabled": true,
+    "name": "Wind Cow Girl Secret Dungeon",
+    "slug": "wind-cow-girl-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      608
+    ]
+  },
+  {
+    "id": 2178,
+    "url": "https://swarfarm.com/api/v2/dungeons/2178/",
+    "enabled": true,
+    "name": "Light Cow Girl Secret Dungeon",
+    "slug": "light-cow-girl-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      609
+    ]
+  },
+  {
+    "id": 2179,
+    "url": "https://swarfarm.com/api/v2/dungeons/2179/",
+    "enabled": true,
+    "name": "Dark Cow Girl Secret Dungeon",
+    "slug": "dark-cow-girl-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      610
+    ]
+  },
+  {
+    "id": 2180,
+    "url": "https://swarfarm.com/api/v2/dungeons/2180/",
+    "enabled": true,
+    "name": "Light Fairy Queen Secret Dungeon",
+    "slug": "light-fairy-queen-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      611
+    ]
+  },
+  {
+    "id": 3001,
+    "url": "https://swarfarm.com/api/v2/dungeons/3001/",
+    "enabled": true,
+    "name": "Hall of Water",
+    "slug": "hall-of-water",
+    "category": "Cairos Dungeon",
+    "icon": "cairos_water.png",
+    "levels": [
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324
+    ]
+  },
+  {
+    "id": 3011,
+    "url": "https://swarfarm.com/api/v2/dungeons/3011/",
+    "enabled": true,
+    "name": "Dark Ghost Secret Dungeon",
+    "slug": "dark-ghost-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      550
+    ]
+  },
+  {
+    "id": 3012,
+    "url": "https://swarfarm.com/api/v2/dungeons/3012/",
+    "enabled": true,
+    "name": "Dark Mimic Secret Dungeon",
+    "slug": "dark-mimic-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      551
+    ]
+  },
+  {
+    "id": 3013,
+    "url": "https://swarfarm.com/api/v2/dungeons/3013/",
+    "enabled": true,
+    "name": "Dark Horned Frog Secret Dungeon",
+    "slug": "dark-horned-frog-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      552
+    ]
+  },
+  {
+    "id": 3014,
+    "url": "https://swarfarm.com/api/v2/dungeons/3014/",
+    "enabled": true,
+    "name": "Dark Sandman Secret Dungeon",
+    "slug": "dark-sandman-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      553
+    ]
+  },
+  {
+    "id": 3015,
+    "url": "https://swarfarm.com/api/v2/dungeons/3015/",
+    "enabled": true,
+    "name": "Dark Low Elemental Secret Dungeon",
+    "slug": "dark-low-elemental-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      554
+    ]
+  },
+  {
+    "id": 4001,
+    "url": "https://swarfarm.com/api/v2/dungeons/4001/",
+    "enabled": true,
+    "name": "Hall of Wind",
+    "slug": "hall-of-wind",
+    "category": "Cairos Dungeon",
+    "icon": "cairos_wind.png",
+    "levels": [
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334
+    ]
+  },
+  {
+    "id": 5001,
+    "url": "https://swarfarm.com/api/v2/dungeons/5001/",
+    "enabled": true,
+    "name": "Hall of Magic",
+    "slug": "hall-of-magic",
+    "category": "Cairos Dungeon",
+    "icon": "cairos_magic.png",
+    "levels": [
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344
+    ]
+  },
+  {
+    "id": 6001,
+    "url": "https://swarfarm.com/api/v2/dungeons/6001/",
+    "enabled": true,
+    "name": "Necropolis",
+    "slug": "necropolis",
+    "category": "Cairos Dungeon",
+    "icon": "lich_wind.png",
+    "levels": [
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      686,
+      687
+    ]
+  },
+  {
+    "id": 7001,
+    "url": "https://swarfarm.com/api/v2/dungeons/7001/",
+    "enabled": true,
+    "name": "Hall of Light",
+    "slug": "hall-of-light",
+    "category": "Cairos Dungeon",
+    "icon": "cairos_light.png",
+    "levels": [
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354
+    ]
+  },
+  {
+    "id": 8001,
+    "url": "https://swarfarm.com/api/v2/dungeons/8001/",
+    "enabled": true,
+    "name": "Giant's Keep",
+    "slug": "giants-keep",
+    "category": "Cairos Dungeon",
+    "icon": "giant_water.png",
+    "levels": [
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      684,
+      685
+    ]
+  },
+  {
+    "id": 9001,
+    "url": "https://swarfarm.com/api/v2/dungeons/9001/",
+    "enabled": true,
+    "name": "Dragon's Lair",
+    "slug": "dragons-lair",
+    "category": "Cairos Dungeon",
+    "icon": "dragon_fire.png",
+    "levels": [
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      691,
+      694
+    ]
+  },
+  {
+    "id": 9002,
+    "url": "https://swarfarm.com/api/v2/dungeons/9002/",
+    "enabled": true,
+    "name": "Ice Beast",
+    "slug": "ice-beast",
+    "category": "Rift Beast",
+    "icon": "rift_water.png",
+    "levels": [
+      612
+    ]
+  },
+  {
+    "id": 9003,
+    "url": "https://swarfarm.com/api/v2/dungeons/9003/",
+    "enabled": true,
+    "name": "Fire Beast",
+    "slug": "fire-beast",
+    "category": "Rift Beast",
+    "icon": "rift_fire.png",
+    "levels": [
+      613
+    ]
+  },
+  {
+    "id": 9004,
+    "url": "https://swarfarm.com/api/v2/dungeons/9004/",
+    "enabled": true,
+    "name": "Wind Beast",
+    "slug": "wind-beast",
+    "category": "Rift Beast",
+    "icon": "rift_wind.png",
+    "levels": [
+      614
+    ]
+  },
+  {
+    "id": 9005,
+    "url": "https://swarfarm.com/api/v2/dungeons/9005/",
+    "enabled": true,
+    "name": "Light Beast",
+    "slug": "light-beast",
+    "category": "Rift Beast",
+    "icon": "rift_light.png",
+    "levels": [
+      615
+    ]
+  },
+  {
+    "id": 9006,
+    "url": "https://swarfarm.com/api/v2/dungeons/9006/",
+    "enabled": true,
+    "name": "Dark Beast",
+    "slug": "dark-beast",
+    "category": "Rift Beast",
+    "icon": "rift_dark.png",
+    "levels": [
+      616
+    ]
+  },
+  {
+    "id": 9007,
+    "url": "https://swarfarm.com/api/v2/dungeons/9007/",
+    "enabled": true,
+    "name": "Rift Raid",
+    "slug": "rift-raid",
+    "category": "Rift Raid",
+    "icon": "rift_raid.png",
+    "levels": [
+      617,
+      618,
+      619,
+      620,
+      621
+    ]
+  },
+  {
+    "id": 9008,
+    "url": "https://swarfarm.com/api/v2/dungeons/9008/",
+    "enabled": true,
+    "name": "World Boss",
+    "slug": "world-boss",
+    "category": "World Boss",
+    "icon": "world_boss.png",
+    "levels": [
+      622
+    ]
+  },
+  {
+    "id": 9009,
+    "url": "https://swarfarm.com/api/v2/dungeons/9009/",
+    "enabled": false,
+    "name": "Devilmon Cave",
+    "slug": "devilmon-cave",
+    "category": "Cairos Dungeon",
+    "icon": "",
+    "levels": [
+      623
+    ]
+  },
+  {
+    "id": 9010,
+    "url": "https://swarfarm.com/api/v2/dungeons/9010/",
+    "enabled": false,
+    "name": "UNKNOWN DUNGEON",
+    "slug": "unknown-dungeon",
+    "category": "Cairos Dungeon",
+    "icon": "",
+    "levels": [
+      624,
+      625,
+      626
+    ]
+  },
+  {
+    "id": 9011,
+    "url": "https://swarfarm.com/api/v2/dungeons/9011/",
+    "enabled": true,
+    "name": "Sanctuary of Dreaming Fairies",
+    "slug": "sanctuary-of-dreaming-fairies",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0051_0_4.png",
+    "levels": [
+      627,
+      628,
+      629,
+      630,
+      631
+    ]
+  },
+  {
+    "id": 9012,
+    "url": "https://swarfarm.com/api/v2/dungeons/9012/",
+    "enabled": true,
+    "name": "Ellunia Remains - Fairy",
+    "slug": "ellunia-remains-fairy",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0051_3_0.png",
+    "levels": [
+      632,
+      633,
+      634,
+      635,
+      636
+    ]
+  },
+  {
+    "id": 9013,
+    "url": "https://swarfarm.com/api/v2/dungeons/9013/",
+    "enabled": true,
+    "name": "Ellunia Remains - Pixie",
+    "slug": "ellunia-remains-pixie",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0051_0_1.png",
+    "levels": [
+      637,
+      638,
+      639,
+      640,
+      641
+    ]
+  },
+  {
+    "id": 9014,
+    "url": "https://swarfarm.com/api/v2/dungeons/9014/",
+    "enabled": true,
+    "name": "Forest of Roaring Beasts",
+    "slug": "forest-of-roaring-beasts",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0051_1_4.png",
+    "levels": [
+      642,
+      643,
+      644,
+      645,
+      646
+    ]
+  },
+  {
+    "id": 9015,
+    "url": "https://swarfarm.com/api/v2/dungeons/9015/",
+    "enabled": true,
+    "name": "Karzhan Remains - Warbear",
+    "slug": "karzhan-remains-warbear",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0051_1_2.png",
+    "levels": [
+      647,
+      648,
+      649,
+      650,
+      651
+    ]
+  },
+  {
+    "id": 9016,
+    "url": "https://swarfarm.com/api/v2/dungeons/9016/",
+    "enabled": true,
+    "name": "Karzhan Remains - Inugami",
+    "slug": "karzhan-remains-inugami",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0051_4_3.png",
+    "levels": [
+      652,
+      653,
+      654,
+      655,
+      656
+    ]
+  },
+  {
+    "id": 9017,
+    "url": "https://swarfarm.com/api/v2/dungeons/9017/",
+    "enabled": true,
+    "name": "Cliff of Tough Beast Men",
+    "slug": "cliff-of-tough-beast-men",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0053_2_0.png",
+    "levels": [
+      657,
+      658,
+      659,
+      660,
+      661
+    ]
+  },
+  {
+    "id": 9018,
+    "url": "https://swarfarm.com/api/v2/dungeons/9018/",
+    "enabled": true,
+    "name": "Lumel Remains - Werewolf",
+    "slug": "lumel-remains-werewolf",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0053_1_1.png",
+    "levels": [
+      662,
+      663,
+      664,
+      665,
+      666
+    ]
+  },
+  {
+    "id": 9019,
+    "url": "https://swarfarm.com/api/v2/dungeons/9019/",
+    "enabled": true,
+    "name": "Lumel Remains - Martial Cat",
+    "slug": "lumel-remains-martial-cat",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0053_2_2.png",
+    "levels": [
+      667,
+      668,
+      669,
+      670,
+      671
+    ]
+  },
+  {
+    "id": 9020,
+    "url": "https://swarfarm.com/api/v2/dungeons/9020/",
+    "enabled": true,
+    "name": "Karzhan Remains - Griffon",
+    "slug": "karzhan-remains-griffon",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0055_0_2.png",
+    "levels": [
+      672,
+      676,
+      673,
+      675,
+      674
+    ]
+  },
+  {
+    "id": 9775,
+    "url": "https://swarfarm.com/api/v2/dungeons/9775/",
+    "enabled": false,
+    "name": "UNKNOWN DUNGEON",
+    "slug": "unknown-dungeon",
+    "category": "Cairos Dungeon",
+    "icon": "",
+    "levels": [
+      678,
+      679,
+      677
+    ]
+  },
+  {
+    "id": 9776,
+    "url": "https://swarfarm.com/api/v2/dungeons/9776/",
+    "enabled": false,
+    "name": "UNKNOWN DUNGEON",
+    "slug": "unknown-dungeon",
+    "category": "Cairos Dungeon",
+    "icon": "",
+    "levels": [
+      680,
+      683,
+      681
+    ]
+  },
+  {
+    "id": 9777,
+    "url": "https://swarfarm.com/api/v2/dungeons/9777/",
+    "enabled": false,
+    "name": "UNKNOWN DUNGEON",
+    "slug": "unknown-dungeon",
+    "category": "Cairos Dungeon",
+    "icon": "",
+    "levels": [
+      682
+    ]
+  },
+  {
+    "id": 9778,
+    "url": "https://swarfarm.com/api/v2/dungeons/9778/",
+    "enabled": true,
+    "name": "Steel Fortress",
+    "slug": "steel-fortress",
+    "category": "Cairos Dungeon",
+    "icon": "ancient_tormentor.png",
+    "levels": [
+      688,
+      689,
+      690,
+      692,
+      693,
+      704,
+      706,
+      707,
+      708,
+      703
+    ]
+  },
+  {
+    "id": 9779,
+    "url": "https://swarfarm.com/api/v2/dungeons/9779/",
+    "enabled": true,
+    "name": "Punisher's Crypt",
+    "slug": "punishers-crypt",
+    "category": "Cairos Dungeon",
+    "icon": "ancient_punisher.png",
+    "levels": [
+      695,
+      696,
+      697,
+      698,
+      699,
+      700,
+      701,
+      702,
+      709,
+      705
+    ]
+  },
+  {
+    "id": 9780,
+    "url": "https://swarfarm.com/api/v2/dungeons/9780/",
+    "enabled": true,
+    "name": "Dimension Predator",
+    "slug": "dimension-predator",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0058_0_9.png",
+    "levels": [
+      710
+    ]
+  },
+  {
+    "id": 9781,
+    "url": "https://swarfarm.com/api/v2/dungeons/9781/",
+    "enabled": true,
+    "name": "Dimension Predator",
+    "slug": "dimension-predator",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0058_0_9.png",
+    "levels": [
+      711
+    ]
+  },
+  {
+    "id": 9782,
+    "url": "https://swarfarm.com/api/v2/dungeons/9782/",
+    "enabled": true,
+    "name": "Dimension Predator",
+    "slug": "dimension-predator",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0058_0_9.png",
+    "levels": [
+      712
+    ]
+  },
+  {
+    "id": 9783,
+    "url": "https://swarfarm.com/api/v2/dungeons/9783/",
+    "enabled": true,
+    "name": "Light RYU Secret Dungeon",
+    "slug": "light-ryu-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      713
+    ]
+  },
+  {
+    "id": 9784,
+    "url": "https://swarfarm.com/api/v2/dungeons/9784/",
+    "enabled": true,
+    "name": "Fire M. BISON Secret Dungeon",
+    "slug": "fire-m-bison-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      714
+    ]
+  },
+  {
+    "id": 9785,
+    "url": "https://swarfarm.com/api/v2/dungeons/9785/",
+    "enabled": true,
+    "name": "Wind DHALSIM Secret Dungeon",
+    "slug": "wind-dhalsim-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      715
+    ]
+  },
+  {
+    "id": 9786,
+    "url": "https://swarfarm.com/api/v2/dungeons/9786/",
+    "enabled": true,
+    "name": "Water CHUN-LI Secret Dungeon",
+    "slug": "water-chun-li-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      716
+    ]
+  },
+  {
+    "id": 9787,
+    "url": "https://swarfarm.com/api/v2/dungeons/9787/",
+    "enabled": true,
+    "name": "Light Talisman Secret Dungeon",
+    "slug": "light-talisman-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      717
+    ]
+  },
+  {
+    "id": 9788,
+    "url": "https://swarfarm.com/api/v2/dungeons/9788/",
+    "enabled": true,
+    "name": "Fire Karnal Secret Dungeon",
+    "slug": "fire-karnal-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      718
+    ]
+  },
+  {
+    "id": 9789,
+    "url": "https://swarfarm.com/api/v2/dungeons/9789/",
+    "enabled": true,
+    "name": "Wind Jarrett Secret Dungeon",
+    "slug": "wind-jarrett-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      719
+    ]
+  },
+  {
+    "id": 9790,
+    "url": "https://swarfarm.com/api/v2/dungeons/9790/",
+    "enabled": true,
+    "name": "Water Lariel Secret Dungeon",
+    "slug": "water-lariel-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      720
+    ]
+  },
+  {
+    "id": 9791,
+    "url": "https://swarfarm.com/api/v2/dungeons/9791/",
+    "enabled": true,
+    "name": "Khalderun Remains - Grim Reaper",
+    "slug": "khalderun-remains-grim-reaper",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0071_3_4.png",
+    "levels": [
+      721,
+      723,
+      727,
+      732,
+      733
+    ]
+  },
+  {
+    "id": 9792,
+    "url": "https://swarfarm.com/api/v2/dungeons/9792/",
+    "enabled": true,
+    "name": "Khalderun Remains - Howl",
+    "slug": "khalderun-remains-howl",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0070_3_0.png",
+    "levels": [
+      722,
+      724,
+      726,
+      730,
+      734
+    ]
+  },
+  {
+    "id": 9793,
+    "url": "https://swarfarm.com/api/v2/dungeons/9793/",
+    "enabled": true,
+    "name": "Ruin of Silent Death",
+    "slug": "ruin-of-silent-death",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0069_0_0.png",
+    "levels": [
+      725,
+      728,
+      729,
+      731,
+      735
+    ]
+  },
+  {
+    "id": 9794,
+    "url": "https://swarfarm.com/api/v2/dungeons/9794/",
+    "enabled": true,
+    "name": "Dimension Predator",
+    "slug": "dimension-predator",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0058_0_9.png",
+    "levels": [
+      736
+    ]
+  },
+  {
+    "id": 9795,
+    "url": "https://swarfarm.com/api/v2/dungeons/9795/",
+    "enabled": true,
+    "name": "Ellunia Remains - High Elemental",
+    "slug": "ellunia-remains-high-elemental",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0074_3_5.png",
+    "levels": [
+      737,
+      738,
+      739,
+      740,
+      741
+    ]
+  },
+  {
+    "id": 9796,
+    "url": "https://swarfarm.com/api/v2/dungeons/9796/",
+    "enabled": true,
+    "name": "Sacreon Remains - Mystic Witch",
+    "slug": "sacreon-remains-mystic-witch",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0083_3_4.png",
+    "levels": [
+      742,
+      743,
+      744,
+      745,
+      746
+    ]
+  },
+  {
+    "id": 9797,
+    "url": "https://swarfarm.com/api/v2/dungeons/9797/",
+    "enabled": true,
+    "name": "Sacreon Remains - Vagabond",
+    "slug": "sacreon-remains-vagabond",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0082_3_2.png",
+    "levels": [
+      747,
+      748,
+      749,
+      750,
+      751
+    ]
+  },
+  {
+    "id": 9798,
+    "url": "https://swarfarm.com/api/v2/dungeons/9798/",
+    "enabled": true,
+    "name": "Castle of Forgotten Heroes",
+    "slug": "castle-of-forgotten-heroes",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0084_0_0.png",
+    "levels": [
+      752,
+      753,
+      754,
+      755,
+      756
+    ]
+  },
+  {
+    "id": 9799,
+    "url": "https://swarfarm.com/api/v2/dungeons/9799/",
+    "enabled": true,
+    "name": "Dimension Predator",
+    "slug": "dimension-predator",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0058_0_9.png",
+    "levels": [
+      757
+    ]
+  },
+  {
+    "id": 9800,
+    "url": "https://swarfarm.com/api/v2/dungeons/9800/",
+    "enabled": false,
+    "name": "Water Pure Vanilla Cookie Secret Dungeon",
+    "slug": "water-pure-vanilla-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      758
+    ]
+  },
+  {
+    "id": 9801,
+    "url": "https://swarfarm.com/api/v2/dungeons/9801/",
+    "enabled": false,
+    "name": "Fire Hollyberry Cookie Secret Dungeon",
+    "slug": "fire-hollyberry-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      759
+    ]
+  },
+  {
+    "id": 9802,
+    "url": "https://swarfarm.com/api/v2/dungeons/9802/",
+    "enabled": false,
+    "name": "Wind Espresso Cookie Secret Dungeon",
+    "slug": "wind-espresso-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      760
+    ]
+  },
+  {
+    "id": 9803,
+    "url": "https://swarfarm.com/api/v2/dungeons/9803/",
+    "enabled": false,
+    "name": "Light Madeleine Cookie Secret Dungeon",
+    "slug": "light-madeleine-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      761
+    ]
+  },
+  {
+    "id": 9804,
+    "url": "https://swarfarm.com/api/v2/dungeons/9804/",
+    "enabled": false,
+    "name": "Dark Pure Vanilla Cookie Secret Dungeon",
+    "slug": "dark-pure-vanilla-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      762
+    ]
+  },
+  {
+    "id": 9805,
+    "url": "https://swarfarm.com/api/v2/dungeons/9805/",
+    "enabled": false,
+    "name": "Water Hollyberry Cookie Secret Dungeon",
+    "slug": "water-hollyberry-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      763
+    ]
+  },
+  {
+    "id": 9806,
+    "url": "https://swarfarm.com/api/v2/dungeons/9806/",
+    "enabled": false,
+    "name": "Fire Espresso Cookie Secret Dungeon",
+    "slug": "fire-espresso-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      764
+    ]
+  },
+  {
+    "id": 9807,
+    "url": "https://swarfarm.com/api/v2/dungeons/9807/",
+    "enabled": false,
+    "name": "Wind Madeleine Cookie Secret Dungeon",
+    "slug": "wind-madeleine-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      765
+    ]
+  },
+  {
+    "id": 9808,
+    "url": "https://swarfarm.com/api/v2/dungeons/9808/",
+    "enabled": false,
+    "name": "Light Pure Vanilla Cookie Secret Dungeon",
+    "slug": "light-pure-vanilla-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      766
+    ]
+  },
+  {
+    "id": 9809,
+    "url": "https://swarfarm.com/api/v2/dungeons/9809/",
+    "enabled": false,
+    "name": "Dark Hollyberry Cookie Secret Dungeon",
+    "slug": "dark-hollyberry-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      767
+    ]
+  },
+  {
+    "id": 9810,
+    "url": "https://swarfarm.com/api/v2/dungeons/9810/",
+    "enabled": false,
+    "name": "Water Espresso Cookie Secret Dungeon",
+    "slug": "water-espresso-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      768
+    ]
+  },
+  {
+    "id": 9811,
+    "url": "https://swarfarm.com/api/v2/dungeons/9811/",
+    "enabled": false,
+    "name": "Fire Madeleine Cookie Secret Dungeon",
+    "slug": "fire-madeleine-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      769
+    ]
+  },
+  {
+    "id": 9812,
+    "url": "https://swarfarm.com/api/v2/dungeons/9812/",
+    "enabled": false,
+    "name": "Wind Pure Vanilla Cookie Secret Dungeon",
+    "slug": "wind-pure-vanilla-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      770
+    ]
+  },
+  {
+    "id": 9813,
+    "url": "https://swarfarm.com/api/v2/dungeons/9813/",
+    "enabled": false,
+    "name": "Light Hollyberry Cookie Secret Dungeon",
+    "slug": "light-hollyberry-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      771
+    ]
+  },
+  {
+    "id": 9814,
+    "url": "https://swarfarm.com/api/v2/dungeons/9814/",
+    "enabled": false,
+    "name": "Dark Espresso Cookie Secret Dungeon",
+    "slug": "dark-espresso-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      772
+    ]
+  },
+  {
+    "id": 9815,
+    "url": "https://swarfarm.com/api/v2/dungeons/9815/",
+    "enabled": false,
+    "name": "Water Madeleine Cookie Secret Dungeon",
+    "slug": "water-madeleine-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      773
+    ]
+  },
+  {
+    "id": 9816,
+    "url": "https://swarfarm.com/api/v2/dungeons/9816/",
+    "enabled": false,
+    "name": "Fire Pure Vanilla Cookie Secret Dungeon",
+    "slug": "fire-pure-vanilla-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      774
+    ]
+  },
+  {
+    "id": 9817,
+    "url": "https://swarfarm.com/api/v2/dungeons/9817/",
+    "enabled": false,
+    "name": "Wind Hollyberry Cookie Secret Dungeon",
+    "slug": "wind-hollyberry-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      775
+    ]
+  },
+  {
+    "id": 9818,
+    "url": "https://swarfarm.com/api/v2/dungeons/9818/",
+    "enabled": false,
+    "name": "Light Espresso Cookie Secret Dungeon",
+    "slug": "light-espresso-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      776
+    ]
+  },
+  {
+    "id": 9819,
+    "url": "https://swarfarm.com/api/v2/dungeons/9819/",
+    "enabled": false,
+    "name": "Dark Madeleine Cookie Secret Dungeon",
+    "slug": "dark-madeleine-cookie-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      777
+    ]
+  },
+  {
+    "id": 9820,
+    "url": "https://swarfarm.com/api/v2/dungeons/9820/",
+    "enabled": false,
+    "name": "Water Adriana Secret Dungeon",
+    "slug": "water-adriana-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      778
+    ]
+  },
+  {
+    "id": 9821,
+    "url": "https://swarfarm.com/api/v2/dungeons/9821/",
+    "enabled": false,
+    "name": "Fire Alice Secret Dungeon",
+    "slug": "fire-alice-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      779
+    ]
+  },
+  {
+    "id": 9822,
+    "url": "https://swarfarm.com/api/v2/dungeons/9822/",
+    "enabled": false,
+    "name": "Wind Chamomile Secret Dungeon",
+    "slug": "wind-chamomile-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      780
+    ]
+  },
+  {
+    "id": 9823,
+    "url": "https://swarfarm.com/api/v2/dungeons/9823/",
+    "enabled": false,
+    "name": "Light Fudge Secret Dungeon",
+    "slug": "light-fudge-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      781
+    ]
+  },
+  {
+    "id": 9824,
+    "url": "https://swarfarm.com/api/v2/dungeons/9824/",
+    "enabled": false,
+    "name": "Dark Elena Secret Dungeon",
+    "slug": "dark-elena-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      782
+    ]
+  },
+  {
+    "id": 9825,
+    "url": "https://swarfarm.com/api/v2/dungeons/9825/",
+    "enabled": false,
+    "name": "Water Manon Secret Dungeon",
+    "slug": "water-manon-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      783
+    ]
+  },
+  {
+    "id": 9826,
+    "url": "https://swarfarm.com/api/v2/dungeons/9826/",
+    "enabled": false,
+    "name": "Fire Hibiscus Secret Dungeon",
+    "slug": "fire-hibiscus-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      784
+    ]
+  },
+  {
+    "id": 9827,
+    "url": "https://swarfarm.com/api/v2/dungeons/9827/",
+    "enabled": false,
+    "name": "Wind Praline Secret Dungeon",
+    "slug": "wind-praline-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      785
+    ]
+  },
+  {
+    "id": 9828,
+    "url": "https://swarfarm.com/api/v2/dungeons/9828/",
+    "enabled": false,
+    "name": "Light Ariana Secret Dungeon",
+    "slug": "light-ariana-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      786
+    ]
+  },
+  {
+    "id": 9829,
+    "url": "https://swarfarm.com/api/v2/dungeons/9829/",
+    "enabled": false,
+    "name": "Dark Giselle Secret Dungeon",
+    "slug": "dark-giselle-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      787
+    ]
+  },
+  {
+    "id": 9830,
+    "url": "https://swarfarm.com/api/v2/dungeons/9830/",
+    "enabled": false,
+    "name": "Water Rosemary Secret Dungeon",
+    "slug": "water-rosemary-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      788
+    ]
+  },
+  {
+    "id": 9831,
+    "url": "https://swarfarm.com/api/v2/dungeons/9831/",
+    "enabled": false,
+    "name": "Fire Pavé Secret Dungeon",
+    "slug": "fire-pave-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      789
+    ]
+  },
+  {
+    "id": 9832,
+    "url": "https://swarfarm.com/api/v2/dungeons/9832/",
+    "enabled": false,
+    "name": "Wind Angela Secret Dungeon",
+    "slug": "wind-angela-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      790
+    ]
+  },
+  {
+    "id": 9833,
+    "url": "https://swarfarm.com/api/v2/dungeons/9833/",
+    "enabled": false,
+    "name": "Light Audrey Secret Dungeon",
+    "slug": "light-audrey-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      791
+    ]
+  },
+  {
+    "id": 9834,
+    "url": "https://swarfarm.com/api/v2/dungeons/9834/",
+    "enabled": false,
+    "name": "Dark Lavender Secret Dungeon",
+    "slug": "dark-lavender-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      792
+    ]
+  },
+  {
+    "id": 9835,
+    "url": "https://swarfarm.com/api/v2/dungeons/9835/",
+    "enabled": false,
+    "name": "Water Ganache Secret Dungeon",
+    "slug": "water-ganache-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      793
+    ]
+  },
+  {
+    "id": 9836,
+    "url": "https://swarfarm.com/api/v2/dungeons/9836/",
+    "enabled": false,
+    "name": "Fire Lucia Secret Dungeon",
+    "slug": "fire-lucia-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      794
+    ]
+  },
+  {
+    "id": 9837,
+    "url": "https://swarfarm.com/api/v2/dungeons/9837/",
+    "enabled": false,
+    "name": "Wind Jade Secret Dungeon",
+    "slug": "wind-jade-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      795
+    ]
+  },
+  {
+    "id": 9838,
+    "url": "https://swarfarm.com/api/v2/dungeons/9838/",
+    "enabled": false,
+    "name": "Light Jasmine Secret Dungeon",
+    "slug": "light-jasmine-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      796
+    ]
+  },
+  {
+    "id": 9839,
+    "url": "https://swarfarm.com/api/v2/dungeons/9839/",
+    "enabled": false,
+    "name": "Dark Truffle Secret Dungeon",
+    "slug": "dark-truffle-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      797
+    ]
+  },
+  {
+    "id": 9840,
+    "url": "https://swarfarm.com/api/v2/dungeons/9840/",
+    "enabled": true,
+    "name": "Giant's Keep (Abyss)",
+    "slug": "giants-keep-abyss",
+    "category": "Cairos Dungeon",
+    "icon": "giant_water.png",
+    "levels": [
+      798,
+      799
+    ]
+  },
+  {
+    "id": 9841,
+    "url": "https://swarfarm.com/api/v2/dungeons/9841/",
+    "enabled": true,
+    "name": "Dragon's Lair (Abyss)",
+    "slug": "dragons-lair-abyss",
+    "category": "Cairos Dungeon",
+    "icon": "dragon_fire.png",
+    "levels": [
+      800,
+      801
+    ]
+  },
+  {
+    "id": 9842,
+    "url": "https://swarfarm.com/api/v2/dungeons/9842/",
+    "enabled": true,
+    "name": "Spiritual Realm",
+    "slug": "spiritual-realm",
+    "category": "Cairos Dungeon",
+    "icon": "spiritual_realm.png",
+    "levels": [
+      802,
+      803,
+      804,
+      805,
+      806,
+      807,
+      808,
+      809,
+      810,
+      811
+    ]
+  },
+  {
+    "id": 9843,
+    "url": "https://swarfarm.com/api/v2/dungeons/9843/",
+    "enabled": true,
+    "name": "Necropolis (Abyss)",
+    "slug": "necropolis-abyss",
+    "category": "Cairos Dungeon",
+    "icon": "lich_wind.png",
+    "levels": [
+      812,
+      813
+    ]
+  },
+  {
+    "id": 9844,
+    "url": "https://swarfarm.com/api/v2/dungeons/9844/",
+    "enabled": true,
+    "name": "Khalderun Remains - Frankenstein",
+    "slug": "khalderun-remains-frankenstein",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0126_3_3.png",
+    "levels": [
+      814,
+      815,
+      816,
+      817,
+      818
+    ]
+  },
+  {
+    "id": 9845,
+    "url": "https://swarfarm.com/api/v2/dungeons/9845/",
+    "enabled": true,
+    "name": "Khalderun Remains - Living Armor",
+    "slug": "khalderun-remains-living-armor",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0125_3_4.png",
+    "levels": [
+      819,
+      820,
+      821,
+      822,
+      823
+    ]
+  },
+  {
+    "id": 9846,
+    "url": "https://swarfarm.com/api/v2/dungeons/9846/",
+    "enabled": true,
+    "name": "Ellunia Remains - Raid",
+    "slug": "ellunia-remains-raid",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0058_0_10.png",
+    "levels": [
+      824,
+      825,
+      838,
+      839,
+      837
+    ]
+  },
+  {
+    "id": 9847,
+    "url": "https://swarfarm.com/api/v2/dungeons/9847/",
+    "enabled": true,
+    "name": "Karzhan Remains - Raid",
+    "slug": "karzhan-remains-raid",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0058_0_10.png",
+    "levels": [
+      826,
+      827,
+      835,
+      834,
+      836
+    ]
+  },
+  {
+    "id": 9848,
+    "url": "https://swarfarm.com/api/v2/dungeons/9848/",
+    "enabled": true,
+    "name": "Lumel Remains - Raid",
+    "slug": "lumel-remains-raid",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0058_0_10.png",
+    "levels": [
+      828,
+      829,
+      840,
+      841,
+      842
+    ]
+  },
+  {
+    "id": 9849,
+    "url": "https://swarfarm.com/api/v2/dungeons/9849/",
+    "enabled": true,
+    "name": "Khalderun Remains - Raid",
+    "slug": "khalderun-remains-raid",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0058_0_10.png",
+    "levels": [
+      830,
+      831,
+      843,
+      844,
+      845
+    ]
+  },
+  {
+    "id": 9850,
+    "url": "https://swarfarm.com/api/v2/dungeons/9850/",
+    "enabled": true,
+    "name": "Sacreon Remains - Raid",
+    "slug": "sacreon-remains-raid",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0058_0_10.png",
+    "levels": [
+      832,
+      833,
+      846,
+      847,
+      848
+    ]
+  },
+  {
+    "id": 9851,
+    "url": "https://swarfarm.com/api/v2/dungeons/9851/",
+    "enabled": true,
+    "name": "Spiritual Realm (Abyss)",
+    "slug": "spiritual-realm-abyss",
+    "category": "Cairos Dungeon",
+    "icon": "spiritual_realm.png",
+    "levels": [
+      850,
+      849
+    ]
+  },
+  {
+    "id": 9852,
+    "url": "https://swarfarm.com/api/v2/dungeons/9852/",
+    "enabled": true,
+    "name": "Steel Fortress (Abyss)",
+    "slug": "steel-fortress-abyss",
+    "category": "Cairos Dungeon",
+    "icon": "ancient_tormentor.png",
+    "levels": [
+      851,
+      852
+    ]
+  },
+  {
+    "id": 9853,
+    "url": "https://swarfarm.com/api/v2/dungeons/9853/",
+    "enabled": false,
+    "name": "UNKNOWN DUNGEON",
+    "slug": "unknown-dungeon",
+    "category": "Cairos Dungeon",
+    "icon": "",
+    "levels": [
+      853,
+      854
+    ]
+  },
+  {
+    "id": 9854,
+    "url": "https://swarfarm.com/api/v2/dungeons/9854/",
+    "enabled": true,
+    "name": "Lumel Remains - Harpu",
+    "slug": "lumel-remains-harpu",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0160_3_1.png",
+    "levels": [
+      855,
+      856,
+      857,
+      858,
+      859
+    ]
+  },
+  {
+    "id": 9855,
+    "url": "https://swarfarm.com/api/v2/dungeons/9855/",
+    "enabled": false,
+    "name": "Rift Raid",
+    "slug": "rift-raid",
+    "category": "Rift Raid",
+    "icon": "",
+    "levels": [
+      860,
+      861,
+      862,
+      863,
+      864
+    ]
+  },
+  {
+    "id": 9856,
+    "url": "https://swarfarm.com/api/v2/dungeons/9856/",
+    "enabled": false,
+    "name": "Rift Raid",
+    "slug": "rift-raid",
+    "category": "Rift Raid",
+    "icon": "",
+    "levels": [
+      865,
+      866,
+      867,
+      868,
+      869
+    ]
+  },
+  {
+    "id": 9857,
+    "url": "https://swarfarm.com/api/v2/dungeons/9857/",
+    "enabled": false,
+    "name": "Rift Raid",
+    "slug": "rift-raid",
+    "category": "Rift Raid",
+    "icon": "",
+    "levels": [
+      870,
+      871,
+      872,
+      873,
+      874
+    ]
+  },
+  {
+    "id": 9858,
+    "url": "https://swarfarm.com/api/v2/dungeons/9858/",
+    "enabled": true,
+    "name": "Hellground of Raging Fires",
+    "slug": "hellground-of-raging-fires",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0213_1_2.png",
+    "levels": [
+      875,
+      876,
+      877,
+      878,
+      879
+    ]
+  },
+  {
+    "id": 9859,
+    "url": "https://swarfarm.com/api/v2/dungeons/9859/",
+    "enabled": true,
+    "name": "Inferath Remains - Inferno",
+    "slug": "inferath-remains-inferno",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0212_3_2.png",
+    "levels": [
+      880,
+      881,
+      882,
+      883,
+      884
+    ]
+  },
+  {
+    "id": 9860,
+    "url": "https://swarfarm.com/api/v2/dungeons/9860/",
+    "enabled": true,
+    "name": "Inferath Remains - Hellhound",
+    "slug": "inferath-remains-hellhound",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0211_3_3.png",
+    "levels": [
+      885,
+      886,
+      887,
+      888,
+      889
+    ]
+  },
+  {
+    "id": 9861,
+    "url": "https://swarfarm.com/api/v2/dungeons/9861/",
+    "enabled": true,
+    "name": "Inferath Remains - Raid",
+    "slug": "inferath-remains-raid",
+    "category": "Dimensional Hole",
+    "icon": "unit_icon_0058_0_10.png",
+    "levels": [
+      890,
+      891,
+      892,
+      893,
+      894
+    ]
+  },
+  {
+    "id": 9862,
+    "url": "https://swarfarm.com/api/v2/dungeons/9862/",
+    "enabled": false,
+    "name": "Water Mystic Witch Secret Dungeon",
+    "slug": "water-mystic-witch-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      895
+    ]
+  },
+  {
+    "id": 9863,
+    "url": "https://swarfarm.com/api/v2/dungeons/9863/",
+    "enabled": false,
+    "name": "Fire Frankenstein Secret Dungeon",
+    "slug": "fire-frankenstein-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      896
+    ]
+  },
+  {
+    "id": 9864,
+    "url": "https://swarfarm.com/api/v2/dungeons/9864/",
+    "enabled": false,
+    "name": "Wind Imp Champion Secret Dungeon",
+    "slug": "wind-imp-champion-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      897
+    ]
+  },
+  {
+    "id": 9865,
+    "url": "https://swarfarm.com/api/v2/dungeons/9865/",
+    "enabled": false,
+    "name": "Light Garuda Secret Dungeon",
+    "slug": "light-garuda-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      898
+    ]
+  },
+  {
+    "id": 9866,
+    "url": "https://swarfarm.com/api/v2/dungeons/9866/",
+    "enabled": false,
+    "name": "Dark Werewolf Secret Dungeon",
+    "slug": "dark-werewolf-secret-dungeon",
+    "category": "Secret Dungeon",
+    "icon": "",
+    "levels": [
+      899
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "steel-fortress-abyss-hard": {
+    "display_name": "Steel Fortress (Abyss) Hard",
+    "source": "manual",
+    "dungeon_slug": "steel-fortress-abyss",
+    "floor": 2,
+    "level_id": 852,
+    "notes": "Swarfarm level exists but has no waves. Manual values required.",
+    "max_enemy_speed": 150,
+    "max_enemy_resistance": 40,
+    "wave_clear_targets": [
+      {
+        "wave_number": 1,
+        "monster_id": 1742,
+        "hp": 23775,
+        "attack": 0,
+        "defense": 1425,
+        "speed": 135,
+        "resistance": 40,
+        "accuracy_bonus": 0
+      },
+      {
+        "wave_number": 3,
+        "monster_id": 1742,
+        "hp": 23775,
+        "attack": 0,
+        "defense": 1425,
+        "speed": 135,
+        "resistance": 40,
+        "accuracy_bonus": 0
+      }
+    ],
+    "boss_targets": []
+  },
+  "punishers-crypt-abyss-hard": {
+    "display_name": "Punisher's Crypt (Abyss) Hard",
+    "source": "manual",
+    "dungeon_slug": "punishers-crypt",
+    "floor": 10,
+    "level_id": 705,
+    "notes": "No separate Swarfarm Abyss dungeon found. Manual values based on external notes.",
+    "max_enemy_speed": 175,
+    "max_enemy_resistance": 54,
+    "wave_clear_targets": [
+      {
+        "wave_number": 1,
+        "monster_id": 1744,
+        "hp": 26445,
+        "attack": 0,
+        "defense": 1402,
+        "speed": 170,
+        "resistance": 54,
+        "accuracy_bonus": 0
+      },
+      {
+        "wave_number": 3,
+        "monster_id": 1744,
+        "hp": 26445,
+        "attack": 0,
+        "defense": 1402,
+        "speed": 170,
+        "resistance": 54,
+        "accuracy_bonus": 0
+      }
+    ],
+    "boss_targets": []
+  }
+}

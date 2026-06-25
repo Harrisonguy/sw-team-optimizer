@@ -1,0 +1,35 @@
+@"
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets / local config
+.env
+.env.*
+*.key
+*.pem
+
+# Personal Summoners War exports
+uuboram-*.json
+swex*.json
+account*.json
+
+# Generated output / builds
+dist/
+build/
+*.log
+
+# Local app data
+feedback.json
+
+# OS / editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore

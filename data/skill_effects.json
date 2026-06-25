@@ -1,0 +1,1235 @@
+[
+  {
+    "id": 1,
+    "url": "https://swarfarm.com/api/v2/skill-effects/1/",
+    "name": "Increase ATK",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The target's Attack Power will be increased by 50%.",
+    "icon_filename": "buff_attack_up.png"
+  },
+  {
+    "id": 2,
+    "url": "https://swarfarm.com/api/v2/skill-effects/2/",
+    "name": "Increase DEF",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The target's defense will be increased by 70%.",
+    "icon_filename": "buff_defence_up.png"
+  },
+  {
+    "id": 3,
+    "url": "https://swarfarm.com/api/v2/skill-effects/3/",
+    "name": "Increase CRI Rate",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The target's Critical Rate will be increased by 30%.",
+    "icon_filename": "buff_crit_up.png"
+  },
+  {
+    "id": 4,
+    "url": "https://swarfarm.com/api/v2/skill-effects/4/",
+    "name": "Increase CRI Resist",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "Critical Hit Rate against the monster is reduced by 50%",
+    "icon_filename": "buff_crit_down.png"
+  },
+  {
+    "id": 5,
+    "url": "https://swarfarm.com/api/v2/skill-effects/5/",
+    "name": "Increase ATK SPD",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The target's Attack Speed will be increased by 30%.",
+    "icon_filename": "buff_speed.png"
+  },
+  {
+    "id": 6,
+    "url": "https://swarfarm.com/api/v2/skill-effects/6/",
+    "name": "Recovery",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The target's HP will be recovered by 15% on each turn.",
+    "icon_filename": "buff_heal.png"
+  },
+  {
+    "id": 7,
+    "url": "https://swarfarm.com/api/v2/skill-effects/7/",
+    "name": "Counter",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "When attacked, the target will counterattack to inflict 75% of the Attack Power as damage.",
+    "icon_filename": "buff_counter.png"
+  },
+  {
+    "id": 9,
+    "url": "https://swarfarm.com/api/v2/skill-effects/9/",
+    "name": "Immunity",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The target will gain immunity against all harmful effects.",
+    "icon_filename": "buff_immune.png"
+  },
+  {
+    "id": 10,
+    "url": "https://swarfarm.com/api/v2/skill-effects/10/",
+    "name": "Invincible",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The target will be invincible and receive no damage.",
+    "icon_filename": "buff_invinciblity.png"
+  },
+  {
+    "id": 11,
+    "url": "https://swarfarm.com/api/v2/skill-effects/11/",
+    "name": "Reflect DMG",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The target will return 30% of the incoming damage to the attacker when attacked.",
+    "icon_filename": "buff_reflect.png"
+  },
+  {
+    "id": 12,
+    "url": "https://swarfarm.com/api/v2/skill-effects/12/",
+    "name": "Shield",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The Shield will absorb a fixed amount of damage.",
+    "icon_filename": "buff_shield.png"
+  },
+  {
+    "id": 13,
+    "url": "https://swarfarm.com/api/v2/skill-effects/13/",
+    "name": "Endure",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The target's HP will not drop below 1 even when attacked.",
+    "icon_filename": "buff_endure.png"
+  },
+  {
+    "id": 14,
+    "url": "https://swarfarm.com/api/v2/skill-effects/14/",
+    "name": "Defend",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The caster of this skill will receive half of the damage inflicted on the escorted target while making the damage dealt to the defended target to 0 and counterattack the enemy target.",
+    "icon_filename": "buff_protect.png"
+  },
+  {
+    "id": 15,
+    "url": "https://swarfarm.com/api/v2/skill-effects/15/",
+    "name": "Soul Protection",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The target will revive with 30% HP when defeated.",
+    "icon_filename": "buff_soul_protect.png"
+  },
+  {
+    "id": 17,
+    "url": "https://swarfarm.com/api/v2/skill-effects/17/",
+    "name": "Increase ATB",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "The ATK bar of ally monsters is filled by a set amount. This allows ally monsters to attack again sooner.",
+    "icon_filename": ""
+  },
+  {
+    "id": 18,
+    "url": "https://swarfarm.com/api/v2/skill-effects/18/",
+    "name": "Increase Glancing Hit Chance",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The chance of landing a glancing hit will be increased by 50%. Glancing Hits will decrease the damage by 30% and if the attacker has attribute disadvantage, damage will be decreased additionally by 16%.",
+    "icon_filename": "debuff_glancing_hit.png"
+  },
+  {
+    "id": 19,
+    "url": "https://swarfarm.com/api/v2/skill-effects/19/",
+    "name": "Decrease ATK",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The target's Attack Power will be decreased by 50%.",
+    "icon_filename": "debuff_attack_down.png"
+  },
+  {
+    "id": 20,
+    "url": "https://swarfarm.com/api/v2/skill-effects/20/",
+    "name": "Decrease DEF",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The target's Defense will be decreased by 70%.",
+    "icon_filename": "debuff_defence_down.png"
+  },
+  {
+    "id": 21,
+    "url": "https://swarfarm.com/api/v2/skill-effects/21/",
+    "name": "Decrease ATK SPD",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The target's Attack Speed will be decreased by 30%.",
+    "icon_filename": "debuff_slow.png"
+  },
+  {
+    "id": 22,
+    "url": "https://swarfarm.com/api/v2/skill-effects/22/",
+    "name": "Beneficial Effects Blocked",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "All beneficial effects will be blocked",
+    "icon_filename": "debuff_block_buffs.png"
+  },
+  {
+    "id": 23,
+    "url": "https://swarfarm.com/api/v2/skill-effects/23/",
+    "name": "Bomb",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "When remaining turns reach 0, the bomb explodes to deal damage that ignores Defense and stuns for 1 turn. The damage is affected by the caster's Attack Power, and the chance of stunning is affected by the caster's Accuracy and the target's Resistance.",
+    "icon_filename": "debuff_bomb.png"
+  },
+  {
+    "id": 24,
+    "url": "https://swarfarm.com/api/v2/skill-effects/24/",
+    "name": "Provoke",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The target is forced to attack the Monster that is provoked.",
+    "icon_filename": "debuff_provoke.png"
+  },
+  {
+    "id": 25,
+    "url": "https://swarfarm.com/api/v2/skill-effects/25/",
+    "name": "Sleep",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The target will be put to sleep and won't be able to attack. The sleeping target wakes up when attacked or damaged. In addition, you won't receive glancing Hits when you are attacked.",
+    "icon_filename": "debuff_sleep.png"
+  },
+  {
+    "id": 26,
+    "url": "https://swarfarm.com/api/v2/skill-effects/26/",
+    "name": "Continuous DMG",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The target's HP will be damaged by 5% of the MAX HP whenever the target's turn returns. (Ignores Defense)",
+    "icon_filename": "debuff_dot.png"
+  },
+  {
+    "id": 27,
+    "url": "https://swarfarm.com/api/v2/skill-effects/27/",
+    "name": "Freeze",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The target will be frozen and won't be able to attack.",
+    "icon_filename": "debuff_freeze.png"
+  },
+  {
+    "id": 28,
+    "url": "https://swarfarm.com/api/v2/skill-effects/28/",
+    "name": "Stun",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The target will be stunned and won't be able to attack.",
+    "icon_filename": "debuff_stun.png"
+  },
+  {
+    "id": 29,
+    "url": "https://swarfarm.com/api/v2/skill-effects/29/",
+    "name": "Unrecoverable",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The target's HP cannot be recovered.",
+    "icon_filename": "debuff_block_heal.png"
+  },
+  {
+    "id": 30,
+    "url": "https://swarfarm.com/api/v2/skill-effects/30/",
+    "name": "Silence",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "Skills with cooldowns will be locked. (Passive skills not included)",
+    "icon_filename": "debuff_silence.png"
+  },
+  {
+    "id": 31,
+    "url": "https://swarfarm.com/api/v2/skill-effects/31/",
+    "name": "Brand",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The target will receive 25% increased damage.",
+    "icon_filename": "debuff_brand.png"
+  },
+  {
+    "id": 32,
+    "url": "https://swarfarm.com/api/v2/skill-effects/32/",
+    "name": "Oblivion",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "Passive skills will be locked",
+    "icon_filename": "debuff_oblivious.png"
+  },
+  {
+    "id": 33,
+    "url": "https://swarfarm.com/api/v2/skill-effects/33/",
+    "name": "Decrease ATB",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Reduces the enemy's attack gauge",
+    "icon_filename": ""
+  },
+  {
+    "id": 34,
+    "url": "https://swarfarm.com/api/v2/skill-effects/34/",
+    "name": "Cleanse",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Removes one or more debuffs",
+    "icon_filename": ""
+  },
+  {
+    "id": 35,
+    "url": "https://swarfarm.com/api/v2/skill-effects/35/",
+    "name": "Heal",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Increases ally's HP",
+    "icon_filename": ""
+  },
+  {
+    "id": 36,
+    "url": "https://swarfarm.com/api/v2/skill-effects/36/",
+    "name": "Revive",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Revive a dead ally",
+    "icon_filename": ""
+  },
+  {
+    "id": 37,
+    "url": "https://swarfarm.com/api/v2/skill-effects/37/",
+    "name": "Remove Buff",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Removes one or more beneficial effects from target monster(s)",
+    "icon_filename": ""
+  },
+  {
+    "id": 38,
+    "url": "https://swarfarm.com/api/v2/skill-effects/38/",
+    "name": "Ignore DEF",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Attack will ignore the target's defense.",
+    "icon_filename": ""
+  },
+  {
+    "id": 39,
+    "url": "https://swarfarm.com/api/v2/skill-effects/39/",
+    "name": "Additional Turn",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Gain another turn immediately",
+    "icon_filename": ""
+  },
+  {
+    "id": 41,
+    "url": "https://swarfarm.com/api/v2/skill-effects/41/",
+    "name": "Detonate Bomb",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Detonate all bomb effects on the enemy target(s)",
+    "icon_filename": ""
+  },
+  {
+    "id": 42,
+    "url": "https://swarfarm.com/api/v2/skill-effects/42/",
+    "name": "Steal Buff",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Remove a beneficial effect and take it for yourself",
+    "icon_filename": ""
+  },
+  {
+    "id": 43,
+    "url": "https://swarfarm.com/api/v2/skill-effects/43/",
+    "name": "Reduce Cooltime",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Reduces cool down counter of skills by 1 or more",
+    "icon_filename": ""
+  },
+  {
+    "id": 44,
+    "url": "https://swarfarm.com/api/v2/skill-effects/44/",
+    "name": "Increase Cooltime",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Puts the target's skill on cool down.",
+    "icon_filename": ""
+  },
+  {
+    "id": 45,
+    "url": "https://swarfarm.com/api/v2/skill-effects/45/",
+    "name": "Self-Heal",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Heal that affects only the monster who cast the skill",
+    "icon_filename": ""
+  },
+  {
+    "id": 48,
+    "url": "https://swarfarm.com/api/v2/skill-effects/48/",
+    "name": "Anti-Revive",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Prevents an enemy from being resurrected after being killed.",
+    "icon_filename": ""
+  },
+  {
+    "id": 50,
+    "url": "https://swarfarm.com/api/v2/skill-effects/50/",
+    "name": "Transfer Debuff",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Removes a debuff from casting monster and applies it to the target monster.",
+    "icon_filename": ""
+  },
+  {
+    "id": 51,
+    "url": "https://swarfarm.com/api/v2/skill-effects/51/",
+    "name": "Additional Attack",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Attacks an additional time on the same turn.",
+    "icon_filename": ""
+  },
+  {
+    "id": 52,
+    "url": "https://swarfarm.com/api/v2/skill-effects/52/",
+    "name": "Increase Buff Duration",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Increases the duration of a buff by a number of turns.",
+    "icon_filename": ""
+  },
+  {
+    "id": 53,
+    "url": "https://swarfarm.com/api/v2/skill-effects/53/",
+    "name": "Decrease Debuff Duration",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Decreases the duration of debuffs by a number of turns.",
+    "icon_filename": ""
+  },
+  {
+    "id": 54,
+    "url": "https://swarfarm.com/api/v2/skill-effects/54/",
+    "name": "Self-Harm",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Deals damage to the monster using the skill.",
+    "icon_filename": ""
+  },
+  {
+    "id": 55,
+    "url": "https://swarfarm.com/api/v2/skill-effects/55/",
+    "name": "Elemental Advantage",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "The skill always has an elemental advantage regardless of monster elements.",
+    "icon_filename": ""
+  },
+  {
+    "id": 56,
+    "url": "https://swarfarm.com/api/v2/skill-effects/56/",
+    "name": "Ally Attack",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Brings one or more allies to attack at the same time.",
+    "icon_filename": ""
+  },
+  {
+    "id": 57,
+    "url": "https://swarfarm.com/api/v2/skill-effects/57/",
+    "name": "Destroy HP",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Destroys the enemy's MAX HP",
+    "icon_filename": ""
+  },
+  {
+    "id": 59,
+    "url": "https://swarfarm.com/api/v2/skill-effects/59/",
+    "name": "Decrease Damage",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Decreases damage received by a certain amount",
+    "icon_filename": ""
+  },
+  {
+    "id": 60,
+    "url": "https://swarfarm.com/api/v2/skill-effects/60/",
+    "name": "Increase Debuff Duration",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Increases the duration of one or more debuffs on the enemy",
+    "icon_filename": ""
+  },
+  {
+    "id": 62,
+    "url": "https://swarfarm.com/api/v2/skill-effects/62/",
+    "name": "Redistribute HP",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Redistribute HP",
+    "icon_filename": ""
+  },
+  {
+    "id": 64,
+    "url": "https://swarfarm.com/api/v2/skill-effects/64/",
+    "name": "Threat",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The enemy can only attack the target under the Threat state when using the attack skill. The duration of the Threat will be reduced only by skills that attack a single enemy target. The target under the Threat state will be inflicted with 15% less damage when attacked.",
+    "icon_filename": "buff_threat.png"
+  },
+  {
+    "id": 65,
+    "url": "https://swarfarm.com/api/v2/skill-effects/65/",
+    "name": "Ignore Damage Reduction",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Ignores damage reduction effects",
+    "icon_filename": ""
+  },
+  {
+    "id": 66,
+    "url": "https://swarfarm.com/api/v2/skill-effects/66/",
+    "name": "Guaranteed Critical Hit",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Attack will always land as a Critical Hit",
+    "icon_filename": ""
+  },
+  {
+    "id": 67,
+    "url": "https://swarfarm.com/api/v2/skill-effects/67/",
+    "name": "Debuff Bonus Damage",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Increases damage per debuff on the target",
+    "icon_filename": ""
+  },
+  {
+    "id": 68,
+    "url": "https://swarfarm.com/api/v2/skill-effects/68/",
+    "name": "Decrease Buff Duration",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Reduces the remaining time of an enemy's beneficial effect.",
+    "icon_filename": ""
+  },
+  {
+    "id": 69,
+    "url": "https://swarfarm.com/api/v2/skill-effects/69/",
+    "name": "Ignore Resistance",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Bypasses all enemy resistances when applying effects.",
+    "icon_filename": ""
+  },
+  {
+    "id": 70,
+    "url": "https://swarfarm.com/api/v2/skill-effects/70/",
+    "name": "Knowledge",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "You can possess up to 5 Knowledge, and you can use a skill by consuming the Knowledge (for Lightening Emperor only)",
+    "icon_filename": "buff_knowledge.png"
+  },
+  {
+    "id": 71,
+    "url": "https://swarfarm.com/api/v2/skill-effects/71/",
+    "name": "Magic Power Explosion",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "You'll be uncontrollable under this state and be defeated when this effect ends.",
+    "icon_filename": "buff_manafury.png"
+  },
+  {
+    "id": 72,
+    "url": "https://swarfarm.com/api/v2/skill-effects/72/",
+    "name": "Spend Knowledge",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Consumes all stacks of Knowledge",
+    "icon_filename": ""
+  },
+  {
+    "id": 73,
+    "url": "https://swarfarm.com/api/v2/skill-effects/73/",
+    "name": "Vampire",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "Recovers HP by 20% of the inflicted damage.",
+    "icon_filename": "buff_vampire.png"
+  },
+  {
+    "id": 74,
+    "url": "https://swarfarm.com/api/v2/skill-effects/74/",
+    "name": "Detonate Continuous Damage",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Immediately apply the remaining Continuous Damage, consuming the effect",
+    "icon_filename": ""
+  },
+  {
+    "id": 75,
+    "url": "https://swarfarm.com/api/v2/skill-effects/75/",
+    "name": "Absorb ATB",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Steal ATB from the enemy and add it to yourself",
+    "icon_filename": ""
+  },
+  {
+    "id": 76,
+    "url": "https://swarfarm.com/api/v2/skill-effects/76/",
+    "name": "Buff Bonus Damage",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Deals increased damage per positive effect on target monster",
+    "icon_filename": ""
+  },
+  {
+    "id": 77,
+    "url": "https://swarfarm.com/api/v2/skill-effects/77/",
+    "name": "Scroll Seal",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "Seals the enemy in the scroll, leaving the enemy out of the battle for a designated period of time.",
+    "icon_filename": ""
+  },
+  {
+    "id": 78,
+    "url": "https://swarfarm.com/api/v2/skill-effects/78/",
+    "name": "Harmful Effect Removal blocked",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "Harmful effects cannot be removed while this effect is on. This effect will be removed first when a harmful effect removal skill is used, and other harmful effects can be removed afterwards. Does not apply to bosses.",
+    "icon_filename": "debuff_cleanse_block.png"
+  },
+  {
+    "id": 79,
+    "url": "https://swarfarm.com/api/v2/skill-effects/79/",
+    "name": "Increase Attack Critical Chance",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Attack has increased Critical Chance",
+    "icon_filename": ""
+  },
+  {
+    "id": 82,
+    "url": "https://swarfarm.com/api/v2/skill-effects/82/",
+    "name": "Suppression",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The HP is reduced by 50% of the MAX HP if the target uses a skill with cooldown time, and the MAX cooldown time of the used skill is increased by 3 turns.",
+    "icon_filename": "debuff_suppress.png"
+  },
+  {
+    "id": 83,
+    "url": "https://swarfarm.com/api/v2/skill-effects/83/",
+    "name": "Curse of Death",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The target's HP will be damaged by 25% of the MAX HP and cannot recover HP whenever the target's turn returns. The target defeated from the curse cannot be revived and this effect cannot be removed.",
+    "icon_filename": "debuff_deathcurse.png"
+  },
+  {
+    "id": 84,
+    "url": "https://swarfarm.com/api/v2/skill-effects/84/",
+    "name": "Increase Damage",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Increases Damage under certain conditions",
+    "icon_filename": ""
+  },
+  {
+    "id": 85,
+    "url": "https://swarfarm.com/api/v2/skill-effects/85/",
+    "name": "Accumulate MAX HP",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "MAX HP increases by given amount under certain conditions",
+    "icon_filename": ""
+  },
+  {
+    "id": 86,
+    "url": "https://swarfarm.com/api/v2/skill-effects/86/",
+    "name": "Accumulate ATK",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "ATK increases by given amount under certain conditions",
+    "icon_filename": ""
+  },
+  {
+    "id": 87,
+    "url": "https://swarfarm.com/api/v2/skill-effects/87/",
+    "name": "Accumulate DEF",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "DEF increases by given amount under certain conditions",
+    "icon_filename": ""
+  },
+  {
+    "id": 88,
+    "url": "https://swarfarm.com/api/v2/skill-effects/88/",
+    "name": "Transfer Buff",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Removes a buff from target monster and applies it to the casting monster.",
+    "icon_filename": ""
+  },
+  {
+    "id": 89,
+    "url": "https://swarfarm.com/api/v2/skill-effects/89/",
+    "name": "Berserk",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "Under Berserk state, Defense is decreased by 30%, the damage dealt to enemies is increased by 100%, Attack Speed is increased by 20% and HP is recoverd by 10% of the damage dealt.",
+    "icon_filename": "buff_berserk.png"
+  },
+  {
+    "id": 90,
+    "url": "https://swarfarm.com/api/v2/skill-effects/90/",
+    "name": "Increase Buff",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Increases Buff power by certain amount, i.e. Attack Power Buff gives more attack power",
+    "icon_filename": ""
+  },
+  {
+    "id": 91,
+    "url": "https://swarfarm.com/api/v2/skill-effects/91/",
+    "name": "Decrease Buff",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Decreases Buff power by certain amount, i.e. Attack Power Debuff reduces more attack power",
+    "icon_filename": ""
+  },
+  {
+    "id": 93,
+    "url": "https://swarfarm.com/api/v2/skill-effects/93/",
+    "name": "Soul Stone",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "1 Soul Stone will be consumed to revive the ally with 20% HP when an ally dies.",
+    "icon_filename": "buff_soul_stone.png"
+  },
+  {
+    "id": 94,
+    "url": "https://swarfarm.com/api/v2/skill-effects/94/",
+    "name": "Cannot Critical Hit",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "You cannot Critical Hit enemy targets.",
+    "icon_filename": ""
+  },
+  {
+    "id": 95,
+    "url": "https://swarfarm.com/api/v2/skill-effects/95/",
+    "name": "Cannot be Critical Hit",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "You cannot be Critical Hit.",
+    "icon_filename": ""
+  },
+  {
+    "id": 96,
+    "url": "https://swarfarm.com/api/v2/skill-effects/96/",
+    "name": "Enemy can't counterattack",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Enemy's counterattack doesn't occur",
+    "icon_filename": ""
+  },
+  {
+    "id": 97,
+    "url": "https://swarfarm.com/api/v2/skill-effects/97/",
+    "name": "Decrease ATB effects",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Decreases Attack Bar decreasing effects received",
+    "icon_filename": ""
+  },
+  {
+    "id": 98,
+    "url": "https://swarfarm.com/api/v2/skill-effects/98/",
+    "name": "Reflect Harmful Effect",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "Reflects harmful effects granted on the Monster excluding inability effects.",
+    "icon_filename": "buff_magic_reflect.png"
+  },
+  {
+    "id": 99,
+    "url": "https://swarfarm.com/api/v2/skill-effects/99/",
+    "name": "Demon Bag",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The Demon Bag devours the target to leave it out of the battle and decreases its HP by 5% whenever the enemy and ally's turn ends.",
+    "icon_filename": ""
+  },
+  {
+    "id": 100,
+    "url": "https://swarfarm.com/api/v2/skill-effects/100/",
+    "name": "Increase Accuracy",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Increases the Accuracy stat.",
+    "icon_filename": ""
+  },
+  {
+    "id": 101,
+    "url": "https://swarfarm.com/api/v2/skill-effects/101/",
+    "name": "Passive Reflect DMG",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Return a % of the incoming damage to the attacker when attacked.",
+    "icon_filename": ""
+  },
+  {
+    "id": 102,
+    "url": "https://swarfarm.com/api/v2/skill-effects/102/",
+    "name": "Increase Critical Damage",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Attack has increased Critical Damage",
+    "icon_filename": ""
+  },
+  {
+    "id": 103,
+    "url": "https://swarfarm.com/api/v2/skill-effects/103/",
+    "name": "Immune to ATB decreasing effects",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Immune to Attack Bar decreasing effects",
+    "icon_filename": ""
+  },
+  {
+    "id": 104,
+    "url": "https://swarfarm.com/api/v2/skill-effects/104/",
+    "name": "Guaranteed Not Glance Hit",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "This attack won't land as a glancing hit",
+    "icon_filename": ""
+  },
+  {
+    "id": 105,
+    "url": "https://swarfarm.com/api/v2/skill-effects/105/",
+    "name": "Decrease Critical Hit Chance",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Decreases the chance of being attacked with a Critical Hit",
+    "icon_filename": ""
+  },
+  {
+    "id": 106,
+    "url": "https://swarfarm.com/api/v2/skill-effects/106/",
+    "name": "Irresistible",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "The target under the Irresistible effect cannot resist any types of harmful effects.",
+    "icon_filename": "debuff_irresistible.png"
+  },
+  {
+    "id": 107,
+    "url": "https://swarfarm.com/api/v2/skill-effects/107/",
+    "name": "HP reduction",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Target's HP is reduced by an amount",
+    "icon_filename": ""
+  },
+  {
+    "id": 108,
+    "url": "https://swarfarm.com/api/v2/skill-effects/108/",
+    "name": "Limit Harmful Effects",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Limits the number of harmful effects allies have in battles (boss battle excluded)",
+    "icon_filename": ""
+  },
+  {
+    "id": 109,
+    "url": "https://swarfarm.com/api/v2/skill-effects/109/",
+    "name": "Increase Heal Amount",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Increases the heal amount",
+    "icon_filename": ""
+  },
+  {
+    "id": 110,
+    "url": "https://swarfarm.com/api/v2/skill-effects/110/",
+    "name": "Ignores Resist Death",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Ignores all effects that resist death",
+    "icon_filename": ""
+  },
+  {
+    "id": 111,
+    "url": "https://swarfarm.com/api/v2/skill-effects/111/",
+    "name": "Immune to Continuous DMG",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Gains immunity against Continuous Damage",
+    "icon_filename": ""
+  },
+  {
+    "id": 112,
+    "url": "https://swarfarm.com/api/v2/skill-effects/112/",
+    "name": "Seal",
+    "is_buff": true,
+    "type": "Debuff",
+    "description": "While under the Seal state, set effects of Despair, Vampire, Violent, Nemesis, Revenge, Destroy, and Seal Runes are not activated.",
+    "icon_filename": "debuff_seal.png"
+  },
+  {
+    "id": 113,
+    "url": "https://swarfarm.com/api/v2/skill-effects/113/",
+    "name": "Accumulate SPD",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "SPD increases by given amount under certain conditions",
+    "icon_filename": ""
+  },
+  {
+    "id": 115,
+    "url": "https://swarfarm.com/api/v2/skill-effects/115/",
+    "name": "Prevent Harmful Effect Reapply",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Any harmful effect that was once applied cannot be reapplied in the same battle.",
+    "icon_filename": ""
+  },
+  {
+    "id": 116,
+    "url": "https://swarfarm.com/api/v2/skill-effects/116/",
+    "name": "Initiate 1v1 Duel",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Initiates a 1v1 duel",
+    "icon_filename": ""
+  },
+  {
+    "id": 117,
+    "url": "https://swarfarm.com/api/v2/skill-effects/117/",
+    "name": "Unrevivable",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "Monsters under this effect cannot be revived during battle. Does not apply to bosses.",
+    "icon_filename": "debuff_unrevivable.png"
+  },
+  {
+    "id": 118,
+    "url": "https://swarfarm.com/api/v2/skill-effects/118/",
+    "name": "Sacrifice",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Sacrifice proportionate to the damage taken by all enemies and allies on the battlefield accumulates in the Arsenal. When a unit dies, the Arsenal instantly becomes full.",
+    "icon_filename": ""
+  },
+  {
+    "id": 119,
+    "url": "https://swarfarm.com/api/v2/skill-effects/119/",
+    "name": "Cursed Tombstone",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "When Cursed Tombstone is on the enemy side, the HP of an enemy that gets a turn decreases by 15%. Cursed Tombstone will disappear if the enemy at the spot is revived or if the caster dies, and it will not appear in boss battles.",
+    "icon_filename": ""
+  },
+  {
+    "id": 120,
+    "url": "https://swarfarm.com/api/v2/skill-effects/120/",
+    "name": "Cherished Tombstone",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "When Cherished Tombstone is on the ally side, increases the Attack Speed of all allies by 50%, and recovers the HP of all allies by 10% at the start of your turn. Cherished Tombstone will disappear if the ally at the spot is revived or if the caster dies.",
+    "icon_filename": ""
+  },
+  {
+    "id": 121,
+    "url": "https://swarfarm.com/api/v2/skill-effects/121/",
+    "name": "Decrease Harmful Effect Chance",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Decreases chance of being granted with harmful effects",
+    "icon_filename": ""
+  },
+  {
+    "id": 122,
+    "url": "https://swarfarm.com/api/v2/skill-effects/122/",
+    "name": "Immune to Inability Effects",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Immune against inability effects",
+    "icon_filename": ""
+  },
+  {
+    "id": 123,
+    "url": "https://swarfarm.com/api/v2/skill-effects/123/",
+    "name": "Skill Limit per Battle",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Skill has a limited number of usages per battle.",
+    "icon_filename": ""
+  },
+  {
+    "id": 124,
+    "url": "https://swarfarm.com/api/v2/skill-effects/124/",
+    "name": "Offset Damage",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Offset/Nullifies the damage taken",
+    "icon_filename": ""
+  },
+  {
+    "id": 125,
+    "url": "https://swarfarm.com/api/v2/skill-effects/125/",
+    "name": "Immune to Defense Decreasing Effects",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Becomes immune to Defense decreasing effects",
+    "icon_filename": ""
+  },
+  {
+    "id": 126,
+    "url": "https://swarfarm.com/api/v2/skill-effects/126/",
+    "name": "Prevent Beneficial Effect",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Prevents enemies from receiving beneficial effects.",
+    "icon_filename": ""
+  },
+  {
+    "id": 127,
+    "url": "https://swarfarm.com/api/v2/skill-effects/127/",
+    "name": "Reduce Attack Speed",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "The unit reduces its own attack speed.",
+    "icon_filename": ""
+  },
+  {
+    "id": 128,
+    "url": "https://swarfarm.com/api/v2/skill-effects/128/",
+    "name": "Reduce Enemy HP",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Reduces the enemy's HP upon activation of a condition.",
+    "icon_filename": ""
+  },
+  {
+    "id": 129,
+    "url": "https://swarfarm.com/api/v2/skill-effects/129/",
+    "name": "Reduce HP",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "The unit lowers its own HP.",
+    "icon_filename": ""
+  },
+  {
+    "id": 130,
+    "url": "https://swarfarm.com/api/v2/skill-effects/130/",
+    "name": "Immunity to Sleep",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "The unit cannot be put under the Sleep inability effect.",
+    "icon_filename": ""
+  },
+  {
+    "id": 131,
+    "url": "https://swarfarm.com/api/v2/skill-effects/131/",
+    "name": "Receive Glancing Hit Increased",
+    "is_buff": true,
+    "type": "Neutral",
+    "description": "Increased chance of receiving a Glancing Hit from the enemy",
+    "icon_filename": ""
+  },
+  {
+    "id": 132,
+    "url": "https://swarfarm.com/api/v2/skill-effects/132/",
+    "name": "Share ally damage",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Takes a percentage of the damage that other allies receive",
+    "icon_filename": ""
+  },
+  {
+    "id": 133,
+    "url": "https://swarfarm.com/api/v2/skill-effects/133/",
+    "name": "Immune to Stun",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Becomes immune to Stun",
+    "icon_filename": ""
+  },
+  {
+    "id": 134,
+    "url": "https://swarfarm.com/api/v2/skill-effects/134/",
+    "name": "Immune to Freeze",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Becomes immune to Freeze",
+    "icon_filename": ""
+  },
+  {
+    "id": 135,
+    "url": "https://swarfarm.com/api/v2/skill-effects/135/",
+    "name": "Immune to HP Recovery Disturbance",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Gains immunity against HP recovery disturbance effects",
+    "icon_filename": ""
+  },
+  {
+    "id": 136,
+    "url": "https://swarfarm.com/api/v2/skill-effects/136/",
+    "name": "Immune to Sleep",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Becomes immune to Sleep",
+    "icon_filename": ""
+  },
+  {
+    "id": 137,
+    "url": "https://swarfarm.com/api/v2/skill-effects/137/",
+    "name": "Immune to Oblivion",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Grants immunity against Oblivion effect",
+    "icon_filename": ""
+  },
+  {
+    "id": 138,
+    "url": "https://swarfarm.com/api/v2/skill-effects/138/",
+    "name": "Immune to Harmful Effects",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Grants immunity against Harmful Effects",
+    "icon_filename": ""
+  },
+  {
+    "id": 139,
+    "url": "https://swarfarm.com/api/v2/skill-effects/139/",
+    "name": "Blocked Attack Bar Increasing Effects",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Attack Bar increasing effects are not activated",
+    "icon_filename": ""
+  },
+  {
+    "id": 141,
+    "url": "https://swarfarm.com/api/v2/skill-effects/141/",
+    "name": "Mark",
+    "is_buff": false,
+    "type": "Debuff",
+    "description": "Increases the damage that all allies deal to the marked target by 25%. The caster absorbs the Attack Bar by 20% whenever attacking the marked target.",
+    "icon_filename": "debuff_mark.png"
+  },
+  {
+    "id": 142,
+    "url": "https://swarfarm.com/api/v2/skill-effects/142/",
+    "name": "Share MAX HP",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Shares your MAX HP with an ally",
+    "icon_filename": ""
+  },
+  {
+    "id": 143,
+    "url": "https://swarfarm.com/api/v2/skill-effects/143/",
+    "name": "Decrease ATB Ignores Immunity",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "The Attack Bar decreasing effect ignores immunity.",
+    "icon_filename": ""
+  },
+  {
+    "id": 144,
+    "url": "https://swarfarm.com/api/v2/skill-effects/144/",
+    "name": "Shadow Trap",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "If the target with the shadow trap gains a turn, you will gain the turn instead. This effect can apply up to 2 targets at the same time.",
+    "icon_filename": ""
+  },
+  {
+    "id": 145,
+    "url": "https://swarfarm.com/api/v2/skill-effects/145/",
+    "name": "Increased Skill Activation Rate",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Increases the skill activation rate",
+    "icon_filename": ""
+  },
+  {
+    "id": 146,
+    "url": "https://swarfarm.com/api/v2/skill-effects/146/",
+    "name": "Mechanical Frame State",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "While in the mechanical frame state, you gain immunity against inability effects and Attack Bar decreasing effects, and deal 50% increased damage. However, you cannot counter attack or attack together. You cannot be defeated while the effect lasts, but will die once the effect ends.",
+    "icon_filename": ""
+  },
+  {
+    "id": 147,
+    "url": "https://swarfarm.com/api/v2/skill-effects/147/",
+    "name": "Immune against cool down effects",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Not affected by cooldown increasing or decreasing skills",
+    "icon_filename": ""
+  },
+  {
+    "id": 148,
+    "url": "https://swarfarm.com/api/v2/skill-effects/148/",
+    "name": "Enhanced Immortal Light",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Removes all harmful effects on all allies, increases their Attack Bar by 30%, and revives all allies with 30% HP. The cooldown increases by 2 turns per revived ally.",
+    "icon_filename": ""
+  },
+  {
+    "id": 149,
+    "url": "https://swarfarm.com/api/v2/skill-effects/149/",
+    "name": "Stealth",
+    "is_buff": true,
+    "type": "Buff",
+    "description": "The Monster in the [Stealth] state cannot be selected as a target but can be attacked by area attacks and attacks unrelated to target selection. [Stealth] is no longer possible if there is only 1 Monster to select.",
+    "icon_filename": "buff_stealth.png"
+  },
+  {
+    "id": 150,
+    "url": "https://swarfarm.com/api/v2/skill-effects/150/",
+    "name": "Remove inability effect",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Removes inability effects",
+    "icon_filename": ""
+  },
+  {
+    "id": 151,
+    "url": "https://swarfarm.com/api/v2/skill-effects/151/",
+    "name": "Increases ATB effects",
+    "is_buff": false,
+    "type": "Neutral",
+    "description": "Increases Attack Bar increasing effects received",
+    "icon_filename": ""
+  }
+]

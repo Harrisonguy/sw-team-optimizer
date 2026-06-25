@@ -1,0 +1,4 @@
+-r requirements_desktop.txt
+Pillow>=10.0
+PyInstaller>=6.0
+

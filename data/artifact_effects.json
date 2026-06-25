@@ -1,0 +1,418 @@
+{
+  "100": {
+    "name": "HP",
+    "unit": "flat",
+    "category": "main_stat",
+    "damage_relevant": false,
+    "stat_relevant": true,
+    "notes": "Artifact main HP"
+  },
+  "101": {
+    "name": "ATK",
+    "unit": "flat",
+    "category": "main_stat",
+    "damage_relevant": false,
+    "stat_relevant": true,
+    "notes": "Artifact main ATK"
+  },
+  "102": {
+    "name": "DEF",
+    "unit": "flat",
+    "category": "main_stat",
+    "damage_relevant": false,
+    "stat_relevant": true,
+    "notes": "Artifact main DEF"
+  },
+  "200": {
+    "name": "ATK+ proportional to lost HP",
+    "unit": "percent",
+    "category": "conditional_stat",
+    "damage_relevant": false,
+    "stat_relevant": true,
+    "notes": "In-game: ATK+ prop. lost HP, max X%"
+  },
+  "201": {
+    "name": "DEF+ proportional to lost HP",
+    "unit": "percent",
+    "category": "conditional_stat",
+    "damage_relevant": false,
+    "stat_relevant": true,
+    "notes": "In-game: DEF+ prop. lost HP, max X%"
+  },
+  "202": {
+    "name": "SPD+ proportional to lost HP",
+    "unit": "percent",
+    "category": "conditional_stat",
+    "damage_relevant": false,
+    "stat_relevant": true,
+    "notes": "In-game: SPD+ prop. lost HP, max X%"
+  },
+  "203": {
+    "name": "SPD with inability",
+    "unit": "percent",
+    "category": "conditional_stat",
+    "damage_relevant": false,
+    "stat_relevant": true,
+    "notes": "In-game: SPD w/ inability +X%"
+  },
+  "204": {
+    "name": "ATK UP effect",
+    "unit": "percent",
+    "category": "buff_effect",
+    "damage_relevant": false,
+    "stat_relevant": true,
+    "notes": "In-game: ATK UP effect +X%"
+  },
+  "205": {
+    "name": "DEF UP effect",
+    "unit": "percent",
+    "category": "buff_effect",
+    "damage_relevant": false,
+    "stat_relevant": true,
+    "notes": "In-game: DEF UP effect +X%"
+  },
+  "206": {
+    "name": "SPD UP effect",
+    "unit": "percent",
+    "category": "buff_effect",
+    "damage_relevant": false,
+    "stat_relevant": true,
+    "notes": "In-game: SPD UP effect +X%"
+  },
+  "207": {
+    "name": "CRIT Rate UP effect",
+    "unit": "percent",
+    "category": "buff_effect",
+    "damage_relevant": false,
+    "stat_relevant": true,
+    "notes": "In-game: CRIT Rate UP effect +X%"
+  },
+  "208": {
+    "name": "Counterattack DMG",
+    "unit": "percent",
+    "category": "damage_bonus",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: Counterattack DMG +X%"
+  },
+  "209": {
+    "name": "Co-op attack DMG",
+    "unit": "percent",
+    "category": "damage_bonus",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: Co-op attack DMG +X%"
+  },
+  "210": {
+    "name": "Bomb DMG",
+    "unit": "percent",
+    "category": "damage_bonus",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: Bomb DMG +X%"
+  },
+  "211": {
+    "name": "Reflected DMG",
+    "unit": "percent",
+    "category": "damage_bonus",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: Reflected DMG +X%"
+  },
+  "212": {
+    "name": "Crushing Hit DMG",
+    "unit": "percent",
+    "category": "damage_bonus",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: Crushing Hit DMG +X%"
+  },
+  "213": {
+    "name": "DMG taken with inability",
+    "unit": "percent",
+    "category": "damage_reduction",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "In-game: DMG taken w/ inability -X%"
+  },
+  "214": {
+    "name": "CRIT DMG taken",
+    "unit": "percent",
+    "category": "damage_reduction",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "In-game: CRIT DMG taken -X%"
+  },
+  "215": {
+    "name": "Life Drain",
+    "unit": "percent",
+    "category": "recovery",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "In-game: Life Drain +X%"
+  },
+  "216": {
+    "name": "HP when revived",
+    "unit": "percent",
+    "category": "revive_effect",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "In-game: HP when revived +X%"
+  },
+  "217": {
+    "name": "ATK Bar when revived",
+    "unit": "percent",
+    "category": "revive_effect",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "In-game: ATK Bar when revived +X%"
+  },
+  "218": {
+    "name": "Add'l DMG by HP",
+    "unit": "percent_of_stat",
+    "category": "additional_damage",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: Add'l DMG by X% of HP"
+  },
+  "219": {
+    "name": "Add'l DMG by ATK",
+    "unit": "percent_of_stat",
+    "category": "additional_damage",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: Add'l DMG by X% of ATK"
+  },
+  "220": {
+    "name": "Add'l DMG by DEF",
+    "unit": "percent_of_stat",
+    "category": "additional_damage",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: Add'l DMG by X% of DEF"
+  },
+  "221": {
+    "name": "Add'l DMG by SPD",
+    "unit": "percent_of_stat",
+    "category": "additional_damage",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: Add'l DMG by X% of SPD"
+  },
+  "222": {
+    "name": "CD+ as more enemy HP",
+    "unit": "percent",
+    "category": "crit_damage_condition",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: CD+ as more enemy HP, max X%"
+  },
+  "223": {
+    "name": "CD+ as less enemy HP",
+    "unit": "percent",
+    "category": "crit_damage_condition",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: CD+ as less enemy HP, max X%"
+  },
+  "224": {
+    "name": "Own turn 1-target CD",
+    "unit": "percent",
+    "category": "crit_damage_condition",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: Own turn 1-target CD +X%"
+  },
+  "225": {
+    "name": "Counterattack/Co-op Attack DMG",
+    "unit": "percent",
+    "category": "damage_bonus",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: Counterattack/Co-op Attack DMG +X%"
+  },
+  "226": {
+    "name": "ATK/DEF UP effect",
+    "unit": "percent",
+    "category": "buff_effect",
+    "damage_relevant": false,
+    "stat_relevant": true,
+    "notes": "In-game: ATK/DEF UP effect +X%"
+  },
+  "300": {
+    "name": "DMG dealt on Fire",
+    "unit": "percent",
+    "category": "element_damage_dealt",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "Increases damage dealt to Fire enemies"
+  },
+  "301": {
+    "name": "DMG dealt on Water",
+    "unit": "percent",
+    "category": "element_damage_dealt",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "Increases damage dealt to Water enemies"
+  },
+  "302": {
+    "name": "DMG dealt on Wind",
+    "unit": "percent",
+    "category": "element_damage_dealt",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "Increases damage dealt to Wind enemies"
+  },
+  "303": {
+    "name": "DMG dealt on Light",
+    "unit": "percent",
+    "category": "element_damage_dealt",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "Increases damage dealt to Light enemies"
+  },
+  "304": {
+    "name": "DMG dealt on Dark",
+    "unit": "percent",
+    "category": "element_damage_dealt",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "Increases damage dealt to Dark enemies"
+  },
+  "305": {
+    "name": "DMG taken from Fire",
+    "unit": "percent",
+    "category": "element_damage_taken",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "Reduces damage taken from Fire enemies"
+  },
+  "306": {
+    "name": "DMG taken from Water",
+    "unit": "percent",
+    "category": "element_damage_taken",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "Reduces damage taken from Water enemies"
+  },
+  "307": {
+    "name": "DMG taken from Wind",
+    "unit": "percent",
+    "category": "element_damage_taken",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "Reduces damage taken from Wind enemies"
+  },
+  "308": {
+    "name": "DMG taken from Light",
+    "unit": "percent",
+    "category": "element_damage_taken",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "Reduces damage taken from Light enemies"
+  },
+  "309": {
+    "name": "DMG taken from Dark",
+    "unit": "percent",
+    "category": "element_damage_taken",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "Reduces damage taken from Dark enemies"
+  },
+  "400": {
+    "name": "[S1] CRIT DMG",
+    "unit": "percent",
+    "category": "skill_crit_damage",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "Skill 1 critical damage increase"
+  },
+  "401": {
+    "name": "[S2] CRIT DMG",
+    "unit": "percent",
+    "category": "skill_crit_damage",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "Skill 2 critical damage increase"
+  },
+  "402": {
+    "name": "[S3] CRIT DMG",
+    "unit": "percent",
+    "category": "skill_crit_damage",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "Skill 3 critical damage increase"
+  },
+  "403": {
+    "name": "[S4] CRIT DMG",
+    "unit": "percent",
+    "category": "skill_crit_damage",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "Skill 4 critical damage increase"
+  },
+  "404": {
+    "name": "[S1] Recovery",
+    "unit": "percent",
+    "category": "skill_recovery",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "Skill 1 recovery amount increase"
+  },
+  "405": {
+    "name": "[S2] Recovery",
+    "unit": "percent",
+    "category": "skill_recovery",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "Skill 2 recovery amount increase"
+  },
+  "406": {
+    "name": "[S3] Recovery",
+    "unit": "percent",
+    "category": "skill_recovery",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "Skill 3 recovery amount increase"
+  },
+  "407": {
+    "name": "[S1] Accuracy",
+    "unit": "percent",
+    "category": "skill_accuracy",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "Skill 1 harmful effect activation/accuracy artifact line"
+  },
+  "408": {
+    "name": "[S2] Accuracy",
+    "unit": "percent",
+    "category": "skill_accuracy",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "Skill 2 harmful effect activation/accuracy artifact line"
+  },
+  "409": {
+    "name": "[S3] Accuracy",
+    "unit": "percent",
+    "category": "skill_accuracy",
+    "damage_relevant": false,
+    "stat_relevant": false,
+    "notes": "Skill 3 harmful effect activation/accuracy artifact line"
+  },
+  "410": {
+    "name": "[Skill 3/4] CRIT DMG",
+    "unit": "percent",
+    "category": "skill_crit_damage",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: [Skill 3/4] CRIT DMG +X%"
+  },
+  "411": {
+    "name": "First Attack CRIT DMG",
+    "unit": "percent",
+    "category": "skill_crit_damage",
+    "damage_relevant": true,
+    "stat_relevant": false,
+    "notes": "In-game: First Attack CRIT DMG +X%"
+  }
+}

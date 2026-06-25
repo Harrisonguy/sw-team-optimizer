@@ -1,0 +1,24 @@
+{
+  "13413": {
+    "monster": "Lushen",
+    "skill_id": 721,
+    "skill_name": "Amputation Magic",
+    "mode": "standard_skill",
+    "notes": "AOE, 3 hits, ignores defense."
+  },
+  "13911": {
+    "monster": "Julie",
+    "skill_id": 860,
+    "skill_name": "Thousand Shots",
+    "mode": "standard_skill",
+    "requires_full_hp_for_max_hits": true,
+    "notes": "AOE, 6 hits at full HP. Damage increases by 50% for each beneficial effect on enemies."
+  },
+  "14513": {
+    "monster": "Teshar",
+    "skill_id": 1181,
+    "skill_name": "Tempest",
+    "mode": "manual_multiplier_required",
+    "notes": "Passive AOE follow-up after attacking. Swarfarm skill record has no multiplier_formula, so damage calculator needs a manually supplied multiplier."
+  }
+}

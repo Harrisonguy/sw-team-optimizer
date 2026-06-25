@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SW Team Rune Optimizer</title>
+<style>
+  /* ── Reset / base ───────────────────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg:        #0f1117;
+    --surface:   #1a1d27;
+    --surface2:  #22263a;
+    --surface3:  #2c3050;
+    --accent:    #7c4dff;
+    --accent2:   #aa80ff;
+    --green:     #4caf82;
+    --red:       #e05370;
+    --yellow:    #f5c842;
+    --text:      #e0e0f0;
+    --muted:     #7a7fa8;
+    --border:    #2e3350;
+    --radius:    8px;
+  }
+  html, body { height: 100%; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  a { color: var(--accent2); }
+
+  /* ── Layout ─────────────────────────────────────────────────────── */
+  .app { display: flex; flex-direction: column; height: 100%; }
+
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+  }
+  header h1 { font-size: 18px; font-weight: 700; color: var(--accent2); white-space: nowrap; }
+  header h1 span { color: var(--accent); }
+
+  .file-row { display: flex; align-items: center; gap: 8px; flex: 1; max-width: 560px; }
+  .file-row input {
+    flex: 1; padding: 6px 10px; background: var(--surface2);
+    border: 1px solid var(--border); border-radius: var(--radius);
+    color: var(--text); font-size: 13px;
+  }
+  .account-badge {
+    font-size: 12px; color: var(--muted); white-space: nowrap;
+    margin-left: auto;
+  }
+  .account-badge .ok { color: var(--green); }
+
+  .main { display: flex; flex: 1; overflow: hidden; }
+
+  /* ── Left panel: Team ───────────────────────────────────────────── */
+  .team-panel {
+    width: 260px; flex-shrink: 0;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    display: flex; flex-direction: column;
+    overflow: hidden;
+  }
+  .panel-title {
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; color: var(--muted);
+    padding: 10px 14px 6px;
+  }
+  .search-row {
+    padding: 0 10px 8px;
+    position: relative;
+  }
+  .search-row input {
+    width: 100%; padding: 7px 10px; background: var(--surface2);
+    border: 1px solid var(--border); border-radius: var(--radius);
+    color: var(--text); font-size: 13px;
+  }
+  .search-row input:focus { outline: none; border-color: var(--accent); }
+  .autocomplete {
+    position: absolute; top: 100%; left: 10px; right: 10px; z-index: 50;
+    background: var(--surface2); border: 1px solid var(--accent);
+    border-radius: var(--radius); max-height: 220px; overflow-y: auto;
+    box-shadow: 0 8px 24px #0008;
+  }
+  .autocomplete-item {
+    padding: 7px 12px; cursor: pointer; display: flex;
+    align-items: center; gap: 8px;
+  }
+  .autocomplete-item:hover, .autocomplete-item.active { background: var(--surface3); }
+  .elem-badge {
+    font-size: 10px; font-weight: 700; padding: 2px 5px;
+    border-radius: 4px; text-transform: uppercase; letter-spacing: .05em;
+  }
+  .elem-fire    { background: #5a1a1a; color: #ff7070; }
+  .elem-water   { background: #0e2a4a; color: #60aaff; }
+  .elem-wind    { background: #1a3d1a; color: #70dd70; }
+  .elem-light   { background: #3a3a20; color: #eeee70; }
+  .elem-dark    { background: #2a1a4a; color: #cc99ff; }
+
+  .team-list { flex: 1; overflow-y: auto; padding: 4px 8px 8px; }
+  .team-item {
+    display: flex; align-items: center; gap: 6px;
+    padding: 7px 8px; border-radius: var(--radius);
+    cursor: pointer; border: 1px solid transparent;
+    margin-bottom: 3px; transition: background .12s;
+  }
+  .team-item:hover { background: var(--surface2); }
+  .team-item.selected {
+    background: var(--surface3);
+    border-color: var(--accent);
+  }
+  .priority-badge {
+    width: 22px; height: 22px; border-radius: 50%;
+    background: var(--accent); color: #fff;
+    font-size: 11px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .monster-name { flex: 1; font-size: 13px; font-weight: 500; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .status-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--muted); flex-shrink: 0;
+  }
+  .status-dot.ok    { background: var(--green); }
+  .status-dot.error { background: var(--red); }
+  .remove-btn {
+    width: 20px; height: 20px; border-radius: 4px;
+    background: none; border: none;
+    color: var(--muted); cursor: pointer; font-size: 14px; line-height: 1;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .remove-btn:hover { color: var(--red); background: rgba(224,83,112,.15); }
+
+  .move-btns { display: flex; flex-direction: column; gap: 1px; }
+  .move-btn {
+    width: 16px; height: 14px; border-radius: 3px;
+    background: none; border: none; color: var(--muted);
+    cursor: pointer; font-size: 10px; line-height: 1;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .move-btn:hover { color: var(--text); background: var(--surface3); }
+
+  .team-empty {
+    text-align: center; color: var(--muted);
+    padding: 24px 12px; font-size: 13px;
+  }
+
+  /* ── Middle panel: Config ───────────────────────────────────────── */
+  .config-panel {
+    flex: 1; overflow-y: auto; padding: 16px;
+    display: flex; flex-direction: column; gap: 14px;
+  }
+  .config-placeholder {
+    display: flex; align-items: center; justify-content: center;
+    flex: 1; color: var(--muted); font-size: 14px;
+  }
+  .config-header {
+    display: flex; align-items: baseline; gap: 10px;
+    padding-bottom: 10px; border-bottom: 1px solid var(--border);
+  }
+  .config-header h2 { font-size: 17px; font-weight: 700; }
+  .base-stats-row {
+    display: flex; flex-wrap: wrap; gap: 6px;
+  }
+  .base-chip {
+    font-size: 11px; padding: 3px 8px;
+    background: var(--surface2); border-radius: 20px;
+    color: var(--muted);
+  }
+  .base-chip strong { color: var(--text); }
+
+  .section-label {
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .07em; color: var(--muted); margin-bottom: 8px;
+  }
+
+  /* Stat targets grid */
+  .targets-grid {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    gap: 4px 10px;
+    align-items: start;
+  }
+  .targets-grid .col-head {
+    font-size: 11px; color: var(--muted); text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+  .stat-label-wrap { display: flex; flex-direction: column; gap: 1px; padding-top: 6px; }
+  .stat-label { font-size: 13px; font-weight: 600; }
+  .stat-base-hint { font-size: 10px; color: var(--muted); line-height: 1.4; }
+  .stat-delta { color: var(--accent2); font-weight: 600; }
+  .stat-input-wrap { display: flex; flex-direction: column; gap: 2px; }
+  .stat-input-note { font-size: 10px; color: var(--muted); padding-left: 2px; min-height: 14px; }
+  .stat-input {
+    padding: 5px 8px; background: var(--surface2);
+    border: 1px solid var(--border); border-radius: 6px;
+    color: var(--text); font-size: 13px; width: 100%;
+  }
+  .stat-input:focus { outline: none; border-color: var(--accent); }
+  .stat-input::placeholder { color: var(--muted); }
+
+  /* Sets row */
+  .sets-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .set-select {
+    padding: 6px 10px; background: var(--surface2);
+    border: 1px solid var(--border); border-radius: 6px;
+    color: var(--text); font-size: 13px; min-width: 130px;
+  }
+  .set-select:focus { outline: none; border-color: var(--accent); }
+
+  /* Main stats row */
+  .main-stats-row { display: flex; flex-wrap: wrap; gap: 10px; }
+  .main-stat-group { display: flex; flex-direction: column; gap: 4px; }
+  .main-stat-group label { font-size: 11px; color: var(--muted); }
+  .main-stat-group select {
+    padding: 5px 8px; background: var(--surface2);
+    border: 1px solid var(--border); border-radius: 6px;
+    color: var(--text); font-size: 13px; min-width: 110px;
+  }
+  .main-stat-group select:focus { outline: none; border-color: var(--accent); }
+
+  /* ── Right panel: Results ───────────────────────────────────────── */
+  .results-panel {
+    width: 340px; flex-shrink: 0;
+    background: var(--surface);
+    border-left: 1px solid var(--border);
+    overflow-y: auto;
+    display: flex; flex-direction: column;
+  }
+  .results-header {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; color: var(--muted);
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .results-body { padding: 8px; flex: 1; }
+  .result-card {
+    background: var(--surface2); border-radius: var(--radius);
+    border: 1px solid var(--border); margin-bottom: 8px;
+    overflow: hidden;
+  }
+  .result-card-header {
+    display: flex; align-items: center; gap: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .result-card-header:hover { background: var(--surface3); }
+  .result-icon { font-size: 16px; }
+  .result-name { flex: 1; font-weight: 600; font-size: 13px; }
+  .result-badge {
+    font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 20px;
+  }
+  .badge-ok    { background: rgba(76,175,130,.2); color: var(--green); }
+  .badge-miss  { background: rgba(224,83,112,.2); color: var(--red); }
+  .badge-fail  { background: rgba(100,100,100,.2); color: var(--muted); }
+  .result-chevron { color: var(--muted); font-size: 11px; }
+
+  .result-body { padding: 10px 12px; border-top: 1px solid var(--border); }
+  .result-body.hidden { display: none; }
+
+  .stat-row {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 3px 0; font-size: 12px;
+  }
+  .stat-row .sn { color: var(--muted); width: 36px; }
+  .stat-row .sv { font-weight: 600; min-width: 50px; text-align: right; }
+  .stat-row .st { color: var(--muted); font-size: 11px; min-width: 60px; text-align: right; }
+  .stat-row .si {
+    font-size: 10px; padding: 1px 6px; border-radius: 10px;
+    min-width: 44px; text-align: center; font-weight: 700;
+  }
+  .si-ok   { background: rgba(76,175,130,.2); color: var(--green); }
+  .si-miss { background: rgba(224,83,112,.2); color: var(--red); }
+  .si-none { color: var(--muted); }
+
+  .rune-list { margin-top: 8px; }
+  .rune-row {
+    display: flex; align-items: flex-start; gap: 8px;
+    padding: 5px 0; border-top: 1px solid var(--border);
+    font-size: 11px;
+  }
+  .rune-slot {
+    width: 20px; height: 20px; border-radius: 4px;
+    background: var(--surface3); color: var(--accent2);
+    font-size: 10px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .rune-info { flex: 1; min-width: 0; }
+  .rune-set  { font-weight: 700; color: var(--accent2); }
+  .rune-main { color: var(--text); }
+  .rune-subs { color: var(--muted); margin-top: 1px; }
+
+  /* ── Footer bar ─────────────────────────────────────────────────── */
+  .footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: 10px 16px;
+    display: flex; align-items: center; gap: 12px;
+    flex-shrink: 0;
+  }
+  .optimize-btn {
+    padding: 8px 22px; background: var(--accent);
+    color: #fff; border: none; border-radius: var(--radius);
+    font-size: 14px; font-weight: 700; cursor: pointer;
+    transition: background .15s;
+  }
+  .optimize-btn:hover:not(:disabled) { background: #6a3de8; }
+  .optimize-btn:disabled { opacity: .5; cursor: default; }
+  .status-msg { color: var(--muted); font-size: 13px; }
+  .status-msg.err { color: var(--red); }
+
+  /* ── Buttons ────────────────────────────────────────────────────── */
+  .btn {
+    padding: 6px 12px; border-radius: 6px;
+    border: 1px solid var(--border); background: var(--surface2);
+    color: var(--text); cursor: pointer; font-size: 13px;
+  }
+  .btn:hover { background: var(--surface3); }
+
+  /* ── Spinner ────────────────────────────────────────────────────── */
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .spinner {
+    display: inline-block; width: 16px; height: 16px;
+    border: 2px solid var(--accent2); border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin .7s linear infinite;
+    vertical-align: middle; margin-right: 6px;
+  }
+
+  /* ── Weak slot styles ───────────────────────────────────────────── */
+  .weak-slots-section {
+    background: rgba(245,200,66,.06); border: 1px solid rgba(245,200,66,.2);
+    border-radius: 6px; padding: 8px 10px; margin: 8px 0;
+  }
+  .weak-label {
+    font-size: 11px; font-weight: 700; color: var(--yellow);
+    text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px;
+  }
+  .weak-slot-row {
+    display: flex; align-items: flex-start; gap: 8px;
+    padding: 5px 0; border-top: 1px solid rgba(245,200,66,.1);
+    font-size: 11px; position: relative;
+  }
+  .weak-slot-row.weakest { background: rgba(245,200,66,.04); border-radius: 4px; padding: 5px 4px; }
+  .weak-slot-badge {
+    width: 42px; flex-shrink: 0; font-size: 10px; font-weight: 700;
+    color: var(--yellow); background: rgba(245,200,66,.15);
+    border-radius: 4px; padding: 2px 4px; text-align: center;
+  }
+  .weak-slot-info { flex: 1; min-width: 0; }
+  .weak-slot-main { font-weight: 600; color: var(--text); }
+  .weak-slot-subs { color: var(--muted); margin-top: 1px; }
+  .weak-slot-hint { color: var(--yellow); opacity: .8; margin-top: 2px; font-style: italic; }
+  .weakest-tag {
+    font-size: 9px; font-weight: 700; color: var(--yellow);
+    background: rgba(245,200,66,.2); padding: 1px 5px; border-radius: 3px;
+    flex-shrink: 0; align-self: flex-start; margin-top: 1px;
+  }
+  .rune-row-weak { background: rgba(245,200,66,.04); border-radius: 4px; }
+  .rune-slot-weak { color: var(--yellow) !important; background: rgba(245,200,66,.2) !important; }
+  .weak-rune-tag {
+    font-size: 9px; color: var(--yellow); font-weight: 700;
+    background: rgba(245,200,66,.15); padding: 1px 4px; border-radius: 3px; margin-left: 4px;
+  }
+
+  /* ── Sell analysis modal ─────────────────────────────────────────── */
+  .modal-backdrop {
+    position: fixed; inset: 0; background: rgba(0,0,0,.7);
+    z-index: 100; display: flex; align-items: center; justify-content: center;
+  }
+  .modal-backdrop.hidden { display: none; }
+  .modal {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; width: min(900px, 95vw); max-height: 88vh;
+    display: flex; flex-direction: column; overflow: hidden;
+  }
+  .modal-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 18px; border-bottom: 1px solid var(--border); flex-shrink: 0;
+  }
+  .modal-header h2 { font-size: 16px; font-weight: 700; }
+  .modal-close {
+    width: 28px; height: 28px; border-radius: 6px; border: none;
+    background: var(--surface2); color: var(--text); cursor: pointer; font-size: 16px;
+  }
+  .modal-close:hover { background: var(--red); }
+  .modal-tabs {
+    display: flex; border-bottom: 1px solid var(--border); flex-shrink: 0;
+    padding: 0 18px;
+  }
+  .modal-tab {
+    padding: 10px 16px; font-size: 13px; font-weight: 600; cursor: pointer;
+    border-bottom: 2px solid transparent; color: var(--muted); background: none; border-top: none;
+    border-left: none; border-right: none;
+  }
+  .modal-tab.active { color: var(--accent2); border-bottom-color: var(--accent); }
+  .modal-body { flex: 1; overflow-y: auto; padding: 16px 18px; }
+
+  /* Sell candidates table */
+  .sell-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .sell-table th {
+    text-align: left; padding: 6px 8px; font-size: 11px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; color: var(--muted);
+    border-bottom: 1px solid var(--border); position: sticky; top: 0;
+    background: var(--surface);
+  }
+  .sell-table td { padding: 5px 8px; border-bottom: 1px solid rgba(255,255,255,.04); }
+  .sell-table tr:hover td { background: var(--surface2); }
+  .grade-badge {
+    font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px;
+    text-align: center; display: inline-block; min-width: 22px;
+  }
+  .grade-S { background: rgba(170,128,255,.25); color: var(--accent2); }
+  .grade-A { background: rgba(76,175,130,.2);  color: var(--green); }
+  .grade-B { background: rgba(100,160,255,.2); color: #6ab4ff; }
+  .grade-C { background: rgba(245,200,66,.15); color: var(--yellow); }
+  .grade-D { background: rgba(224,83,112,.15); color: var(--red); }
+
+  /* Exclusion rules */
+  .rule-card {
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 8px; padding: 12px 14px; margin-bottom: 10px;
+  }
+  .rule-number {
+    display: inline-block; width: 22px; height: 22px; border-radius: 50%;
+    background: var(--accent); color: #fff; font-size: 11px; font-weight: 700;
+    text-align: center; line-height: 22px; margin-right: 8px;
+  }
+  .rule-name { font-weight: 700; font-size: 13px; }
+  .rule-desc { color: var(--muted); font-size: 11px; margin: 4px 0 8px; }
+  .rule-conditions { display: flex; flex-wrap: wrap; gap: 6px; }
+  .rule-cond {
+    font-size: 12px; font-weight: 600; padding: 3px 10px;
+    background: var(--surface3); border-radius: 20px; color: var(--accent2);
+  }
+  .rule-note {
+    font-size: 11px; color: var(--muted); margin-top: 6px;
+    font-style: italic;
+  }
+  .sell-controls {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 14px; flex-wrap: wrap;
+  }
+  .sell-controls label { font-size: 12px; color: var(--muted); }
+  .sell-controls select, .sell-controls input {
+    padding: 5px 8px; background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 6px; color: var(--text); font-size: 12px;
+  }
+  .sell-summary {
+    display: flex; gap: 16px; margin-bottom: 12px; flex-wrap: wrap;
+  }
+  .sell-stat {
+    background: var(--surface2); border-radius: 6px; padding: 8px 14px;
+    text-align: center; min-width: 90px;
+  }
+  .sell-stat .val { font-size: 22px; font-weight: 700; color: var(--accent2); }
+  .sell-stat .lbl { font-size: 11px; color: var(--muted); }
+
+  /* ── Scrollbar ───────────────────────────────────────────────────── */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- ── Header ──────────────────────────────────────────────────────── -->
+  <header>
+    <h1>⚔️ SW <span>Team</span> Rune Optimizer</h1>
+    <div class="file-row">
+      <input id="jsonPath" type="text" value="uuboram-17666244.json"
+             placeholder="Path to SWEX JSON file…" />
+      <button class="btn" onclick="loadAccount()">Load</button>
+    </div>
+    <div class="account-badge" id="accountBadge">No account loaded</div>
+  </header>
+
+  <!-- ── Main area ────────────────────────────────────────────────────── -->
+  <div class="main">
+
+    <!-- Left: Team list -->
+    <div class="team-panel">
+      <div class="panel-title">Team — drag to reorder priority</div>
+      <div class="search-row">
+        <input id="monsterSearch" type="text" placeholder="Search monsters…"
+               autocomplete="off"
+               oninput="onSearchInput()"
+               onkeydown="onSearchKey(event)"
+               onfocus="onSearchFocus()" />
+        <div class="autocomplete" id="autocomplete" style="display:none;"></div>
+      </div>
+      <div class="team-list" id="teamList">
+        <div class="team-empty" id="teamEmpty">
+          Search and add monsters above.<br />Optimize them in priority order.
+        </div>
+      </div>
+    </div>
+
+    <!-- Middle: Config panel -->
+    <div class="config-panel" id="configPanel">
+      <div class="config-placeholder" id="configPlaceholder">
+        Select a monster from the team to configure its rune targets.
+      </div>
+    </div>
+
+    <!-- Right: Results panel -->
+    <div class="results-panel">
+      <div class="results-header">
+        <span>Results</span>
+        <span id="resultsSummary"></span>
+      </div>
+      <div class="results-body" id="resultsBody">
+        <div style="color:var(--muted);font-size:13px;padding:16px;text-align:center;">
+          Results will appear here after optimizing.
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /.main -->
+
+  <!-- ── Footer ──────────────────────────────────────────────────────── -->
+  <div class="footer">
+    <button class="optimize-btn" id="optimizeBtn" onclick="runOptimize()">
+      ▶ Optimize Team
+    </button>
+    <button class="btn" onclick="openSellModal()" style="background:var(--surface3);border-color:var(--accent);">
+      💰 Sell Analysis
+    </button>
+    <span class="status-msg" id="statusMsg"></span>
+  </div>
+
+  <!-- ── Sell Analysis Modal ──────────────────────────────────────────── -->
+  <div class="modal-backdrop hidden" id="sellModal" onclick="closeSellModal(event)">
+    <div class="modal" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <h2>💰 Sell Analysis</h2>
+        <button class="modal-close" onclick="closeSellModal()">✕</button>
+      </div>
+      <div class="modal-tabs">
+        <button class="modal-tab active" id="tab-candidates" onclick="switchSellTab('candidates')">Sell Candidates</button>
+        <button class="modal-tab" id="tab-rules" onclick="switchSellTab('rules')">Exclusion Rules</button>
+      </div>
+      <div class="modal-body" id="sellModalBody">
+        <div style="color:var(--muted);text-align:center;padding:40px;">
+          Click "Load" to analyse your rune pool.
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /.app -->
+
+<script>
+// ── State ──────────────────────────────────────────────────────────────────
+let accountLoaded  = false;
+let allMonsters    = [];   // [{unit_id, name, element, base_hp, …}, …]
+let team           = [];   // [{unit_id, name, element, …config…}, …]
+let selectedIndex  = -1;   // which team member is being configured
+let acResults      = [];   // autocomplete candidates
+let acIndex        = -1;   // keyboard-highlighted AC item
+
+// Per-monster config (keyed by unit_id)
+let configs = {};  // {unit_id: {targets, sets, main_stats}}
+
+// ── Set names (matching rune_constants.py) ─────────────────────────────────
+const SET_NAMES = [
+  "Energy","Guard","Swift","Blade","Rage","Focus","Endure","Fatal",
+  "Despair","Vampire","Violent","Nemesis","Will","Shield","Revenge",
+  "Destroy","Fight","Determination","Enhance","Accuracy","Tolerance",
+  "Seal","Intangible"
+];
+const FOUR_PIECE_SETS = new Set(["Swift","Rage","Fatal","Despair","Vampire","Violent"]);
+
+const MAIN_STAT_OPTIONS_246 = [
+  {id: null,  label: "Any"},
+  {id: 2,     label: "HP%"},
+  {id: 4,     label: "ATK%"},
+  {id: 6,     label: "DEF%"},
+  {id: 8,     label: "SPD"},
+  {id: 9,     label: "CR"},
+  {id: 10,    label: "CD"},
+  {id: 11,    label: "RES"},
+  {id: 12,    label: "ACC"},
+];
+
+const ELEM_COLORS = {
+  fire: "elem-fire", water: "elem-water", wind: "elem-wind",
+  light: "elem-light", dark: "elem-dark",
+};
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+function setStatus(msg, isErr = false) {
+  const el = document.getElementById("statusMsg");
+  el.textContent = msg;
+  el.className = "status-msg" + (isErr ? " err" : "");
+}
+
+function defaultConfig() {
+  return {
+    targets:    { hp: {}, atk: {}, def: {}, spd: {}, cr: {}, cd: {}, res: {}, acc: {} },
+    sets:       [null, null, null],
+    main_stats: { 2: null, 4: null, 6: null },
+  };
+}
+
+// ── Account loading ────────────────────────────────────────────────────────
+async function loadAccount() {
+  const path = document.getElementById("jsonPath").value.trim();
+  setStatus("Loading…");
+  try {
+    const res  = await fetch("/api/load", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ path }),
+    });
+    const data = await res.json();
+    if (!data.success) { setStatus(data.error || "Load failed", true); return; }
+    accountLoaded = true;
+    document.getElementById("accountBadge").innerHTML =
+      `<span class="ok">✓</span> ${data.player_name} · ${data.monster_count} monsters · ${data.rune_count} runes`;
+    setStatus("Account loaded.");
+    // Pre-fetch monster list
+    await fetchMonsters("");
+  } catch(e) { setStatus("Error: " + e.message, true); }
+}
+
+async function fetchMonsters(q) {
+  try {
+    const res  = await fetch("/api/monsters?q=" + encodeURIComponent(q));
+    const data = await res.json();
+    allMonsters = data.monsters || [];
+  } catch(e) { /* ignore */ }
+}
+
+// ── Autocomplete ───────────────────────────────────────────────────────────
+async function onSearchInput() {
+  const q = document.getElementById("monsterSearch").value.trim();
+  acIndex = -1;
+  if (q.length < 1) { hideAC(); return; }
+  if (!accountLoaded) { setStatus("Load an account first.", true); return; }
+  await fetchMonsters(q);
+  renderAC();
+}
+
+function onSearchFocus() {
+  if (acResults.length) renderAC();
+}
+
+function renderAC() {
+  const q = document.getElementById("monsterSearch").value.trim().toLowerCase();
+  acResults = allMonsters.filter(m =>
+    m.name.toLowerCase().includes(q) &&
+    !team.find(t => t.unit_id === m.unit_id)
+  ).slice(0, 12);
+
+  const box = document.getElementById("autocomplete");
+  if (!acResults.length) { box.style.display = "none"; return; }
+  box.innerHTML = acResults.map((m, i) => `
+    <div class="autocomplete-item" data-i="${i}"
+         onmousedown="addMonster(${i})"
+         onmouseover="acHover(${i})">
+      <span class="elem-badge ${ELEM_COLORS[m.element] || ''}">${(m.element||'?').slice(0,1).toUpperCase()}</span>
+      <span>${m.name}</span>
+      <span style="color:var(--muted);font-size:11px;margin-left:auto">${m.stars || '?'}★</span>
+    </div>
+  `).join("");
+  box.style.display = "block";
+}
+
+function hideAC() {
+  document.getElementById("autocomplete").style.display = "none";
+  acResults = [];
+}
+
+function acHover(i) { acIndex = i; highlightAC(); }
+
+function highlightAC() {
+  document.querySelectorAll(".autocomplete-item").forEach((el, i) => {
+    el.classList.toggle("active", i === acIndex);
+  });
+}
+
+function onSearchKey(e) {
+  if (e.key === "ArrowDown") {
+    acIndex = Math.min(acIndex + 1, acResults.length - 1); highlightAC(); e.preventDefault();
+  } else if (e.key === "ArrowUp") {
+    acIndex = Math.max(acIndex - 1, 0); highlightAC(); e.preventDefault();
+  } else if (e.key === "Enter" && acIndex >= 0) {
+    addMonster(acIndex); e.preventDefault();
+  } else if (e.key === "Escape") {
+    hideAC();
+  }
+}
+
+document.addEventListener("click", e => {
+  if (!e.target.closest(".search-row")) hideAC();
+});
+
+// ── Team management ────────────────────────────────────────────────────────
+function addMonster(acI) {
+  const m = acResults[acI];
+  if (!m) return;
+  if (team.find(t => t.unit_id === m.unit_id)) return;
+  team.push(m);
+  if (!configs[m.unit_id]) configs[m.unit_id] = defaultConfig();
+  document.getElementById("monsterSearch").value = "";
+  hideAC();
+  renderTeam();
+  selectTeamItem(team.length - 1);
+}
+
+function removeMonster(idx) {
+  team.splice(idx, 1);
+  if (selectedIndex >= team.length) selectedIndex = team.length - 1;
+  renderTeam();
+  if (selectedIndex >= 0) selectTeamItem(selectedIndex);
+  else clearConfig();
+}
+
+function moveUp(idx) {
+  if (idx === 0) return;
+  [team[idx - 1], team[idx]] = [team[idx], team[idx - 1]];
+  if (selectedIndex === idx) selectedIndex = idx - 1;
+  else if (selectedIndex === idx - 1) selectedIndex = idx;
+  renderTeam();
+}
+
+function moveDown(idx) {
+  if (idx >= team.length - 1) return;
+  [team[idx], team[idx + 1]] = [team[idx + 1], team[idx]];
+  if (selectedIndex === idx) selectedIndex = idx + 1;
+  else if (selectedIndex === idx + 1) selectedIndex = idx;
+  renderTeam();
+}
+
+function renderTeam() {
+  const list = document.getElementById("teamList");
+  document.getElementById("teamEmpty").style.display = team.length ? "none" : "";
+
+  // Remove existing items (keep empty msg)
+  list.querySelectorAll(".team-item").forEach(el => el.remove());
+
+  team.forEach((m, i) => {
+    const cfg = configs[m.unit_id] || defaultConfig();
+    const hasAnyTarget = Object.values(cfg.targets).some(t => t.min || t.max);
+    const el = document.createElement("div");
+    el.className = "team-item" + (i === selectedIndex ? " selected" : "");
+    el.innerHTML = `
+      <div class="move-btns">
+        <button class="move-btn" title="Move up"    onclick="moveUp(${i});event.stopPropagation()">▲</button>
+        <button class="move-btn" title="Move down"  onclick="moveDown(${i});event.stopPropagation()">▼</button>
+      </div>
+      <div class="priority-badge">${i + 1}</div>
+      <span class="monster-name" title="${m.name}">${m.name}</span>
+      <div class="status-dot" id="dot-${m.unit_id}"></div>
+      <button class="remove-btn" title="Remove" onclick="removeMonster(${i});event.stopPropagation()">✕</button>
+    `;
+    el.addEventListener("click", () => selectTeamItem(i));
+    list.appendChild(el);
+  });
+}
+
+// ── Stat delta helpers ─────────────────────────────────────────────────────
+function _deltaText(minVal, baseVal) {
+  const needed = Math.round(Number(minVal) - baseVal);
+  const sign   = needed >= 0 ? "+" : "";
+  return `base ${baseVal} · <span class="stat-delta">${sign}${needed} from runes</span>`;
+}
+
+function updateDelta(uid, statKey, baseVal, inputVal) {
+  const el = document.getElementById(`delta-${uid}-${statKey}`);
+  if (!el || baseVal === null) return;
+  if (!inputVal || inputVal === "") {
+    el.innerHTML = `<span style="color:var(--muted)">base ${baseVal}</span>`;
+    return;
+  }
+  el.innerHTML = _deltaText(inputVal, baseVal);
+}
+
+// ── Config panel ───────────────────────────────────────────────────────────
+function selectTeamItem(idx) {
+  selectedIndex = idx;
+  renderTeam();
+  renderConfig();
+}
+
+function clearConfig() {
+  document.getElementById("configPanel").innerHTML =
+    '<div class="config-placeholder" id="configPlaceholder">Select a monster from the team to configure.</div>';
+}
+
+function renderConfig() {
+  if (selectedIndex < 0 || selectedIndex >= team.length) { clearConfig(); return; }
+  const m   = team[selectedIndex];
+  const cfg = configs[m.unit_id] || defaultConfig();
+
+  const STATS = [
+    { key: "hp",  label: "HP",  baseVal: m.base_hp,  hasBase: true,  placeholder: { min: "e.g. 20000", max: "" } },
+    { key: "atk", label: "ATK", baseVal: m.base_atk, hasBase: true,  placeholder: { min: "e.g. 2500",  max: "" } },
+    { key: "def", label: "DEF", baseVal: m.base_def, hasBase: true,  placeholder: { min: "e.g. 1000",  max: "" } },
+    { key: "spd", label: "SPD", baseVal: m.base_spd, hasBase: true,  placeholder: { min: "e.g. 220",   max: "" } },
+    { key: "cr",  label: "CR",  baseVal: null,        hasBase: false, placeholder: { min: "e.g. 85",    max: "100" } },
+    { key: "cd",  label: "CD",  baseVal: null,        hasBase: false, placeholder: { min: "e.g. 180",   max: "" } },
+    { key: "res", label: "RES", baseVal: m.base_res,  hasBase: true,  placeholder: { min: "e.g. 45",    max: "" } },
+    { key: "acc", label: "ACC", baseVal: m.base_acc,  hasBase: true,  placeholder: { min: "e.g. 85",    max: "" } },
+  ];
+
+  // Base stat chips
+  const baseChips = [
+    { label: "HP",  val: m.base_hp  },
+    { label: "ATK", val: m.base_atk },
+    { label: "DEF", val: m.base_def },
+    { label: "SPD", val: m.base_spd },
+    { label: "CR",  val: (m.base_cr  || 15) + "%" },
+    { label: "CD",  val: (m.base_cd  || 50) + "%" },
+    { label: "RES", val: (m.base_res || 15) + "%" },
+    { label: "ACC", val: (m.base_acc || 0)  + "%" },
+  ].map(c => `<span class="base-chip"><strong>${c.label}</strong> ${c.val || "?"}</span>`).join("");
+
+  // Target rows — targets are final stats (base + runes).
+  // For HP/ATK/DEF/SPD/RES/ACC we show a live "need X from runes" hint.
+  const targetRows = STATS.map(s => {
+    const t      = cfg.targets[s.key] || {};
+    const uid    = m.unit_id;
+    const bv     = s.baseVal;
+
+    // Compute initial delta hint
+    const initDelta = s.hasBase && t.min
+      ? _deltaText(t.min, bv)
+      : (s.hasBase ? `<span style="color:var(--muted)">base ${bv}</span>` : "");
+
+    return `
+      <div class="stat-label-wrap">
+        <div class="stat-label">${s.label}</div>
+        ${s.hasBase ? `<div class="stat-base-hint" id="delta-${uid}-${s.key}">${initDelta}</div>` : `<div></div>`}
+      </div>
+      <div class="stat-input-wrap">
+        <input class="stat-input" type="number" min="0"
+               placeholder="${s.placeholder.min}"
+               value="${t.min ?? ""}"
+               oninput="setTarget(${uid},'${s.key}','min',this.value);updateDelta(${uid},'${s.key}',${bv ?? 'null'},this.value)" />
+      </div>
+      <div class="stat-input-wrap">
+        <input class="stat-input" type="number" min="0"
+               placeholder="${s.placeholder.max || '—'}"
+               value="${t.max ?? ""}"
+               oninput="setTarget(${uid},'${s.key}','max',this.value)" />
+      </div>
+    `;
+  }).join("");
+
+  // Set selects
+  const setOpts = ['<option value="">— Any —</option>',
+    ...SET_NAMES.map(n => `<option value="${n}">${n}${FOUR_PIECE_SETS.has(n) ? " (4pc)" : " (2pc)"}</option>`)
+  ].join("");
+
+  const setsHtml = [0, 1, 2].map(i => {
+    const cur = cfg.sets[i] || "";
+    return `
+      <select class="set-select" onchange="setSet(${m.unit_id}, ${i}, this.value)">
+        ${SET_NAMES.map(n =>
+          `<option value="${n}" ${cur === n ? "selected" : ""}>${n}${FOUR_PIECE_SETS.has(n) ? " (4pc)" : " (2pc)"}</option>`
+        ).join("")}
+        <option value="" ${!cur ? "selected" : ""}>— No set —</option>
+      </select>
+    `;
+  }).join("");
+
+  // Main stat selects
+  const mainHtml = [2, 4, 6].map(slot => {
+    const cur = cfg.main_stats[slot];
+    const opts = MAIN_STAT_OPTIONS_246.map(o =>
+      `<option value="${o.id ?? ""}" ${(cur == o.id) ? "selected" : ""}>${o.label}</option>`
+    ).join("");
+    return `
+      <div class="main-stat-group">
+        <label>Slot ${slot}</label>
+        <select onchange="setMainStat(${m.unit_id}, ${slot}, this.value)">${opts}</select>
+      </div>
+    `;
+  }).join("");
+
+  document.getElementById("configPanel").innerHTML = `
+    <div class="config-header">
+      <h2>${m.name}</h2>
+      <span class="elem-badge ${ELEM_COLORS[m.element] || ''}">${m.element || "?"}</span>
+    </div>
+
+    <div class="base-stats-row">${baseChips}</div>
+
+    <div>
+      <div class="section-label">Stat Targets
+        <span style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted);font-size:10px;margin-left:6px;">
+          — enter final values (base + runes). CR &amp; CD skip base offset.
+        </span>
+      </div>
+      <div class="targets-grid">
+        <div class="col-head">Stat</div>
+        <div class="col-head">Min</div>
+        <div class="col-head">Max</div>
+        ${targetRows}
+      </div>
+    </div>
+
+    <div>
+      <div class="section-label">Required Sets</div>
+      <div class="sets-row">${setsHtml}</div>
+      <div style="color:var(--muted);font-size:11px;margin-top:4px;">
+        4-piece sets use 4 slots; 2-piece use 2. Max total 6 (e.g. Swift+Blade, or Energy+Blade+Focus).
+      </div>
+    </div>
+
+    <div>
+      <div class="section-label">Main Stats (Slots 2 / 4 / 6)</div>
+      <div class="main-stats-row">${mainHtml}</div>
+    </div>
+  `;
+}
+
+function setTarget(uid, stat, bound, val) {
+  if (!configs[uid]) configs[uid] = defaultConfig();
+  if (!configs[uid].targets[stat]) configs[uid].targets[stat] = {};
+  configs[uid].targets[stat][bound] = val === "" ? undefined : Number(val);
+}
+
+function setSet(uid, i, val) {
+  if (!configs[uid]) configs[uid] = defaultConfig();
+  configs[uid].sets[i] = val || null;
+}
+
+function setMainStat(uid, slot, val) {
+  if (!configs[uid]) configs[uid] = defaultConfig();
+  configs[uid].main_stats[slot] = val === "" ? null : Number(val);
+}
+
+// ── Run optimization ───────────────────────────────────────────────────────
+async function runOptimize() {
+  if (!accountLoaded) { setStatus("Load an account first.", true); return; }
+  if (team.length === 0) { setStatus("Add at least one monster to the team.", true); return; }
+
+  const btn = document.getElementById("optimizeBtn");
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> Optimizing…';
+  setStatus("Running — this may take a few seconds…");
+
+  const teamPayload = team.map(m => {
+    const cfg = configs[m.unit_id] || defaultConfig();
+
+    // Clean targets: only include stats with at least one bound
+    const targets = {};
+    for (const [k, t] of Object.entries(cfg.targets)) {
+      const entry = {};
+      if (t.min != null && t.min !== "") entry.min = Number(t.min);
+      if (t.max != null && t.max !== "") entry.max = Number(t.max);
+      if (Object.keys(entry).length) targets[k] = entry;
+    }
+
+    // Clean sets
+    const sets = (cfg.sets || []).filter(Boolean);
+
+    // Clean main stats
+    const main_stats = {};
+    for (const [slot, sid] of Object.entries(cfg.main_stats || {})) {
+      if (sid != null && sid !== "") main_stats[slot] = Number(sid);
+    }
+
+    return { unit_id: m.unit_id, targets, sets, main_stats };
+  });
+
+  try {
+    const res  = await fetch("/api/optimize", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ team: teamPayload }),
+    });
+    const data = await res.json();
+
+    if (!data.success) {
+      setStatus("Error: " + (data.error || "Unknown error"), true);
+      return;
+    }
+
+    renderResults(data.results);
+    setStatus(`Done — ${data.results.filter(r => r.all_targets_met).length}/${data.results.length} monsters fully met targets.`);
+
+    // Update status dots
+    data.results.forEach(r => {
+      const dot = document.getElementById("dot-" + r.unit_id);
+      if (dot) dot.className = "status-dot " + (r.all_targets_met ? "ok" : "error");
+    });
+
+  } catch(e) {
+    setStatus("Request failed: " + e.message, true);
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = "▶ Optimize Team";
+  }
+}
+
+// ── Results rendering ──────────────────────────────────────────────────────
+function renderResults(results) {
+  const body = document.getElementById("resultsBody");
+  body.innerHTML = "";
+
+  const okCount = results.filter(r => r.all_targets_met).length;
+  document.getElementById("resultsSummary").innerHTML =
+    `<span style="color:var(--${okCount === results.length ? 'green' : 'yellow'})">${okCount}/${results.length} ✓</span>`;
+
+  const STAT_LABELS = { hp:"HP", atk:"ATK", def:"DEF", spd:"SPD", cr:"CR", cd:"CD", res:"RES", acc:"ACC" };
+
+  results.forEach((r, ri) => {
+    const card = document.createElement("div");
+    card.className = "result-card";
+
+    const badgeClass = !r.success ? "badge-fail" : r.all_targets_met ? "badge-ok" : "badge-miss";
+    const badgeText  = !r.success ? "No runes" : r.all_targets_met ? "✓ Met" : "⚠ Partial";
+
+    // Stat rows
+    const stats = r.stats || {};
+    const targets_met = r.targets_met || {};
+    const targets = (team.find(t => t.unit_id === r.unit_id) ? configs[r.unit_id]?.targets : null) || {};
+
+    const statRowsHtml = Object.entries(STAT_LABELS).map(([k, label]) => {
+      const val  = stats[k] ?? "—";
+      const t    = targets[k];
+      const met  = targets_met[k];
+      const hasTgt = t && (t.min != null || t.max != null);
+      const tgtText = hasTgt
+        ? (t.min != null ? `≥${t.min}` : "") + (t.max != null ? ` ≤${t.max}` : "")
+        : "";
+      const indicator = hasTgt
+        ? `<span class="si ${met ? 'si-ok' : 'si-miss'}">${met ? "✓" : "✗"}</span>`
+        : `<span class="si si-none">—</span>`;
+      return `
+        <div class="stat-row">
+          <span class="sn">${label}</span>
+          <span class="sv">${val}</span>
+          <span class="st">${tgtText}</span>
+          ${indicator}
+        </div>`;
+    }).join("");
+
+    // Weak slot section (for partial builds)
+    const weakSlots = r.weak_slots || [];
+    const weakSlotHtml = (!r.all_targets_met && weakSlots.length > 0)
+      ? `<div class="weak-slots-section">
+          <div class="weak-label">🔧 Weak Slots — upgrade these to meet targets</div>
+          ${weakSlots.slice(0,3).map((ws, wi) => `
+            <div class="weak-slot-row ${wi === 0 ? 'weakest' : ''}">
+              <div class="weak-slot-badge">Slot ${ws.slot}</div>
+              <div class="weak-slot-info">
+                <div class="weak-slot-main">${ws.main}</div>
+                ${ws.subs?.length ? `<div class="weak-slot-subs">${ws.subs.join(' · ')}</div>` : ''}
+                <div class="weak-slot-hint">${ws.hint}</div>
+              </div>
+              ${wi === 0 ? '<div class="weakest-tag">Weakest</div>' : ''}
+            </div>
+          `).join("")}
+        </div>`
+      : "";
+
+    // Rune list
+    const runeListHtml = (r.runes || [])
+      .sort((a, b) => a.slot - b.slot)
+      .map(rune => {
+        const isWeak = weakSlots.length > 0 && weakSlots[0]?.slot === rune.slot;
+        return `
+        <div class="rune-row${isWeak ? ' rune-row-weak' : ''}">
+          <div class="rune-slot${isWeak ? ' rune-slot-weak' : ''}">${rune.slot}</div>
+          <div class="rune-info">
+            <div><span class="rune-set">${rune.set}</span>
+                 <span style="color:var(--muted);margin:0 4px">·</span>
+                 <span class="rune-main">${rune.main}</span>
+                 <span style="color:var(--muted);margin:0 4px">+${rune.upgrade}</span>
+                 ${isWeak ? '<span class="weak-rune-tag">⬆ upgrade</span>' : ''}
+            </div>
+            ${rune.prefix && rune.prefix !== "No prefix" ? `<div class="rune-subs">Innate: ${rune.prefix}</div>` : ""}
+            ${rune.subs?.length ? `<div class="rune-subs">${rune.subs.join(" · ")}</div>` : ""}
+          </div>
+        </div>`;
+      }).join("");
+
+    const bodyId = `rb-${ri}`;
+    card.innerHTML = `
+      <div class="result-card-header" onclick="toggleResult('${bodyId}')">
+        <span class="result-icon">${r.all_targets_met ? "✅" : r.success ? "⚠️" : "❌"}</span>
+        <span class="result-name">${ri + 1}. ${r.name}</span>
+        <span class="result-badge ${badgeClass}">${badgeText}</span>
+        <span class="result-chevron" id="chev-${bodyId}">▼</span>
+      </div>
+      <div class="result-body" id="${bodyId}">
+        <div style="margin-bottom:6px;">
+          <div style="display:flex;gap:4px;align-items:center;margin-bottom:4px;">
+            <span style="font-size:11px;color:var(--muted);">STATS</span>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 12px;">
+            ${statRowsHtml}
+          </div>
+        </div>
+        ${weakSlotHtml}
+        <div class="rune-list">
+          <div style="font-size:11px;color:var(--muted);margin-bottom:4px;text-transform:uppercase;letter-spacing:.06em;">Assigned Runes</div>
+          ${runeListHtml || '<div style="color:var(--muted);font-size:12px;">No runes assigned.</div>'}
+        </div>
+      </div>
+    `;
+    body.appendChild(card);
+  });
+}
+
+function toggleResult(id) {
+  const body  = document.getElementById(id);
+  const chev  = document.getElementById("chev-" + id);
+  const open  = !body.classList.contains("hidden");
+  body.classList.toggle("hidden", open);
+  if (chev) chev.textContent = open ? "▶" : "▼";
+}
+
+// ── Sell Analysis Modal ────────────────────────────────────────────────────
+let sellData = null;
+let sellTab  = "candidates";
+
+async function openSellModal() {
+  if (!accountLoaded) { setStatus("Load an account first.", true); return; }
+  document.getElementById("sellModal").classList.remove("hidden");
+  if (!sellData) await loadSellData();
+}
+
+function closeSellModal(e) {
+  if (!e || e.target === document.getElementById("sellModal"))
+    document.getElementById("sellModal").classList.add("hidden");
+}
+
+async function loadSellData(minStars, gradeThresh, maxUpgrade) {
+  const body = document.getElementById("sellModalBody");
+  body.innerHTML = `<div style="color:var(--muted);text-align:center;padding:40px;"><span class="spinner"></span> Analysing runes…</div>`;
+  const ms = Number(minStars  || window._sellMs || 5);
+  const gt = String(gradeThresh || window._sellGt || "C");
+  const mu = Number(maxUpgrade  || window._sellMu || 9);
+  // Persist for renderCandidates to read back
+  window._sellMs = ms;
+  window._sellGt = gt;
+  window._sellMu = mu;
+  try {
+    const res = await fetch(`/api/sell-analysis?min_stars=${ms}&grade_threshold=${gt}&max_upgrade=${mu}`);
+    sellData  = await res.json();
+    renderSellTab(sellTab);
+  } catch(e) {
+    body.innerHTML = `<div style="color:var(--red);padding:20px;">Error: ${e.message}</div>`;
+  }
+}
+
+function switchSellTab(tab) {
+  sellTab = tab;
+  document.querySelectorAll(".modal-tab").forEach(el => el.classList.remove("active"));
+  document.getElementById("tab-" + tab).classList.add("active");
+  if (sellData) renderSellTab(tab);
+}
+
+function renderSellTab(tab) {
+  const body = document.getElementById("sellModalBody");
+  if (!sellData) return;
+  if (tab === "candidates") renderCandidates(body);
+  else renderRules(body);
+}
+
+function renderCandidates(body) {
+  const d = sellData;
+  const gradeColors = { S: "var(--accent2)", A: "var(--green)", B: "#6ab4ff", C: "var(--yellow)", D: "var(--red)" };
+
+  const summaryHtml = `
+    <div class="sell-summary">
+      ${Object.entries(d.grade_dist || {}).map(([g, n]) => `
+        <div class="sell-stat">
+          <div class="val" style="color:${gradeColors[g]}">${n}</div>
+          <div class="lbl">Grade ${g}</div>
+        </div>`).join("")}
+      <div class="sell-stat">
+        <div class="val" style="color:var(--red)">${d.sell_count}</div>
+        <div class="lbl">Sell candidates</div>
+      </div>
+    </div>`;
+
+  // Read current filter state (persisted in global vars updated by loadSellData)
+  const curMs = window._sellMs || 5;
+  const curGt = window._sellGt || "C";
+  const curMu = window._sellMu || 9;
+
+  const controls = `
+    <div class="sell-controls">
+      <label>Min stars:
+        <select id="sellMinStars" onchange="loadSellData(this.value, document.getElementById('sellGrade').value, document.getElementById('sellMaxUpg').value)">
+          <option value="5" ${curMs==5?"selected":""}>5★+</option>
+          <option value="6" ${curMs==6?"selected":""}>6★ only</option>
+        </select>
+      </label>
+      <label>Sell grade ≤
+        <select id="sellGrade" onchange="loadSellData(document.getElementById('sellMinStars').value, this.value, document.getElementById('sellMaxUpg').value)">
+          <option value="D" ${curGt==="D"?"selected":""}>D only</option>
+          <option value="C" ${curGt==="C"?"selected":""}>C and below</option>
+          <option value="B" ${curGt==="B"?"selected":""}>B and below</option>
+        </select>
+      </label>
+      <label>Max upgrade:
+        <select id="sellMaxUpg" onchange="loadSellData(document.getElementById('sellMinStars').value, document.getElementById('sellGrade').value, this.value)">
+          <option value="6" ${curMu==6?"selected":""}>≤ +6</option>
+          <option value="9" ${curMu==9?"selected":""}>≤ +9</option>
+          <option value="12" ${curMu==12?"selected":""}>≤ +12</option>
+        </select>
+      </label>
+      <button class="btn" style="margin-left:auto;" onclick="sellData=null;loadSellData()">↺ Refresh</button>
+    </div>`;
+
+  const rows = (d.candidates || []).map(c => `
+    <tr>
+      <td><span class="grade-badge grade-${c.grade}">${c.grade}</span></td>
+      <td>${c.desirability.toFixed(0)}%</td>
+      <td>${c.slot}</td>
+      <td>${c.set}</td>
+      <td>${c.stars} ${c.type}</td>
+      <td>+${c.upgrade}</td>
+      <td style="color:var(--accent2)">${c.main}</td>
+      <td style="color:var(--muted);font-size:11px;">${(c.subs || []).join(" &middot; ")}</td>
+    </tr>`).join("");
+
+  body.innerHTML = summaryHtml + controls + `
+    <table class="sell-table">
+      <thead><tr>
+        <th>Grade</th><th>Score</th><th>Slot</th><th>Set</th><th>Stars</th><th>+Lvl</th><th>Main</th><th>Substats</th>
+      </tr></thead>
+      <tbody>${rows || '<tr><td colspan="8" style="color:var(--muted);text-align:center;padding:16px;">No sell candidates at current filters.</td></tr>'}</tbody>
+    </table>`;
+}
+
+function renderRules(body) {
+  const rules = sellData?.rules || [];
+  const rulesHtml = rules.map(rule => `
+    <div class="rule-card">
+      <div style="display:flex;align-items:center;margin-bottom:4px;">
+        <span class="rule-number">${rule.tab}</span>
+        <span class="rule-name">${rule.name}</span>
+      </div>
+      <div class="rule-desc">${rule.description}</div>
+      <div style="font-size:11px;color:var(--muted);margin-bottom:6px;">
+        In-game setting: Sub Property &mdash; <strong>${rule.subs_needed}+ conditions met</strong>
+      </div>
+      <div class="rule-conditions">
+        ${rule.conditions.map(c => `<span class="rule-cond">${c.label}</span>`).join("")}
+      </div>
+      <div class="rule-note">Enter this in SW &rarr; Rune Management &rarr; Sell Settings &rarr; Tab ${rule.tab}</div>
+    </div>`).join("");
+
+  body.innerHTML = `
+    <div style="color:var(--muted);font-size:12px;margin-bottom:14px;line-height:1.6;">
+      These 5 rules are calibrated to your account's actual rune pool.
+      In-game: go to <strong>Rune Management &rarr; Sell</strong>, tap the gear icon,
+      and enter each rule in the numbered tabs.
+      A rune is <em>excluded from selling</em> (i.e. kept) if it meets
+      <strong>2 or more</strong> of the listed conditions.
+    </div>
+    ${rulesHtml}`;
+}
+
+// -- Auto-load on page ready --------------------------------------------------
+window.addEventListener("DOMContentLoaded", () => {
+  loadAccount();
+});
+</script>
+</body>
+</html>
